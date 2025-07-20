@@ -1,0 +1,953 @@
+2024-11-11 22:42:54,677 - INFO - Starting script...
+2024-11-11 22:42:54,685 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:43:31,076 - INFO - Starting script...
+2024-11-11 22:43:31,084 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:43:31,093 - INFO - Loaded datasets for phrasebank.
+2024-11-11 22:43:31,094 - INFO - Using 5 training examples after applying data_portion=0.0005.
+2024-11-11 22:43:31,094 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 22:43:56,969 - INFO - Starting model training...
+2024-11-11 22:44:52,237 - INFO - Starting script...
+2024-11-11 22:44:52,247 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:44:54,340 - INFO - Loaded datasets for phrasebank.
+2024-11-11 22:44:54,341 - INFO - Using 5 training examples after applying data_portion=0.0005.
+2024-11-11 22:44:54,341 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 22:44:55,436 - INFO - Starting model training...
+2024-11-11 22:45:11,330 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-11 22:45:11,330 - INFO - Evaluation on student model started.
+2024-11-11 22:54:10,514 - INFO - Starting script...
+2024-11-11 22:54:10,524 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:54:10,537 - INFO - Loaded datasets for phrasebank.
+2024-11-11 22:54:10,538 - INFO - Using 5 training examples after applying data_portion=0.0005.
+2024-11-11 22:54:10,538 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 22:54:12,051 - INFO - Starting model training...
+2024-11-11 22:54:26,824 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-11 22:54:26,824 - INFO - Evaluation on student model started.
+2024-11-11 22:54:27,785 - INFO - Evaluation completed.
+2024-11-11 22:54:27,797 - INFO - Training complete. Report saved to ../output_report/20241111_2254-training_report.txt
+2024-11-11 23:02:14,136 - INFO - Starting script...
+2024-11-11 23:02:14,145 - INFO - Loaded hyperparameters from config file.
+2024-11-11 23:02:14,158 - INFO - Loaded datasets for phrasebank.
+2024-11-11 23:02:14,160 - INFO - Using 5 training examples after applying data_portion=0.0005.
+2024-11-11 23:02:14,160 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 23:02:15,781 - INFO - Starting model training...
+2024-11-11 23:02:29,768 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-11 23:02:29,768 - INFO - Evaluation on student model started.
+2024-11-11 23:02:30,884 - INFO - Evaluation completed.
+2024-11-11 23:02:30,895 - INFO - Training complete. Report saved to ../output_report/20241111_2302-training_report.txt
+2024-11-11 23:12:35,858 - INFO - Starting script...
+2024-11-11 23:12:35,870 - INFO - Loaded hyperparameters from config file.
+2024-11-11 23:12:38,043 - INFO - Loaded datasets for phrasebank.
+2024-11-11 23:12:38,044 - INFO - Using 5 training examples after applying data_portion=0.0005.
+2024-11-11 23:12:38,044 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 23:12:39,618 - INFO - Starting model training...
+2024-11-11 23:12:53,829 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-11 23:12:53,830 - INFO - Evaluation on student model started.
+2024-11-11 23:12:54,909 - INFO - Evaluation completed.
+2024-11-11 23:12:54,930 - INFO - Training complete. Report saved to ../output_report/20241111_2312-training_report.txt
+2024-11-11 23:27:49,105 - INFO - Starting script...
+2024-11-11 23:27:49,118 - INFO - Loaded hyperparameters from config file.
+2024-11-11 23:27:49,133 - INFO - Loaded datasets for phrasebank.
+2024-11-11 23:27:49,135 - INFO - Using 155 training examples after applying data_portion=0.05.
+2024-11-11 23:27:49,135 - INFO - Using 38 validation examples after applying data_portion=0.05.
+2024-11-11 23:27:51,099 - INFO - Starting model training...
+2024-11-11 23:28:19,192 - INFO - Starting script...
+2024-11-11 23:28:19,202 - INFO - Loaded hyperparameters from config file.
+2024-11-11 23:28:19,214 - INFO - Loaded datasets for phrasebank.
+2024-11-11 23:28:19,215 - INFO - Using 155 training examples after applying data_portion=0.05.
+2024-11-11 23:28:19,215 - INFO - Using 38 validation examples after applying data_portion=0.05.
+2024-11-11 23:28:20,037 - INFO - Starting model training...
+2024-11-11 23:28:38,128 - INFO - Starting script...
+2024-11-11 23:28:38,138 - INFO - Loaded hyperparameters from config file.
+2024-11-11 23:28:38,150 - INFO - Loaded datasets for phrasebank.
+2024-11-11 23:28:38,150 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-11 23:28:38,150 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-11 23:28:39,080 - INFO - Starting model training...
+2024-11-11 23:54:26,019 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-11 23:54:26,020 - INFO - Evaluation on student model started.
+2024-11-11 23:55:39,064 - INFO - Evaluation completed.
+2024-11-11 23:55:39,098 - INFO - Training complete. Report saved to ../output_report/20241111_2328-training_report.txt
+2024-11-13 19:00:16,239 - INFO - Starting script...
+2024-11-13 19:00:16,263 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:00:18,517 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:00:18,519 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:00:18,519 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:01:08,816 - INFO - Starting model training...
+2024-11-13 19:06:57,666 - INFO - Starting script...
+2024-11-13 19:06:57,677 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:07:01,991 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:07:01,992 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:07:01,992 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:07:50,884 - INFO - Starting script...
+2024-11-13 19:07:50,894 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:07:50,904 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:07:50,905 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:07:50,905 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:07:52,985 - INFO - Starting model training...
+2024-11-13 19:09:43,174 - INFO - Starting script...
+2024-11-13 19:09:43,184 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:09:45,174 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:09:45,176 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:09:45,176 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:09:46,360 - INFO - Starting model training...
+2024-11-13 19:14:20,911 - INFO - Starting script...
+2024-11-13 19:14:20,924 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:14:20,951 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:14:20,954 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:14:20,954 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:14:23,543 - INFO - Starting model training...
+2024-11-13 19:18:52,773 - INFO - Starting script...
+2024-11-13 19:18:52,783 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:18:52,797 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:18:52,799 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:18:52,799 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:18:55,071 - INFO - Starting model training...
+2024-11-13 19:19:53,871 - INFO - Starting script...
+2024-11-13 19:19:53,885 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:19:54,490 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:19:54,492 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:19:54,492 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:19:56,453 - INFO - Starting model training...
+2024-11-13 19:25:39,830 - INFO - Starting script...
+2024-11-13 19:25:39,839 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:25:40,386 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:25:40,388 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:25:40,388 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:25:42,566 - INFO - Starting model training...
+2024-11-13 19:28:00,415 - INFO - Starting script...
+2024-11-13 19:28:00,426 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:28:01,047 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:28:01,049 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:28:01,049 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:28:03,628 - INFO - Starting model training...
+2024-11-13 19:28:32,505 - INFO - Starting script...
+2024-11-13 19:28:32,514 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:28:33,081 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:28:33,083 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:28:33,083 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:28:35,071 - INFO - Starting model training...
+2024-11-13 19:31:16,292 - INFO - Starting script...
+2024-11-13 19:31:16,302 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:31:16,822 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:31:16,823 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:31:16,824 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:31:19,373 - INFO - Starting model training...
+2024-11-13 19:38:10,451 - INFO - Starting script...
+2024-11-13 19:38:10,462 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:38:11,012 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:38:11,016 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:38:11,016 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:40:48,469 - INFO - Starting script...
+2024-11-13 19:40:48,479 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:40:49,022 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:40:49,024 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:40:49,024 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:41:08,605 - INFO - Starting script...
+2024-11-13 19:41:08,616 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:41:09,145 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:41:09,147 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:41:09,147 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:41:11,112 - INFO - Starting model training...
+2024-11-13 19:41:11,457 - ERROR - Feature at index 0 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:41:11,457 - ERROR - Feature at index 1 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:41:11,457 - ERROR - Feature at index 2 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:41:11,457 - ERROR - Feature at index 3 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:41:11,457 - ERROR - Feature at index 4 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:41:11,457 - ERROR - Feature at index 5 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:41:11,457 - ERROR - Feature at index 6 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:41:11,457 - ERROR - Feature at index 7 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:44:22,290 - INFO - Starting script...
+2024-11-13 19:44:22,300 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:44:22,861 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:44:22,862 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:44:22,862 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:46:13,862 - INFO - Starting script...
+2024-11-13 19:46:13,872 - INFO - Loaded hyperparameters from config file.
+2024-11-13 19:46:13,883 - INFO - Loaded datasets for phrasebank.
+2024-11-13 19:46:13,885 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 19:46:13,885 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 19:46:16,324 - INFO - Starting model training...
+2024-11-13 19:46:16,666 - ERROR - Feature at index 0 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:46:16,667 - ERROR - Feature at index 1 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:46:16,667 - ERROR - Feature at index 2 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:46:16,667 - ERROR - Feature at index 3 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:46:16,667 - ERROR - Feature at index 4 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:46:16,667 - ERROR - Feature at index 5 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:46:16,667 - ERROR - Feature at index 6 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 19:46:16,667 - ERROR - Feature at index 7 is missing the 'text' key. Available keys: ['labels', 'input_ids', 'attention_mask']
+2024-11-13 20:06:15,597 - INFO - Starting script...
+2024-11-13 20:06:15,611 - INFO - Loaded hyperparameters from config file.
+2024-11-13 20:06:17,906 - INFO - Loaded datasets for phrasebank.
+2024-11-13 20:06:17,907 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 20:06:17,907 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 20:07:15,159 - INFO - Loaded 3 teacher models.
+2024-11-13 20:07:15,178 - INFO - Starting model training...
+2024-11-13 20:08:00,429 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-13 20:08:00,430 - INFO - Evaluation on student and teacher models started.
+2024-11-13 20:08:03,593 - INFO - Evaluation completed.
+2024-11-13 20:08:03,610 - INFO - Training complete. Report saved to ../output_report/20241113_2006-training_report.txt
+2024-11-13 20:11:37,955 - INFO - Starting script...
+2024-11-13 20:11:37,975 - INFO - Loaded hyperparameters from config file.
+2024-11-13 20:11:37,989 - INFO - Loaded datasets for phrasebank.
+2024-11-13 20:11:37,989 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-13 20:11:37,989 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-13 20:11:42,248 - INFO - Loaded 3 teacher models.
+2024-11-13 20:11:42,258 - INFO - Starting model training...
+2024-11-13 21:36:49,156 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-13 21:36:49,180 - INFO - Evaluation on student and teacher models started.
+2024-11-13 21:39:48,123 - INFO - Evaluation completed.
+2024-11-13 21:39:48,164 - INFO - Training complete. Report saved to ../output_report/20241113_2011-training_report.txt
+2024-11-13 22:02:47,764 - INFO - Starting script...
+2024-11-13 22:02:47,778 - INFO - Loaded hyperparameters from config file.
+2024-11-13 22:02:47,795 - INFO - Loaded datasets for phrasebank.
+2024-11-13 22:02:47,797 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 22:02:47,797 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 22:02:52,047 - INFO - Loaded 3 teacher models.
+2024-11-13 22:02:52,061 - INFO - Starting model training...
+2024-11-13 22:03:17,747 - INFO - Starting script...
+2024-11-13 22:03:17,766 - INFO - Loaded hyperparameters from config file.
+2024-11-13 22:03:17,781 - INFO - Loaded datasets for phrasebank.
+2024-11-13 22:03:17,782 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 22:03:17,782 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 22:03:22,115 - INFO - Loaded 3 teacher models.
+2024-11-13 22:03:22,128 - INFO - Starting model training...
+2024-11-13 22:03:31,199 - INFO - Starting script...
+2024-11-13 22:03:31,209 - INFO - Loaded hyperparameters from config file.
+2024-11-13 22:03:31,222 - INFO - Loaded datasets for phrasebank.
+2024-11-13 22:03:31,224 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 22:03:31,224 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 22:03:35,802 - INFO - Loaded 3 teacher models.
+2024-11-13 22:03:35,812 - INFO - Starting model training...
+2024-11-13 22:05:35,008 - INFO - Starting script...
+2024-11-13 22:05:35,031 - INFO - Loaded hyperparameters from config file.
+2024-11-13 22:05:35,046 - INFO - Loaded datasets for phrasebank.
+2024-11-13 22:05:35,047 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-13 22:05:35,047 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-13 22:05:39,203 - INFO - Loaded 3 teacher models.
+2024-11-13 22:05:39,214 - INFO - Starting model training...
+2024-11-13 22:06:19,407 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-13 22:06:19,407 - INFO - Evaluation on student and teacher models started.
+2024-11-13 22:06:22,131 - INFO - Evaluation completed.
+2024-11-13 22:06:22,147 - INFO - Training complete. Report saved to ../output_report/20241113_2205-training_report.txt
+2024-11-13 22:07:35,898 - INFO - Starting script...
+2024-11-13 22:07:35,923 - INFO - Loaded hyperparameters from config file.
+2024-11-13 22:07:35,941 - INFO - Loaded datasets for phrasebank.
+2024-11-13 22:07:35,941 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-13 22:07:35,941 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-13 22:07:40,267 - INFO - Loaded 3 teacher models.
+2024-11-13 22:07:40,278 - INFO - Starting model training...
+2024-11-13 23:32:45,574 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-13 23:32:45,580 - INFO - Evaluation on student and teacher models started.
+2024-11-13 23:35:44,282 - INFO - Evaluation completed.
+2024-11-13 23:35:44,324 - INFO - Training complete. Report saved to ../output_report/20241113_2207-training_report.txt
+2024-11-14 15:26:57,196 - INFO - Starting script...
+2024-11-14 15:26:57,223 - INFO - Loaded hyperparameters from config file.
+2024-11-14 15:26:57,250 - INFO - Loaded datasets for phrasebank.
+2024-11-14 15:26:57,254 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-14 15:26:57,254 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-14 15:27:03,216 - INFO - Loaded 3 teacher models.
+2024-11-14 15:27:03,229 - INFO - Starting model training...
+2024-11-14 15:28:13,417 - INFO - Starting script...
+2024-11-14 15:28:13,430 - INFO - Loaded hyperparameters from config file.
+2024-11-14 15:28:16,081 - INFO - Loaded datasets for phrasebank.
+2024-11-14 15:28:16,082 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-14 15:28:16,082 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-14 15:28:21,666 - INFO - Loaded 3 teacher models.
+2024-11-14 15:28:21,687 - INFO - Starting model training...
+2024-11-14 15:37:51,117 - INFO - Starting script...
+2024-11-14 15:37:51,134 - INFO - Loaded hyperparameters from config file.
+2024-11-14 15:37:51,157 - INFO - Loaded datasets for phrasebank.
+2024-11-14 15:37:51,161 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-14 15:37:51,161 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-14 15:37:57,399 - INFO - Loaded 3 teacher models.
+2024-11-14 15:37:57,418 - INFO - Starting model training...
+2024-11-14 15:44:33,305 - INFO - Starting script...
+2024-11-14 15:44:33,319 - INFO - Loaded hyperparameters from config file.
+2024-11-14 15:44:35,702 - INFO - Loaded datasets for phrasebank.
+2024-11-14 15:44:35,703 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-14 15:44:35,703 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-14 15:44:41,159 - INFO - Loaded 3 teacher models.
+2024-11-14 15:44:41,172 - INFO - Starting model training...
+2024-11-14 16:01:39,157 - INFO - Starting script...
+2024-11-14 16:01:39,172 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:01:39,197 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:01:39,197 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-14 16:01:39,198 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-14 16:01:44,527 - INFO - Loaded 3 teacher models.
+2024-11-14 16:01:44,543 - INFO - Starting model training...
+2024-11-14 16:02:30,469 - INFO - Starting script...
+2024-11-14 16:02:30,483 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:02:33,302 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:02:33,302 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-14 16:02:33,302 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-14 16:02:38,133 - INFO - Loaded 3 teacher models.
+2024-11-14 16:02:38,148 - INFO - Starting model training...
+2024-11-14 16:06:35,043 - INFO - Starting script...
+2024-11-14 16:06:35,055 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:06:35,068 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:06:35,068 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-14 16:06:35,068 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-14 16:06:38,912 - INFO - Loaded 3 teacher models.
+2024-11-14 16:06:38,926 - INFO - Starting model training...
+2024-11-14 16:14:29,114 - INFO - Starting script...
+2024-11-14 16:14:29,127 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:14:29,143 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:14:29,143 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-14 16:14:29,143 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-14 16:14:34,724 - INFO - Loaded 3 teacher models.
+2024-11-14 16:14:34,742 - INFO - Starting model training...
+2024-11-14 16:26:33,032 - INFO - Starting script...
+2024-11-14 16:26:33,046 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:26:33,066 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:26:33,066 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-14 16:26:33,066 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-14 16:26:45,930 - INFO - Starting script...
+2024-11-14 16:26:45,944 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:26:49,140 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:26:49,141 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-14 16:26:49,141 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-14 16:26:51,107 - INFO - Loaded 2 teacher models.
+2024-11-14 16:28:48,276 - INFO - Starting script...
+2024-11-14 16:28:48,289 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:28:48,317 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:28:48,317 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-14 16:28:48,317 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-14 16:28:50,156 - INFO - Loaded 2 teacher models.
+2024-11-14 16:28:50,166 - INFO - Starting model training...
+2024-11-14 16:32:45,145 - INFO - Starting script...
+2024-11-14 16:32:45,158 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:32:45,183 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:32:45,183 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-14 16:32:45,183 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-14 16:32:47,205 - INFO - Loaded 2 teacher models.
+2024-11-14 16:32:47,213 - INFO - Starting model training...
+2024-11-14 16:34:55,647 - INFO - Starting script...
+2024-11-14 16:34:55,660 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:34:55,688 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:34:55,688 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-14 16:34:55,688 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-14 16:34:57,326 - INFO - Loaded 2 teacher models.
+2024-11-14 16:34:57,336 - INFO - Starting model training...
+2024-11-14 16:37:19,241 - INFO - Starting script...
+2024-11-14 16:37:19,253 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:37:19,285 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:37:19,285 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-14 16:37:19,285 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-14 16:37:20,908 - INFO - Loaded 2 teacher models.
+2024-11-14 16:37:20,916 - INFO - Starting model training...
+2024-11-14 16:37:47,499 - INFO - Starting script...
+2024-11-14 16:37:47,514 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:37:47,546 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:37:47,551 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-14 16:37:47,551 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-14 16:37:50,174 - INFO - Loaded 2 teacher models.
+2024-11-14 16:37:50,183 - INFO - Starting model training...
+2024-11-14 16:38:19,682 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-14 16:38:19,682 - INFO - Evaluation on student and teacher models started.
+2024-11-14 16:42:42,389 - INFO - Starting script...
+2024-11-14 16:42:42,404 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:42:42,446 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:42:42,450 - INFO - Using 15 training examples after applying data_portion=0.005.
+2024-11-14 16:42:42,451 - INFO - Using 10 validation examples after applying data_portion=0.005.
+2024-11-14 16:42:45,590 - INFO - Loaded 2 teacher models.
+2024-11-14 16:42:45,602 - INFO - Starting model training...
+2024-11-14 16:43:13,682 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-14 16:43:13,682 - INFO - Evaluation on student and teacher models started.
+2024-11-14 16:43:14,335 - INFO - Evaluation completed.
+2024-11-14 16:43:14,349 - INFO - Training complete. Report saved to ../output_report/20241114_1642-training_report.txt
+2024-11-14 16:44:13,660 - INFO - Starting script...
+2024-11-14 16:44:13,681 - INFO - Loaded hyperparameters from config file.
+2024-11-14 16:44:13,739 - INFO - Loaded datasets for phrasebank.
+2024-11-14 16:44:13,744 - INFO - Using 155 training examples after applying data_portion=0.05.
+2024-11-14 16:44:13,744 - INFO - Using 38 validation examples after applying data_portion=0.05.
+2024-11-14 16:44:16,882 - INFO - Loaded 2 teacher models.
+2024-11-14 16:44:16,893 - INFO - Starting model training...
+2024-11-14 16:46:29,951 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-14 16:46:29,951 - INFO - Evaluation on student and teacher models started.
+2024-11-14 16:46:31,909 - INFO - Evaluation completed.
+2024-11-14 16:46:31,927 - INFO - Training complete. Report saved to ../output_report/20241114_1644-training_report.txt
+2024-11-14 17:04:18,272 - INFO - Starting script...
+2024-11-14 17:04:18,286 - INFO - Loaded hyperparameters from config file.
+2024-11-14 17:04:18,325 - INFO - Loaded datasets for phrasebank.
+2024-11-14 17:04:18,329 - INFO - Using 155 training examples after applying data_portion=0.05.
+2024-11-14 17:04:18,329 - INFO - Using 38 validation examples after applying data_portion=0.05.
+2024-11-14 17:04:46,230 - INFO - Starting script...
+2024-11-14 17:04:46,243 - INFO - Loaded hyperparameters from config file.
+2024-11-14 17:04:49,839 - INFO - Loaded datasets for phrasebank.
+2024-11-14 17:04:49,842 - INFO - Using 155 training examples after applying data_portion=0.05.
+2024-11-14 17:04:49,842 - INFO - Using 38 validation examples after applying data_portion=0.05.
+2024-11-14 17:06:28,692 - INFO - Starting script...
+2024-11-14 17:06:28,705 - INFO - Loaded hyperparameters from config file.
+2024-11-14 17:06:28,745 - INFO - Loaded datasets for phrasebank.
+2024-11-14 17:06:28,750 - INFO - Using 155 training examples after applying data_portion=0.05.
+2024-11-14 17:06:28,750 - INFO - Using 38 validation examples after applying data_portion=0.05.
+2024-11-14 17:06:31,332 - INFO - Loaded 2 teacher models.
+2024-11-14 17:06:31,342 - INFO - Starting model training...
+2024-11-14 17:07:13,688 - INFO - Starting script...
+2024-11-14 17:07:13,701 - INFO - Loaded hyperparameters from config file.
+2024-11-14 17:07:17,117 - INFO - Loaded datasets for phrasebank.
+2024-11-14 17:07:17,120 - INFO - Using 155 training examples after applying data_portion=0.05.
+2024-11-14 17:07:17,120 - INFO - Using 38 validation examples after applying data_portion=0.05.
+2024-11-14 17:07:19,322 - INFO - Loaded 2 teacher models.
+2024-11-14 17:07:19,331 - INFO - Starting model training...
+2024-11-14 17:09:32,232 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-14 17:09:32,232 - INFO - Evaluation on student and teacher models started.
+2024-11-14 17:09:34,170 - INFO - Evaluation completed.
+2024-11-14 17:09:34,190 - INFO - Training complete. Report saved to ../output_report/20241114_1707-training_report.txt
+2024-11-14 17:10:48,523 - INFO - Starting script...
+2024-11-14 17:10:48,537 - INFO - Loaded hyperparameters from config file.
+2024-11-14 17:10:48,579 - INFO - Loaded datasets for phrasebank.
+2024-11-14 17:10:48,583 - INFO - Using 155 training examples after applying data_portion=0.05.
+2024-11-14 17:10:48,583 - INFO - Using 38 validation examples after applying data_portion=0.05.
+2024-11-14 17:10:51,626 - INFO - Loaded 2 teacher models.
+2024-11-14 17:10:51,639 - INFO - Starting model training...
+2024-11-14 17:13:06,886 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-14 17:13:06,887 - INFO - Evaluation on student and teacher models started.
+2024-11-14 17:13:08,892 - INFO - Evaluation completed.
+2024-11-14 17:13:08,915 - INFO - Training complete. Report saved to ../output_report/20241114_1710-training_report.txt
+2024-11-16 11:39:20,017 - INFO - Starting script...
+2024-11-16 11:39:20,034 - INFO - Loaded hyperparameters from config file.
+2024-11-16 11:39:20,088 - INFO - Loaded datasets for phrasebank.
+2024-11-16 11:39:20,088 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 11:39:20,088 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 11:39:22,533 - INFO - Loaded 2 teacher models.
+2024-11-16 11:39:22,540 - INFO - Starting model training...
+2024-11-16 12:12:50,573 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-16 12:12:50,574 - INFO - Evaluation on student and teacher models started.
+2024-11-16 12:13:26,363 - INFO - Evaluation completed.
+2024-11-16 12:13:26,390 - INFO - Training complete. Report saved to ../output_report/20241116_1139-training_report.txt
+2024-11-16 12:33:57,557 - INFO - Starting script...
+2024-11-16 12:33:57,576 - INFO - Loaded hyperparameters from config file.
+2024-11-16 12:33:57,620 - INFO - Loaded datasets for phrasebank.
+2024-11-16 12:33:57,620 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 12:33:57,620 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 12:34:00,012 - INFO - Loaded 2 teacher models.
+2024-11-16 12:34:00,021 - INFO - Starting model training...
+2024-11-16 12:41:07,703 - INFO - Starting script...
+2024-11-16 12:41:07,713 - INFO - Loaded hyperparameters from config file.
+2024-11-16 12:41:07,752 - INFO - Loaded datasets for phrasebank.
+2024-11-16 12:41:07,752 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 12:41:07,752 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 12:41:34,281 - INFO - Starting script...
+2024-11-16 12:41:34,291 - INFO - Loaded hyperparameters from config file.
+2024-11-16 12:41:37,131 - INFO - Loaded datasets for phrasebank.
+2024-11-16 12:41:37,131 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 12:41:37,131 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 12:43:50,229 - INFO - Starting script...
+2024-11-16 12:43:50,238 - INFO - Loaded hyperparameters from config file.
+2024-11-16 12:43:50,273 - INFO - Loaded datasets for phrasebank.
+2024-11-16 12:43:50,273 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 12:43:50,273 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 12:43:51,298 - INFO - Loaded 1 teacher models.
+2024-11-16 12:43:51,304 - INFO - Starting model training...
+2024-11-16 12:47:17,595 - INFO - Starting script...
+2024-11-16 12:47:17,605 - INFO - Loaded hyperparameters from config file.
+2024-11-16 12:47:17,627 - INFO - Loaded datasets for phrasebank.
+2024-11-16 12:47:17,627 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 12:47:17,627 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 12:47:18,632 - INFO - Loaded 1 teacher models.
+2024-11-16 12:47:18,637 - INFO - Starting model training...
+2024-11-16 13:13:06,711 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-16 13:13:06,711 - INFO - Evaluation on student and teacher models started.
+2024-11-16 13:13:28,805 - INFO - Evaluation completed.
+2024-11-16 13:13:28,822 - INFO - Training complete. Report saved to ../output_report/20241116_1247-training_report.txt
+2024-11-16 13:17:41,258 - INFO - Starting script...
+2024-11-16 13:17:41,269 - INFO - Loaded hyperparameters from config file.
+2024-11-16 13:17:56,654 - INFO - Starting script...
+2024-11-16 13:17:56,663 - INFO - Loaded hyperparameters from config file.
+2024-11-16 13:18:01,479 - INFO - Loaded datasets for phrasebank.
+2024-11-16 13:18:01,479 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 13:18:01,479 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 13:19:54,816 - INFO - Loaded 3 teacher models.
+2024-11-16 13:19:54,837 - INFO - Starting model training...
+2024-11-16 13:26:47,527 - INFO - Starting script...
+2024-11-16 13:26:47,540 - INFO - Loaded hyperparameters from config file.
+2024-11-16 13:26:47,589 - INFO - Loaded datasets for phrasebank.
+2024-11-16 13:26:47,589 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 13:26:47,589 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 13:26:51,682 - INFO - Loaded 2 teacher models.
+2024-11-16 13:26:51,691 - INFO - Starting model training...
+2024-11-16 13:37:43,009 - INFO - Starting script...
+2024-11-16 13:37:43,033 - INFO - Loaded hyperparameters from config file.
+2024-11-16 13:37:43,085 - INFO - Loaded datasets for phrasebank.
+2024-11-16 13:37:43,085 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 13:37:43,085 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 13:37:47,261 - INFO - Loaded 2 teacher models.
+2024-11-16 13:37:47,270 - INFO - Starting model training...
+2024-11-16 14:29:54,970 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-16 14:29:54,989 - INFO - Evaluation on student and teacher models started.
+2024-11-16 14:30:58,187 - INFO - Evaluation completed.
+2024-11-16 14:30:58,252 - INFO - Training complete. Report saved to ../output_report/20241116_1337-training_report.txt
+2024-11-16 14:48:10,465 - INFO - Starting script...
+2024-11-16 14:48:10,484 - INFO - Loaded hyperparameters from config file.
+2024-11-16 14:48:10,537 - INFO - Loaded datasets for phrasebank.
+2024-11-16 14:48:10,537 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 14:48:10,537 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 14:48:14,731 - INFO - Loaded 2 teacher models.
+2024-11-16 14:48:14,740 - INFO - Starting model training...
+2024-11-16 15:03:55,803 - INFO - Starting script...
+2024-11-16 15:03:55,818 - INFO - Loaded hyperparameters from config file.
+2024-11-16 15:03:59,147 - INFO - Loaded datasets for phrasebank.
+2024-11-16 15:03:59,147 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 15:03:59,147 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 15:04:03,199 - INFO - Loaded 2 teacher models.
+2024-11-16 15:04:03,207 - INFO - Starting model training...
+2024-11-16 16:55:11,472 - INFO - Starting script...
+2024-11-16 16:55:11,498 - INFO - Loaded hyperparameters from config file.
+2024-11-16 16:55:11,563 - INFO - Loaded datasets for phrasebank.
+2024-11-16 16:55:11,563 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 16:55:11,563 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 16:55:16,402 - INFO - Loaded 2 teacher models.
+2024-11-16 16:55:16,412 - INFO - Starting model training...
+2024-11-16 16:55:44,931 - INFO - Starting script...
+2024-11-16 16:55:44,954 - INFO - Loaded hyperparameters from config file.
+2024-11-16 16:55:44,995 - INFO - Loaded datasets for phrasebank.
+2024-11-16 16:55:44,995 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 16:55:44,995 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 16:55:49,498 - INFO - Loaded 2 teacher models.
+2024-11-16 16:55:49,506 - INFO - Starting model training...
+2024-11-16 17:30:29,912 - INFO - Starting script...
+2024-11-16 17:30:29,937 - INFO - Loaded hyperparameters from config file.
+2024-11-16 17:30:29,981 - INFO - Loaded datasets for phrasebank.
+2024-11-16 17:30:29,982 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-16 17:30:29,982 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-16 17:30:34,642 - INFO - Loaded 2 teacher models.
+2024-11-16 17:30:34,651 - INFO - Starting model training...
+2024-11-16 18:20:44,114 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-16 18:20:44,120 - INFO - Evaluation on student and teacher models started.
+2024-11-16 18:21:48,385 - INFO - Evaluation completed.
+2024-11-16 18:21:48,459 - INFO - Training complete. Report saved to ../output_report/20241116_1730-training_report.txt
+2024-11-18 13:08:54,758 - INFO - Starting script...
+2024-11-18 13:08:54,783 - INFO - Loaded hyperparameters from config file.
+2024-11-18 13:08:54,861 - INFO - Loaded datasets for phrasebank.
+2024-11-18 13:08:54,861 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-18 13:08:54,861 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-18 13:10:56,785 - INFO - Starting script...
+2024-11-18 13:10:56,799 - INFO - Loaded hyperparameters from config file.
+2024-11-18 13:10:56,857 - INFO - Loaded datasets for phrasebank.
+2024-11-18 13:10:56,859 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-18 13:10:56,860 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-18 13:11:04,947 - INFO - Loaded 3 teacher models.
+2024-11-18 13:11:04,964 - INFO - Starting model training...
+2024-11-18 13:11:45,805 - INFO - Starting script...
+2024-11-18 13:11:45,819 - INFO - Loaded hyperparameters from config file.
+2024-11-18 13:11:49,527 - INFO - Loaded datasets for phrasebank.
+2024-11-18 13:11:49,527 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-18 13:11:49,527 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-18 13:11:54,962 - INFO - Loaded 3 teacher models.
+2024-11-18 13:11:54,972 - INFO - Starting model training...
+2024-11-18 14:09:58,342 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-18 14:09:58,350 - INFO - Evaluation on student and teacher models started.
+2024-11-18 14:11:16,303 - INFO - Evaluation completed.
+2024-11-18 14:11:16,368 - INFO - Training complete. Report saved to ../output_report/20241118_1311-training_report.txt
+2024-11-18 14:24:07,115 - INFO - Starting script...
+2024-11-18 14:24:07,137 - INFO - Loaded hyperparameters from config file.
+2024-11-18 14:24:07,190 - INFO - Loaded datasets for phrasebank.
+2024-11-18 14:24:07,190 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-18 14:24:07,190 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-18 14:24:11,952 - INFO - Starting script...
+2024-11-18 14:24:11,961 - INFO - Loaded hyperparameters from config file.
+2024-11-18 14:24:11,986 - INFO - Loaded datasets for phrasebank.
+2024-11-18 14:24:11,987 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-18 14:24:11,987 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-18 14:24:17,229 - INFO - Loaded 3 teacher models.
+2024-11-18 14:24:17,239 - INFO - Starting model training...
+2024-11-18 15:24:26,634 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-18 15:24:26,637 - INFO - Evaluation on student and teacher models started.
+2024-11-18 15:25:43,663 - INFO - Evaluation completed.
+2024-11-18 15:25:43,734 - INFO - Training complete. Report saved to ../output_report/20241118_1424-training_report.txt
+2024-11-18 15:47:01,995 - INFO - Starting script...
+2024-11-18 15:47:02,016 - INFO - Loaded hyperparameters from config file.
+2024-11-18 15:47:02,102 - INFO - Loaded datasets for phrasebank.
+2024-11-18 15:47:02,102 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-18 15:47:02,102 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-18 15:47:08,067 - INFO - Loaded 3 teacher models.
+2024-11-18 15:47:08,089 - INFO - Starting model training...
+2024-11-18 16:23:17,062 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-18 16:23:17,070 - INFO - Evaluation on student and teacher models started.
+2024-11-18 16:24:54,776 - INFO - Evaluation completed.
+2024-11-18 16:24:54,873 - INFO - Training complete. Report saved to ../output_report/20241118_1547-training_report.txt
+2024-11-18 16:30:56,120 - INFO - Starting script...
+2024-11-18 16:30:56,140 - INFO - Loaded hyperparameters from config file.
+2024-11-18 16:30:56,218 - INFO - Loaded datasets for phrasebank.
+2024-11-18 16:30:56,218 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-18 16:30:56,218 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-18 16:31:02,153 - INFO - Loaded 3 teacher models.
+2024-11-18 16:31:02,163 - INFO - Starting model training...
+2024-11-18 16:31:12,918 - INFO - Starting script...
+2024-11-18 16:31:12,929 - INFO - Loaded hyperparameters from config file.
+2024-11-18 16:31:16,328 - INFO - Loaded datasets for phrasebank.
+2024-11-18 16:31:16,329 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-18 16:31:16,329 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-18 16:31:21,756 - INFO - Loaded 3 teacher models.
+2024-11-18 16:31:21,772 - INFO - Starting model training...
+2024-11-18 17:06:54,623 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-18 17:06:54,651 - INFO - Evaluation on student and teacher models started.
+2024-11-18 17:08:31,645 - INFO - Evaluation completed.
+2024-11-18 17:08:31,708 - INFO - Training complete. Report saved to ../output_report/20241118_1631-training_report.txt
+2024-11-18 18:47:44,757 - INFO - Starting script...
+2024-11-18 18:47:44,772 - INFO - Starting trial 1/5
+2024-11-18 18:47:44,772 - INFO - Sampled Hyperparameters: {'learning_rate': 1e-05, 'hidden_weight': 0.1, 'temperature': 4.0}
+2024-11-18 18:47:44,772 - INFO - Loaded hyperparameters from config file.
+2024-11-18 18:47:44,899 - INFO - Loaded datasets for phrasebank.
+2024-11-18 18:47:44,899 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-18 18:47:44,899 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-18 18:47:51,462 - INFO - Loaded 3 teacher models.
+2024-11-18 18:47:51,481 - INFO - Starting model training...
+2024-11-18 19:29:38,701 - INFO - Model saved to './phrasebank_student_model_trial_1'.
+2024-11-18 19:29:38,730 - INFO - Evaluation on student and teacher models started.
+2024-11-18 19:31:15,113 - INFO - Evaluation completed.
+2024-11-18 19:31:15,183 - INFO - Trial 1 complete. Report saved to ../output_report/20241118_1847-training_report_trial_1.txt
+2024-11-18 19:31:15,491 - INFO - Starting trial 2/5
+2024-11-18 19:31:15,491 - INFO - Sampled Hyperparameters: {'learning_rate': 1e-05, 'hidden_weight': 0.1, 'temperature': 4.0}
+2024-11-18 19:31:15,491 - INFO - Loaded hyperparameters from config file.
+2024-11-18 19:31:15,559 - INFO - Loaded datasets for phrasebank.
+2024-11-18 19:31:15,559 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-18 19:31:15,559 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-18 19:31:25,428 - INFO - Loaded 3 teacher models.
+2024-11-18 19:31:25,777 - INFO - Starting model training...
+2024-11-18 20:19:58,879 - INFO - Model saved to './phrasebank_student_model_trial_2'.
+2024-11-18 20:19:58,885 - INFO - Evaluation on student and teacher models started.
+2024-11-18 20:21:36,264 - INFO - Evaluation completed.
+2024-11-18 20:21:36,343 - INFO - Trial 2 complete. Report saved to ../output_report/20241118_1847-training_report_trial_2.txt
+2024-11-18 20:21:36,525 - INFO - Starting trial 3/5
+2024-11-18 20:21:36,525 - INFO - Sampled Hyperparameters: {'learning_rate': 1e-05, 'hidden_weight': 0.1, 'temperature': 4.0}
+2024-11-18 20:21:36,525 - INFO - Loaded hyperparameters from config file.
+2024-11-18 20:21:36,650 - INFO - Loaded datasets for phrasebank.
+2024-11-18 20:21:36,657 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-18 20:21:36,657 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-18 20:21:50,073 - INFO - Loaded 3 teacher models.
+2024-11-18 20:21:50,189 - INFO - Starting model training...
+2024-11-18 21:41:34,481 - INFO - Model saved to './phrasebank_student_model_trial_3'.
+2024-11-18 21:41:34,513 - INFO - Evaluation on student and teacher models started.
+2024-11-18 21:43:17,484 - INFO - Evaluation completed.
+2024-11-18 21:43:17,554 - INFO - Trial 3 complete. Report saved to ../output_report/20241118_1847-training_report_trial_3.txt
+2024-11-18 21:43:17,721 - INFO - Starting trial 4/5
+2024-11-18 21:43:17,721 - INFO - Sampled Hyperparameters: {'learning_rate': 1e-05, 'hidden_weight': 0.1, 'temperature': 4.0}
+2024-11-18 21:43:17,721 - INFO - Loaded hyperparameters from config file.
+2024-11-18 21:43:17,866 - INFO - Loaded datasets for phrasebank.
+2024-11-18 21:43:17,884 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-18 21:43:17,884 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-18 21:43:33,544 - INFO - Loaded 3 teacher models.
+2024-11-18 21:43:33,659 - INFO - Starting model training...
+2024-11-19 04:15:14,807 - INFO - Model saved to './phrasebank_student_model_trial_4'.
+2024-11-19 04:15:14,817 - INFO - Evaluation on student and teacher models started.
+2024-11-19 04:16:53,105 - INFO - Evaluation completed.
+2024-11-19 04:16:53,164 - INFO - Trial 4 complete. Report saved to ../output_report/20241118_1847-training_report_trial_4.txt
+2024-11-19 04:16:53,425 - INFO - Starting trial 5/5
+2024-11-19 04:16:53,425 - INFO - Sampled Hyperparameters: {'learning_rate': 1e-05, 'hidden_weight': 0.1, 'temperature': 4.0}
+2024-11-19 04:16:53,426 - INFO - Loaded hyperparameters from config file.
+2024-11-19 04:16:53,637 - INFO - Loaded datasets for phrasebank.
+2024-11-19 04:16:53,637 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-19 04:16:53,637 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-19 04:17:08,381 - INFO - Loaded 3 teacher models.
+2024-11-19 04:17:08,495 - INFO - Starting model training...
+2024-11-19 11:24:47,821 - INFO - Model saved to './phrasebank_student_model_trial_5'.
+2024-11-19 11:24:47,841 - INFO - Evaluation on student and teacher models started.
+2024-11-19 11:26:33,974 - INFO - Evaluation completed.
+2024-11-19 11:26:34,062 - INFO - Trial 5 complete. Report saved to ../output_report/20241118_1847-training_report_trial_5.txt
+2024-11-19 11:26:34,254 - INFO - Best accuracy: 83.61% with hyperparameters: {'learning_rate': 1e-05, 'hidden_weight': 0.1, 'temperature': 4.0}
+2024-11-19 15:12:22,153 - INFO - Starting script...
+2024-11-19 15:12:22,177 - INFO - Starting trial 1/20
+2024-11-19 15:12:22,177 - INFO - Sampled Hyperparameters: {'learning_rate': 5e-05, 'hidden_weight': 0.9, 'temperature': 4.0}
+2024-11-19 15:12:22,177 - INFO - Loaded hyperparameters from config file.
+2024-11-19 15:12:22,290 - INFO - Loaded datasets for phrasebank.
+2024-11-19 15:12:22,290 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-19 15:12:22,290 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-19 15:12:29,208 - INFO - Loaded 3 teacher models.
+2024-11-19 15:12:29,222 - INFO - Starting model training...
+2024-11-20 13:00:03,698 - INFO - Starting script...
+2024-11-20 13:00:03,717 - INFO - Loaded hyperparameters from config file.
+2024-11-20 13:00:03,797 - INFO - Loaded datasets for phrasebank.
+2024-11-20 13:00:03,797 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-20 13:00:03,797 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-20 13:00:09,990 - INFO - Loaded 3 teacher models.
+2024-11-20 13:00:10,000 - INFO - Starting model training...
+2024-11-20 13:01:22,098 - INFO - Starting script...
+2024-11-20 13:01:44,885 - INFO - Starting script...
+2024-11-20 13:01:44,894 - INFO - Starting trial 1/80
+2024-11-20 13:01:44,894 - INFO - Hyperparameters: {'learning_rate': 1e-05, 'hidden_weight': 0.1, 'temperature': 1.0}
+2024-11-20 13:01:44,894 - INFO - Loaded hyperparameters from config file.
+2024-11-20 13:01:44,947 - INFO - Loaded datasets for phrasebank.
+2024-11-20 13:01:44,947 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-20 13:01:44,947 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-20 13:01:50,337 - INFO - Loaded 3 teacher models.
+2024-11-20 13:01:50,350 - INFO - Starting model training...
+2024-11-22 12:00:26,032 - INFO - Starting script...
+2024-11-22 12:00:26,050 - INFO - Starting trial 1/80
+2024-11-22 12:00:26,050 - INFO - Hyperparameters: {'learning_rate': 1e-05, 'hidden_weight': 0.1, 'temperature': 1.0}
+2024-11-22 12:00:26,050 - INFO - Loaded hyperparameters from config file.
+2024-11-22 12:00:26,131 - INFO - Loaded datasets for phrasebank.
+2024-11-22 12:00:26,131 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-22 12:00:26,131 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-22 12:00:31,390 - INFO - Loaded 3 teacher models.
+2024-11-22 12:00:31,401 - INFO - Starting model training...
+2024-11-22 12:41:57,343 - INFO - Model saved to './phrasebank_student_model_trial_1'.
+2024-11-22 12:41:57,346 - INFO - Evaluation on student and teacher models started.
+2024-11-22 12:43:33,832 - INFO - Evaluation completed.
+2024-11-22 12:43:33,854 - INFO - Trial 1 complete. Report saved to ../output_report/20241122_1200-training_report_trial_1.txt
+2024-11-22 12:43:34,164 - INFO - Starting trial 2/80
+2024-11-22 12:43:34,164 - INFO - Hyperparameters: {'learning_rate': 1e-05, 'hidden_weight': 0.1, 'temperature': 2.0}
+2024-11-22 12:43:34,164 - INFO - Loaded hyperparameters from config file.
+2024-11-22 12:43:34,237 - INFO - Loaded datasets for phrasebank.
+2024-11-22 12:43:34,237 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-22 12:43:34,237 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-22 17:06:50,116 - INFO - Starting script...
+2024-11-22 17:06:50,135 - INFO - Starting trial 1/3
+2024-11-22 17:06:50,135 - INFO - Hyperparameters: {'hidden_weight': 0.3}
+2024-11-22 17:06:50,135 - INFO - Loaded hyperparameters from config file.
+2024-11-22 17:06:50,213 - INFO - Loaded datasets for phrasebank.
+2024-11-22 17:06:50,213 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-22 17:06:50,213 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-22 17:06:56,095 - INFO - Loaded 3 teacher models.
+2024-11-22 17:06:56,117 - INFO - Starting model training...
+2024-11-22 17:48:31,685 - INFO - Model saved to './phrasebank_student_model_trial_1'.
+2024-11-22 17:48:31,689 - INFO - Evaluation on student and teacher models started.
+2024-11-22 17:50:08,448 - INFO - Evaluation completed.
+2024-11-22 17:50:08,500 - INFO - Trial 1 complete. Report saved to ../output_report/20241122_1706-training_report_trial_1.txt
+2024-11-22 17:50:08,825 - INFO - Starting trial 2/3
+2024-11-22 17:50:08,825 - INFO - Hyperparameters: {'hidden_weight': 0.5}
+2024-11-22 17:50:08,825 - INFO - Loaded hyperparameters from config file.
+2024-11-22 17:50:08,898 - INFO - Loaded datasets for phrasebank.
+2024-11-22 17:50:08,898 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-22 17:50:08,898 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-22 17:50:16,947 - INFO - Loaded 3 teacher models.
+2024-11-22 17:50:17,193 - INFO - Starting model training...
+2024-11-22 18:40:59,748 - INFO - Model saved to './phrasebank_student_model_trial_2'.
+2024-11-22 18:40:59,773 - INFO - Evaluation on student and teacher models started.
+2024-11-22 18:42:36,578 - INFO - Evaluation completed.
+2024-11-22 18:42:36,643 - INFO - Trial 2 complete. Report saved to ../output_report/20241122_1706-training_report_trial_2.txt
+2024-11-22 18:42:36,847 - INFO - Starting trial 3/3
+2024-11-22 18:42:36,847 - INFO - Hyperparameters: {'hidden_weight': 0.7}
+2024-11-22 18:42:36,847 - INFO - Loaded hyperparameters from config file.
+2024-11-22 18:42:37,182 - INFO - Loaded datasets for phrasebank.
+2024-11-22 18:42:37,182 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-22 18:42:37,183 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-22 18:42:47,235 - INFO - Loaded 3 teacher models.
+2024-11-22 18:42:47,629 - INFO - Starting model training...
+2024-11-22 19:43:31,717 - INFO - Model saved to './phrasebank_student_model_trial_3'.
+2024-11-22 19:43:31,742 - INFO - Evaluation on student and teacher models started.
+2024-11-22 19:45:09,441 - INFO - Evaluation completed.
+2024-11-22 19:45:09,499 - INFO - Trial 3 complete. Report saved to ../output_report/20241122_1706-training_report_trial_3.txt
+2024-11-22 19:45:09,715 - INFO - Best accuracy: 82.99% with hyperparameters: {'hidden_weight': 0.3}
+2024-11-22 22:04:44,735 - INFO - Starting script...
+2024-11-22 22:04:44,751 - INFO - Starting trial 1/9
+2024-11-22 22:04:44,751 - INFO - Hyperparameters: {'hidden_weight': 0.3, 'temperature': 2.0}
+2024-11-22 22:04:44,751 - INFO - Loaded hyperparameters from config file.
+2024-11-22 22:04:44,809 - INFO - Loaded datasets for phrasebank.
+2024-11-22 22:04:44,809 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-22 22:04:44,809 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-22 22:04:50,238 - INFO - Loaded 3 teacher models.
+2024-11-22 22:04:50,249 - INFO - Starting model training...
+2024-11-22 22:05:22,177 - INFO - Starting script...
+2024-11-22 22:05:22,195 - INFO - Starting trial 1/6
+2024-11-22 22:05:22,195 - INFO - Hyperparameters: {'hidden_weight': 0.3, 'temperature': 4.0}
+2024-11-22 22:05:22,195 - INFO - Loaded hyperparameters from config file.
+2024-11-22 22:05:22,246 - INFO - Loaded datasets for phrasebank.
+2024-11-22 22:05:22,246 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-22 22:05:22,246 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-22 22:05:28,000 - INFO - Loaded 3 teacher models.
+2024-11-22 22:05:28,018 - INFO - Starting model training...
+2024-11-22 22:46:58,151 - INFO - Model saved to './phrasebank_student_model_trial_1'.
+2024-11-22 22:46:58,169 - INFO - Evaluation on student and teacher models started.
+2024-11-22 22:48:34,836 - INFO - Evaluation completed.
+2024-11-22 22:48:34,859 - INFO - Trial 1 complete. Report saved to ../output_report/20241122_2205-training_report_trial_1.txt
+2024-11-22 22:48:35,083 - INFO - Starting trial 2/6
+2024-11-22 22:48:35,083 - INFO - Hyperparameters: {'hidden_weight': 0.3, 'temperature': 6.0}
+2024-11-22 22:48:35,083 - INFO - Loaded hyperparameters from config file.
+2024-11-22 22:48:35,218 - INFO - Loaded datasets for phrasebank.
+2024-11-22 22:48:35,218 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-22 22:48:35,218 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-22 22:48:45,585 - INFO - Loaded 3 teacher models.
+2024-11-22 22:48:45,792 - INFO - Starting model training...
+2024-11-22 23:36:03,149 - INFO - Model saved to './phrasebank_student_model_trial_2'.
+2024-11-22 23:36:03,153 - INFO - Evaluation on student and teacher models started.
+2024-11-22 23:37:41,242 - INFO - Evaluation completed.
+2024-11-22 23:37:41,302 - INFO - Trial 2 complete. Report saved to ../output_report/20241122_2205-training_report_trial_2.txt
+2024-11-22 23:37:41,459 - INFO - Starting trial 3/6
+2024-11-22 23:37:41,459 - INFO - Hyperparameters: {'hidden_weight': 0.5, 'temperature': 4.0}
+2024-11-22 23:37:41,460 - INFO - Loaded hyperparameters from config file.
+2024-11-22 23:37:41,543 - INFO - Loaded datasets for phrasebank.
+2024-11-22 23:37:41,543 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-22 23:37:41,543 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-22 23:37:49,405 - INFO - Loaded 3 teacher models.
+2024-11-22 23:37:49,479 - INFO - Starting model training...
+2024-11-23 00:38:04,108 - INFO - Model saved to './phrasebank_student_model_trial_3'.
+2024-11-23 00:38:04,134 - INFO - Evaluation on student and teacher models started.
+2024-11-23 00:39:41,858 - INFO - Evaluation completed.
+2024-11-23 00:39:41,913 - INFO - Trial 3 complete. Report saved to ../output_report/20241122_2205-training_report_trial_3.txt
+2024-11-23 00:39:42,065 - INFO - Starting trial 4/6
+2024-11-23 00:39:42,065 - INFO - Hyperparameters: {'hidden_weight': 0.5, 'temperature': 6.0}
+2024-11-23 00:39:42,065 - INFO - Loaded hyperparameters from config file.
+2024-11-23 00:39:42,243 - INFO - Loaded datasets for phrasebank.
+2024-11-23 00:39:42,243 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-23 00:39:42,243 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-23 00:39:59,757 - INFO - Loaded 3 teacher models.
+2024-11-23 00:39:59,846 - INFO - Starting model training...
+2024-11-23 09:45:10,860 - INFO - Model saved to './phrasebank_student_model_trial_4'.
+2024-11-23 09:45:10,869 - INFO - Evaluation on student and teacher models started.
+2024-11-23 09:46:58,678 - INFO - Evaluation completed.
+2024-11-23 09:46:58,758 - INFO - Trial 4 complete. Report saved to ../output_report/20241122_2205-training_report_trial_4.txt
+2024-11-23 09:46:58,991 - INFO - Starting trial 5/6
+2024-11-23 09:46:58,991 - INFO - Hyperparameters: {'hidden_weight': 0.7, 'temperature': 4.0}
+2024-11-23 09:46:58,991 - INFO - Loaded hyperparameters from config file.
+2024-11-23 09:46:59,118 - INFO - Loaded datasets for phrasebank.
+2024-11-23 09:46:59,118 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-11-23 09:46:59,118 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-11-23 09:47:17,769 - INFO - Loaded 3 teacher models.
+2024-11-23 09:47:18,142 - INFO - Starting model training...
+2024-12-10 13:09:52,728 - INFO - Starting script...
+2024-12-10 13:09:52,748 - INFO - Starting trial 1/6
+2024-12-10 13:09:52,748 - INFO - Hyperparameters: {'hidden_weight': 0.3, 'temperature': 4.0}
+2024-12-10 13:09:52,748 - INFO - Loaded hyperparameters from config file.
+2024-12-10 13:09:52,814 - INFO - Loaded datasets for phrasebank.
+2024-12-10 13:09:52,814 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 13:09:52,814 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 13:10:10,100 - INFO - Starting script...
+2024-12-10 13:10:10,109 - INFO - Loaded hyperparameters from config file.
+2024-12-10 13:10:10,138 - INFO - Loaded datasets for phrasebank.
+2024-12-10 13:10:10,138 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 13:10:10,138 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 13:10:13,499 - INFO - Loaded 3 teacher models.
+2024-12-10 13:10:13,520 - INFO - Starting model training...
+2024-12-10 13:52:32,420 - INFO - Model saved to './phrasebank_student_model'.
+2024-12-10 13:52:32,441 - INFO - Evaluation on student and teacher models started.
+2024-12-10 13:54:09,922 - INFO - Evaluation completed.
+2024-12-10 13:54:09,984 - INFO - Training complete. Report saved to ../output_report/20241210_1310-training_report.txt
+2024-12-10 15:06:49,717 - INFO - Starting script...
+2024-12-10 15:06:49,736 - INFO - Loaded hyperparameters from config file.
+2024-12-10 15:06:49,819 - INFO - Loaded datasets for phrasebank.
+2024-12-10 15:06:49,819 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 15:06:49,819 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 15:06:55,281 - INFO - Loaded 3 teacher models.
+2024-12-10 15:06:55,290 - INFO - Starting model training...
+2024-12-10 15:48:37,246 - INFO - Model saved to './phrasebank_student_model'.
+2024-12-10 15:48:37,271 - INFO - Evaluation on student and teacher models started.
+2024-12-10 15:50:13,527 - INFO - Evaluation completed.
+2024-12-10 15:50:13,585 - INFO - Training complete. Report saved to ../output_report/20241210_1506-training_report.txt
+2024-12-10 16:11:00,853 - INFO - Starting script...
+2024-12-10 16:11:00,875 - INFO - Loaded hyperparameters from config file.
+2024-12-10 16:11:00,935 - INFO - Loaded datasets for phrasebank.
+2024-12-10 16:11:00,935 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 16:11:00,935 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 16:11:08,483 - INFO - Loaded 3 teacher models.
+2024-12-10 16:11:08,495 - INFO - Starting model training...
+2024-12-10 16:11:42,936 - INFO - Starting script...
+2024-12-10 16:11:42,954 - INFO - Loaded hyperparameters from config file.
+2024-12-10 16:11:43,005 - INFO - Loaded datasets for phrasebank.
+2024-12-10 16:11:43,005 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 16:11:43,005 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 16:11:48,328 - INFO - Loaded 3 teacher models.
+2024-12-10 16:11:48,345 - INFO - Starting model training...
+2024-12-10 16:15:14,364 - INFO - Starting script...
+2024-12-10 16:15:14,388 - INFO - Loaded hyperparameters from config file.
+2024-12-10 16:15:14,431 - INFO - Loaded datasets for phrasebank.
+2024-12-10 16:15:14,431 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 16:15:14,432 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 16:15:20,074 - INFO - Loaded 3 teacher models.
+2024-12-10 16:15:20,075 - INFO - Enabled gradient checkpointing for the student model.
+2024-12-10 16:15:20,088 - INFO - Starting model training...
+2024-12-10 16:29:35,715 - INFO - Starting script...
+2024-12-10 16:29:35,738 - INFO - Loaded hyperparameters from config file.
+2024-12-10 16:29:35,795 - INFO - Loaded datasets for phrasebank.
+2024-12-10 16:29:35,795 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 16:29:35,795 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 16:29:42,370 - INFO - Loaded 3 teacher models.
+2024-12-10 16:29:42,385 - INFO - Starting model training...
+2024-12-10 16:32:26,199 - INFO - Starting script...
+2024-12-10 16:32:26,222 - INFO - Loaded hyperparameters from config file.
+2024-12-10 16:32:26,274 - INFO - Loaded datasets for phrasebank.
+2024-12-10 16:32:26,274 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 16:32:26,274 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 16:32:32,764 - INFO - Loaded 3 teacher models.
+2024-12-10 16:32:32,777 - INFO - Starting model training...
+2024-12-10 16:33:17,151 - INFO - Starting script...
+2024-12-10 16:33:17,163 - INFO - Loaded hyperparameters from config file.
+2024-12-10 16:33:17,212 - INFO - Loaded datasets for phrasebank.
+2024-12-10 16:33:17,212 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 16:33:17,212 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 16:33:34,996 - INFO - Starting script...
+2024-12-10 16:33:35,004 - INFO - Loaded hyperparameters from config file.
+2024-12-10 16:33:35,029 - INFO - Loaded datasets for phrasebank.
+2024-12-10 16:33:35,029 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 16:33:35,029 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 16:33:40,063 - INFO - Loaded 3 teacher models.
+2024-12-10 16:33:40,078 - INFO - Starting model training...
+2024-12-10 16:33:51,149 - INFO - Starting script...
+2024-12-10 16:33:51,159 - INFO - Loaded hyperparameters from config file.
+2024-12-10 16:33:51,186 - INFO - Loaded datasets for phrasebank.
+2024-12-10 16:33:51,186 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 16:33:51,186 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 16:33:54,262 - INFO - Loaded 3 teacher models.
+2024-12-10 16:33:54,273 - INFO - Starting model training...
+2024-12-10 17:03:49,375 - INFO - Model saved to './phrasebank_student_model'.
+2024-12-10 17:03:49,381 - INFO - Evaluation on student and teacher models started.
+2024-12-10 17:05:26,070 - INFO - Evaluation completed.
+2024-12-10 17:05:26,138 - INFO - Training complete. Report saved to ../output_report/20241210_1633-training_report.txt
+2024-12-10 17:35:50,713 - INFO - Starting script...
+2024-12-10 17:35:50,731 - INFO - Loaded hyperparameters from config file.
+2024-12-10 17:35:50,795 - INFO - Loaded datasets for phrasebank.
+2024-12-10 17:35:50,795 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 17:35:50,795 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 17:35:56,859 - INFO - Loaded 3 teacher models.
+2024-12-10 17:35:56,882 - INFO - Starting model training...
+2024-12-10 18:18:08,910 - INFO - Model saved to './phrasebank_student_model'.
+2024-12-10 18:18:08,917 - INFO - Evaluation on student and teacher models started.
+2024-12-10 18:19:46,124 - INFO - Evaluation completed.
+2024-12-10 18:19:46,193 - INFO - Training complete. Report saved to ../output_report/20241210_1735-training_report.txt
+2024-12-10 18:34:09,647 - INFO - Starting script...
+2024-12-10 18:34:09,666 - INFO - Loaded hyperparameters from config file.
+2024-12-10 18:34:09,722 - INFO - Loaded datasets for phrasebank.
+2024-12-10 18:34:09,722 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2024-12-10 18:34:09,723 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2024-12-10 18:34:15,499 - INFO - Loaded 3 teacher models.
+2024-12-10 18:34:15,509 - INFO - Starting model training...
+2024-12-10 20:04:04,308 - INFO - Model saved to './phrasebank_student_model'.
+2024-12-10 20:04:04,311 - INFO - Evaluation on student and teacher models started.
+2024-12-10 20:05:40,820 - INFO - Evaluation completed.
+2024-12-10 20:05:40,892 - INFO - Training complete. Report saved to ../output_report/20241210_1834-training_report.txt
+2025-07-20 18:38:47,047 - INFO - Starting script...
+2025-07-20 18:38:47,050 - INFO - Loaded hyperparameters from config file.
+2025-07-20 18:39:11,870 - INFO - Starting script...
+2025-07-20 18:39:11,872 - INFO - Loaded hyperparameters from config file.
+2025-07-20 18:39:12,052 - INFO - Loaded datasets for phrasebank.
+2025-07-20 18:39:12,053 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-20 18:39:12,053 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-20 18:39:18,450 - INFO - Loaded 3 teacher models.
+2025-07-20 18:39:18,465 - INFO - Starting model training...
+2025-07-20 18:52:39,701 - INFO - Starting script...
+2025-07-20 18:52:39,825 - INFO - Loaded hyperparameters from config file.
+2025-07-20 18:52:39,980 - INFO - Loaded datasets for phrasebank.
+2025-07-20 18:52:39,985 - INFO - Using 310 training examples after applying data_portion=0.1.
+2025-07-20 18:52:39,985 - INFO - Using 77 validation examples after applying data_portion=0.1.
+2025-07-20 18:52:46,672 - INFO - Loaded 3 teacher models.
+2025-07-20 18:52:46,738 - INFO - Starting model training...
+2025-07-20 18:52:47,950 - INFO - gcc -pthread -B /home/patrick/miniconda3/envs/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/patrick/miniconda3/envs/dsci566/include -fPIC -O2 -isystem /home/patrick/miniconda3/envs/dsci566/include -fPIC -c /tmp/tmp_qly33c1/test.c -o /tmp/tmp_qly33c1/test.o
+2025-07-20 18:52:48,029 - INFO - gcc -pthread -B /home/patrick/miniconda3/envs/dsci566/compiler_compat /tmp/tmp_qly33c1/test.o -laio -o /tmp/tmp_qly33c1/a.out
+2025-07-20 18:54:11,288 - INFO - Starting script...
+2025-07-20 18:54:11,385 - INFO - Loaded hyperparameters from config file.
+2025-07-20 18:54:11,527 - INFO - Loaded datasets for phrasebank.
+2025-07-20 18:54:11,531 - INFO - Using 310 training examples after applying data_portion=0.1.
+2025-07-20 18:54:11,531 - INFO - Using 77 validation examples after applying data_portion=0.1.
+2025-07-20 18:54:19,030 - INFO - Loaded 3 teacher models.
+2025-07-20 18:54:19,089 - INFO - Starting model training...
+2025-07-20 18:54:20,143 - INFO - gcc -pthread -B /home/patrick/miniconda3/envs/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/patrick/miniconda3/envs/dsci566/include -fPIC -O2 -isystem /home/patrick/miniconda3/envs/dsci566/include -fPIC -c /tmp/tmpy_189ite/test.c -o /tmp/tmpy_189ite/test.o
+2025-07-20 18:54:20,205 - INFO - gcc -pthread -B /home/patrick/miniconda3/envs/dsci566/compiler_compat /tmp/tmpy_189ite/test.o -laio -o /tmp/tmpy_189ite/a.out
+2025-07-20 18:54:20,707 - INFO - gcc -pthread -B /home/patrick/miniconda3/envs/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/patrick/miniconda3/envs/dsci566/include -fPIC -O2 -isystem /home/patrick/miniconda3/envs/dsci566/include -fPIC -c /tmp/tmpmtq468t0/test.c -o /tmp/tmpmtq468t0/test.o
+2025-07-20 18:54:20,723 - INFO - gcc -pthread -B /home/patrick/miniconda3/envs/dsci566/compiler_compat /tmp/tmpmtq468t0/test.o -L/usr -L/usr/lib64 -lcufile -o /tmp/tmpmtq468t0/a.out
+2025-07-20 19:06:08,584 - INFO - Model saved to './phrasebank_student_model'.
+2025-07-20 19:06:08,586 - INFO - Evaluation on student and teacher models started.
+2025-07-20 19:07:39,193 - INFO - Evaluation completed.
+2025-07-20 19:53:59,634 - INFO - Starting script...
+2025-07-20 19:53:59,720 - INFO - Loaded hyperparameters from config file.
+2025-07-20 19:53:59,866 - INFO - Loaded datasets for phrasebank.
+2025-07-20 19:53:59,872 - INFO - Using 310 training examples after applying data_portion=0.1.
+2025-07-20 19:53:59,872 - INFO - Using 77 validation examples after applying data_portion=0.1.
+2025-07-20 19:54:07,413 - INFO - Loaded 3 teacher models.
+2025-07-20 19:54:07,473 - INFO - Starting model training...
+2025-07-20 19:54:08,582 - INFO - gcc -pthread -B /home/patrick/miniconda3/envs/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/patrick/miniconda3/envs/dsci566/include -fPIC -O2 -isystem /home/patrick/miniconda3/envs/dsci566/include -fPIC -c /tmp/tmpfm8i6c1f/test.c -o /tmp/tmpfm8i6c1f/test.o
+2025-07-20 19:54:08,662 - INFO - gcc -pthread -B /home/patrick/miniconda3/envs/dsci566/compiler_compat /tmp/tmpfm8i6c1f/test.o -laio -o /tmp/tmpfm8i6c1f/a.out
+2025-07-20 19:54:09,139 - INFO - gcc -pthread -B /home/patrick/miniconda3/envs/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/patrick/miniconda3/envs/dsci566/include -fPIC -O2 -isystem /home/patrick/miniconda3/envs/dsci566/include -fPIC -c /tmp/tmp4krnyroq/test.c -o /tmp/tmp4krnyroq/test.o
+2025-07-20 19:54:09,153 - INFO - gcc -pthread -B /home/patrick/miniconda3/envs/dsci566/compiler_compat /tmp/tmp4krnyroq/test.o -L/usr -L/usr/lib64 -lcufile -o /tmp/tmp4krnyroq/a.out
+2025-07-20 20:10:41,897 - INFO - Model saved to './phrasebank_student_model'.
+2025-07-20 20:10:41,959 - INFO - Evaluation on student and teacher models started.
+2025-07-20 20:13:18,704 - INFO - Evaluation completed.

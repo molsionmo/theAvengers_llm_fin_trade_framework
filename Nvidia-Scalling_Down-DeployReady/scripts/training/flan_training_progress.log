@@ -1,0 +1,441 @@
+2024-10-25 13:38:05,769 - INFO - Starting script...
+2024-10-25 13:38:05,790 - INFO - Loaded hyperparameters from config file.
+2024-10-25 13:38:05,812 - INFO - Loaded training dataset with 97467 examples.
+2024-10-25 13:38:05,812 - INFO - Loaded validation dataset with 254 examples.
+2024-10-25 13:38:05,819 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-25 13:38:05,819 - INFO - Using 200 validation examples after applying data_portion=0.0005.
+2024-10-25 13:38:09,870 - INFO - Generating teacher outputs for training data...
+2024-10-25 13:38:09,901 - INFO - Processed 0 training examples.
+2024-10-25 13:41:00,981 - INFO - Generating teacher outputs for validation data...
+2024-10-25 13:41:00,984 - INFO - Processed 0 validation examples.
+2024-10-25 14:02:12,095 - INFO - Processed 100 validation examples.
+2024-10-25 14:18:55,431 - INFO - Starting model training...
+2024-10-25 14:21:28,909 - INFO - Model saved to './student_model'.
+2024-10-25 14:55:28,121 - INFO - Training completed.
+2024-10-25 14:55:28,191 - INFO - Training complete. Report saved to 'flan_training_report.txt'
+2024-10-27 14:23:46,655 - INFO - Starting script...
+2024-10-27 14:23:46,679 - INFO - Loaded hyperparameters from config file.
+2024-10-27 14:23:46,702 - INFO - Loaded training dataset with 97467 examples.
+2024-10-27 14:23:46,702 - INFO - Loaded validation dataset with 254 examples.
+2024-10-27 14:23:46,708 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-27 14:23:46,708 - INFO - Using 200 validation examples after applying data_portion=0.0005.
+2024-10-27 14:23:51,149 - INFO - Generating teacher outputs for training data...
+2024-10-27 14:23:51,204 - INFO - Processed 0 training examples.
+2024-10-27 14:26:49,375 - INFO - Generating teacher outputs for validation data...
+2024-10-27 14:26:49,379 - INFO - Processed 0 validation examples.
+2024-10-27 14:48:17,564 - INFO - Processed 100 validation examples.
+2024-10-27 15:18:22,427 - INFO - Starting script...
+2024-10-27 15:18:22,442 - INFO - Loaded hyperparameters from config file.
+2024-10-27 15:18:22,463 - INFO - Loaded training dataset with 97467 examples.
+2024-10-27 15:18:22,463 - INFO - Loaded validation dataset with 254 examples.
+2024-10-27 15:18:22,469 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-27 15:18:22,469 - INFO - Using 5 validation examples after applying data_portion=0.0005.
+2024-10-27 15:18:26,722 - INFO - Generating teacher outputs for training data...
+2024-10-27 15:18:26,743 - INFO - Processed 0 training examples.
+2024-10-27 15:21:16,202 - INFO - Generating teacher outputs for validation data...
+2024-10-27 15:21:16,203 - INFO - Processed 0 validation examples.
+2024-10-27 15:24:56,635 - INFO - Starting script...
+2024-10-27 15:24:56,647 - INFO - Loaded hyperparameters from config file.
+2024-10-27 15:24:56,651 - INFO - Loaded training dataset with 97467 examples.
+2024-10-27 15:24:56,651 - INFO - Loaded validation dataset with 254 examples.
+2024-10-27 15:24:56,654 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-27 15:24:56,654 - INFO - Using 5 validation examples after applying data_portion=0.0005.
+2024-10-27 15:25:00,577 - INFO - Generating teacher outputs for training data...
+2024-10-27 15:25:00,594 - INFO - Processed 0 training examples.
+2024-10-27 15:27:45,143 - INFO - Generating teacher outputs for validation data...
+2024-10-27 15:27:45,144 - INFO - Processed 0 validation examples.
+2024-10-27 15:27:50,707 - INFO - Starting model training...
+2024-10-27 15:29:25,233 - INFO - Model saved to './student_model'.
+2024-10-27 15:29:34,843 - INFO - Training completed.
+2024-10-27 15:29:34,860 - INFO - Training complete. Report saved to 'flan_training_report_20241027.txt'
+2024-10-27 21:12:46,557 - INFO - Starting script...
+2024-10-27 21:12:46,578 - INFO - Loaded hyperparameters from config file.
+2024-10-27 21:12:46,600 - INFO - Loaded training dataset with 97467 examples.
+2024-10-27 21:12:46,600 - INFO - Loaded validation dataset with 254 examples.
+2024-10-27 21:12:46,607 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-27 21:12:46,607 - INFO - Using 5 validation examples after applying data_portion=0.0005.
+2024-10-27 21:12:50,817 - INFO - Generating teacher outputs for training data...
+2024-10-27 21:12:50,839 - INFO - Processed 0 training examples.
+2024-10-27 21:15:44,358 - INFO - Generating teacher outputs for validation data...
+2024-10-27 21:15:44,360 - INFO - Processed 0 validation examples.
+2024-10-27 21:15:50,538 - INFO - Starting model training...
+2024-10-27 21:17:29,210 - INFO - Model saved to './student_model'.
+2024-10-27 21:17:38,559 - INFO - Training completed.
+2024-10-27 21:17:38,570 - INFO - Training complete. Report saved to 'flan_training_report_20241027.txt'
+2024-10-30 11:16:31,376 - INFO - Starting script...
+2024-10-30 11:16:31,397 - INFO - Loaded hyperparameters from config file.
+2024-10-30 11:16:44,234 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 11:16:44,234 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 11:16:44,248 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 11:16:44,248 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 11:16:48,249 - INFO - Generating teacher outputs for validation data...
+2024-10-30 11:16:48,252 - INFO - Processed 0 validation examples.
+2024-10-30 11:24:02,103 - INFO - Starting script...
+2024-10-30 11:24:02,114 - INFO - Loaded hyperparameters from config file.
+2024-10-30 11:24:02,118 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 11:24:02,118 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 11:24:02,121 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 11:24:02,121 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 11:24:04,961 - INFO - Generating teacher outputs for validation data...
+2024-10-30 11:24:04,961 - INFO - Processed 0 validation examples.
+2024-10-30 11:28:36,663 - INFO - Starting script...
+2024-10-30 11:28:36,672 - INFO - Loaded hyperparameters from config file.
+2024-10-30 11:28:36,677 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 11:28:36,677 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 11:28:36,680 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 11:28:36,680 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 11:28:39,822 - INFO - Generating teacher outputs for validation data...
+2024-10-30 11:28:39,834 - INFO - Processed 0 validation examples.
+2024-10-30 11:28:41,433 - INFO - Starting model training...
+2024-10-30 11:29:24,562 - INFO - Starting script...
+2024-10-30 11:29:24,575 - INFO - Loaded hyperparameters from config file.
+2024-10-30 11:29:39,435 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 11:29:39,435 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 11:29:39,448 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 11:29:39,448 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 11:29:43,141 - INFO - Generating teacher outputs for validation data...
+2024-10-30 11:29:43,142 - INFO - Processed 0 validation examples.
+2024-10-30 11:29:44,738 - INFO - Starting model training...
+2024-10-30 11:30:20,827 - INFO - Model saved to './student_model'.
+2024-10-30 11:30:20,835 - INFO - Evaluation on student model started.
+2024-10-30 11:30:23,381 - INFO - Evaluation completed.
+2024-10-30 11:30:23,398 - INFO - Training complete. Report saved to 'flan_training_report_20241027.txt'
+2024-10-30 11:36:36,684 - INFO - Starting script...
+2024-10-30 11:36:36,695 - INFO - Loaded hyperparameters from config file.
+2024-10-30 11:36:36,715 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 11:36:36,715 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 11:36:36,720 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 11:36:36,720 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 11:36:43,931 - INFO - Generating teacher outputs for validation data...
+2024-10-30 11:36:43,932 - INFO - Processed 0 validation examples.
+2024-10-30 11:36:45,594 - INFO - Starting model training...
+2024-10-30 11:37:21,961 - INFO - Model saved to './student_model'.
+2024-10-30 11:37:21,966 - INFO - Evaluation on student model started.
+2024-10-30 11:37:23,397 - INFO - Evaluation completed.
+2024-10-30 11:37:23,415 - INFO - Training complete. Report saved to 'flan_training_report_20241027.txt'
+2024-10-30 11:58:10,942 - INFO - Starting script...
+2024-10-30 11:58:10,953 - INFO - Loaded hyperparameters from config file.
+2024-10-30 11:58:10,976 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 11:58:10,976 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 11:58:10,982 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 11:58:10,982 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 11:58:15,059 - INFO - Generating teacher outputs for validation data...
+2024-10-30 11:58:15,071 - INFO - Processed 0 validation examples.
+2024-10-30 11:58:16,712 - INFO - Starting model training...
+2024-10-30 11:58:40,565 - INFO - Model saved to './student_model'.
+2024-10-30 11:58:40,567 - INFO - Evaluation on student model started.
+2024-10-30 11:58:42,171 - INFO - Evaluation completed.
+2024-10-30 11:58:42,186 - INFO - Training complete. Report saved to 'flan_training_report_20241030.txt'
+2024-10-30 12:20:31,959 - INFO - Starting script...
+2024-10-30 12:20:31,969 - INFO - Loaded hyperparameters from config file.
+2024-10-30 12:20:31,993 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 12:20:31,993 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 12:20:31,999 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 12:20:31,999 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 12:20:36,428 - INFO - Generating teacher outputs for validation data...
+2024-10-30 12:20:36,444 - INFO - Processed 0 validation examples.
+2024-10-30 12:20:38,127 - INFO - Starting model training...
+2024-10-30 12:21:31,688 - INFO - Model saved to './student_model'.
+2024-10-30 12:21:31,692 - INFO - Evaluation on student model started.
+2024-10-30 12:21:33,425 - INFO - Evaluation completed.
+2024-10-30 12:24:09,477 - INFO - Starting script...
+2024-10-30 12:24:09,487 - INFO - Loaded hyperparameters from config file.
+2024-10-30 12:24:09,508 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 12:24:09,508 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 12:24:09,513 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 12:24:09,513 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 12:24:13,245 - INFO - Generating teacher outputs for validation data...
+2024-10-30 12:24:13,261 - INFO - Processed 0 validation examples.
+2024-10-30 12:25:07,727 - INFO - Starting script...
+2024-10-30 12:25:07,736 - INFO - Loaded hyperparameters from config file.
+2024-10-30 12:25:07,740 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 12:25:07,740 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 12:25:07,744 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 12:25:07,744 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 12:25:10,266 - INFO - Generating teacher outputs for validation data...
+2024-10-30 12:25:10,283 - INFO - Processed 0 validation examples.
+2024-10-30 12:25:11,870 - INFO - Starting model training...
+2024-10-30 12:26:03,160 - INFO - Model saved to './student_model'.
+2024-10-30 12:26:03,164 - INFO - Evaluation on student model started.
+2024-10-30 12:26:04,814 - INFO - Evaluation completed.
+2024-10-30 12:27:40,960 - INFO - Starting script...
+2024-10-30 12:27:40,971 - INFO - Loaded hyperparameters from config file.
+2024-10-30 12:27:40,991 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 12:27:40,991 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 12:27:40,996 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 12:27:40,996 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 12:27:44,624 - INFO - Generating teacher outputs for validation data...
+2024-10-30 12:27:44,642 - INFO - Processed 0 validation examples.
+2024-10-30 12:27:46,234 - INFO - Starting model training...
+2024-10-30 12:28:37,649 - INFO - Model saved to './student_model'.
+2024-10-30 12:28:37,653 - INFO - Evaluation on student model started.
+2024-10-30 12:28:39,382 - INFO - Evaluation completed.
+2024-10-30 12:28:39,397 - INFO - Training complete. Report saved to ../output_report/20241030_1227-training_report.txt
+2024-10-30 13:05:45,140 - INFO - Starting script...
+2024-10-30 13:05:45,150 - INFO - Loaded hyperparameters from config file.
+2024-10-30 13:05:45,176 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 13:05:45,176 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 13:05:45,183 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 13:05:45,183 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 13:05:49,424 - INFO - Generating teacher outputs for validation data...
+2024-10-30 13:05:49,437 - INFO - Processed 0 validation examples.
+2024-10-30 13:05:51,121 - INFO - Starting model training...
+2024-10-30 13:06:44,516 - INFO - Model saved to './student_model'.
+2024-10-30 13:06:44,520 - INFO - Evaluation on student model started.
+2024-10-30 13:06:46,234 - INFO - Evaluation completed.
+2024-10-30 13:06:46,251 - INFO - Training complete. Report saved to ../output_report/20241030_1305-training_report.txt
+2024-10-30 13:13:28,721 - INFO - Starting script...
+2024-10-30 13:13:28,732 - INFO - Loaded hyperparameters from config file.
+2024-10-30 13:13:28,749 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 13:13:28,749 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 13:13:28,755 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 13:13:28,755 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 13:13:32,854 - INFO - Generating teacher outputs for validation data...
+2024-10-30 13:13:32,870 - INFO - Processed 0 validation examples.
+2024-10-30 13:13:34,523 - INFO - Starting model training...
+2024-10-30 13:14:28,552 - INFO - Model saved to './student_model'.
+2024-10-30 13:14:28,557 - INFO - Evaluation on student model started.
+2024-10-30 13:14:30,342 - INFO - Evaluation completed.
+2024-10-30 13:14:30,357 - INFO - Training complete. Report saved to ../output_report/20241030_1313-training_report.txt
+2024-10-30 13:24:32,965 - INFO - Starting script...
+2024-10-30 13:24:32,977 - INFO - Loaded hyperparameters from config file.
+2024-10-30 13:24:32,997 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 13:24:32,997 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 13:24:33,002 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 13:24:33,002 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 13:24:37,163 - INFO - Generating teacher outputs for validation data...
+2024-10-30 13:24:37,175 - INFO - Processed 0 validation examples.
+2024-10-30 13:24:38,816 - INFO - Starting model training...
+2024-10-30 13:25:33,428 - INFO - Model saved to './student_model'.
+2024-10-30 13:25:33,436 - INFO - Evaluation on student model started.
+2024-10-30 13:25:35,154 - INFO - Evaluation completed.
+2024-10-30 13:25:35,169 - INFO - Training complete. Report saved to ../output_report/20241030_1324-training_report.txt
+2024-10-30 14:07:14,536 - INFO - Starting script...
+2024-10-30 14:07:14,547 - INFO - Loaded hyperparameters from config file.
+2024-10-30 14:07:14,574 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 14:07:14,574 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 14:07:14,580 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 14:07:14,581 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 14:07:18,867 - INFO - Generating teacher outputs for validation data...
+2024-10-30 14:07:18,883 - INFO - Processed 0 validation examples.
+2024-10-30 14:07:20,590 - INFO - Starting model training...
+2024-10-30 14:08:13,475 - INFO - Model saved to './student_model'.
+2024-10-30 14:08:13,478 - INFO - Evaluation on student model started.
+2024-10-30 14:08:15,133 - INFO - Evaluation completed.
+2024-10-30 14:08:15,148 - INFO - Training complete. Report saved to ../output_report/20241030_1407-training_report.txt
+2024-10-30 14:09:10,014 - INFO - Starting script...
+2024-10-30 14:09:10,025 - INFO - Loaded hyperparameters from config file.
+2024-10-30 14:09:10,046 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 14:09:10,046 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 14:09:10,051 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 14:09:10,051 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 15:43:28,928 - INFO - Starting script...
+2024-10-30 15:43:28,941 - INFO - Loaded hyperparameters from config file.
+2024-10-30 15:43:28,964 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 15:43:28,964 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 15:43:28,970 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 15:43:28,970 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 15:43:33,197 - INFO - Generating teacher outputs for validation data...
+2024-10-30 15:43:33,210 - INFO - Processed 0 validation examples.
+2024-10-30 15:43:34,908 - INFO - Starting model training...
+2024-10-30 15:44:27,534 - INFO - Model saved to './student_model'.
+2024-10-30 15:44:27,541 - INFO - Evaluation on student model started.
+2024-10-30 15:44:29,274 - INFO - Evaluation completed.
+2024-10-30 15:44:29,290 - INFO - Training complete. Report saved to ../output_report/20241030_1543-training_report.txt
+2024-10-30 16:18:02,001 - INFO - Starting script...
+2024-10-30 16:18:02,018 - INFO - Loaded hyperparameters from config file.
+2024-10-30 16:18:02,043 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 16:18:02,043 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 16:18:02,049 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 16:18:02,049 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 16:18:06,370 - INFO - Generating teacher outputs for validation data...
+2024-10-30 16:18:06,383 - INFO - Processed 0 validation examples.
+2024-10-30 16:18:24,880 - INFO - Starting script...
+2024-10-30 16:18:24,890 - INFO - Loaded hyperparameters from config file.
+2024-10-30 16:18:24,894 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 16:18:24,894 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 16:18:24,898 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 16:18:24,898 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 16:18:27,575 - INFO - Generating teacher outputs for validation data...
+2024-10-30 16:18:27,589 - INFO - Processed 0 validation examples.
+2024-10-30 16:49:23,500 - INFO - Starting script...
+2024-10-30 16:49:23,510 - INFO - Loaded hyperparameters from config file.
+2024-10-30 16:49:23,534 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 16:49:23,534 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 16:49:23,540 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 16:49:23,540 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 16:49:27,814 - INFO - Generating teacher outputs for validation data...
+2024-10-30 16:49:27,827 - INFO - Processed 0 validation examples.
+2024-10-30 16:49:29,505 - INFO - Starting model training...
+2024-10-30 16:50:21,315 - INFO - Model saved to './student_model'.
+2024-10-30 16:50:21,318 - INFO - Evaluation on student model started.
+2024-10-30 16:50:22,981 - INFO - Evaluation completed.
+2024-10-30 16:50:22,997 - INFO - Training complete. Report saved to ../output_report/20241030_1649-training_report.txt
+2024-10-30 16:59:12,847 - INFO - Starting script...
+2024-10-30 16:59:12,858 - INFO - Loaded hyperparameters from config file.
+2024-10-30 16:59:12,878 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 16:59:12,878 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 16:59:12,884 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 16:59:12,884 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 16:59:16,768 - INFO - Generating teacher outputs for validation data...
+2024-10-30 16:59:16,779 - INFO - Processed 0 validation examples.
+2024-10-30 16:59:18,419 - INFO - Starting model training...
+2024-10-30 17:00:48,433 - INFO - Starting script...
+2024-10-30 17:00:48,444 - INFO - Loaded hyperparameters from config file.
+2024-10-30 17:00:48,464 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 17:00:48,464 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 17:00:48,469 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 17:00:48,469 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 17:00:52,332 - INFO - Generating teacher outputs for validation data...
+2024-10-30 17:00:52,348 - INFO - Processed 0 validation examples.
+2024-10-30 17:00:53,962 - INFO - Starting model training...
+2024-10-30 17:01:45,998 - INFO - Model saved to './student_model'.
+2024-10-30 17:01:46,002 - INFO - Evaluation on student model started.
+2024-10-30 17:01:47,671 - INFO - Evaluation completed.
+2024-10-30 17:01:47,686 - INFO - Training complete. Report saved to ../output_report/20241030_1700-training_report.txt
+2024-10-30 17:03:10,523 - INFO - Starting script...
+2024-10-30 17:03:10,533 - INFO - Loaded hyperparameters from config file.
+2024-10-30 17:03:10,553 - INFO - Loaded training dataset with 97467 examples.
+2024-10-30 17:03:10,553 - INFO - Loaded validation dataset with 254 examples.
+2024-10-30 17:03:10,558 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-10-30 17:03:10,558 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-10-30 17:03:14,238 - INFO - Generating teacher outputs for validation data...
+2024-10-30 17:03:14,256 - INFO - Processed 0 validation examples.
+2024-10-30 17:03:15,939 - INFO - Starting model training...
+2024-10-30 17:04:09,175 - INFO - Model saved to './student_model'.
+2024-10-30 17:04:09,180 - INFO - Evaluation on student model started.
+2024-10-30 17:04:10,936 - INFO - Evaluation completed.
+2024-10-30 17:04:10,951 - INFO - Training complete. Report saved to ../output_report/20241030_1703-training_report.txt
+2024-11-11 21:17:41,703 - INFO - Starting script...
+2024-11-11 21:17:41,729 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:17:41,750 - INFO - Loaded datasets for aqua.
+2024-11-11 21:24:59,186 - INFO - Starting script...
+2024-11-11 21:24:59,199 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:25:12,517 - INFO - Loaded datasets for aqua.
+2024-11-11 21:27:18,293 - INFO - Starting script...
+2024-11-11 21:27:18,303 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:28:05,283 - INFO - Starting script...
+2024-11-11 21:28:05,295 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:28:05,320 - INFO - Loaded datasets for aqua.
+2024-11-11 21:28:05,324 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-11-11 21:28:05,324 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 21:28:09,452 - INFO - Starting model training...
+2024-11-11 21:29:04,877 - INFO - Model saved to './aqua_student_model'.
+2024-11-11 21:29:04,886 - INFO - Evaluation on student model started.
+2024-11-11 21:33:39,513 - INFO - Starting script...
+2024-11-11 21:33:39,528 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:33:39,549 - INFO - Loaded datasets for aqua.
+2024-11-11 21:33:39,551 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-11-11 21:33:39,551 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 21:36:17,063 - INFO - Starting script...
+2024-11-11 21:36:17,071 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:36:17,074 - INFO - Loaded datasets for aqua.
+2024-11-11 21:36:17,076 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-11-11 21:36:17,076 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 21:36:21,061 - INFO - Starting model training...
+2024-11-11 21:37:13,832 - INFO - Model saved to './aqua_student_model'.
+2024-11-11 21:37:13,833 - INFO - Evaluation on student model started.
+2024-11-11 21:37:15,729 - INFO - Evaluation completed.
+2024-11-11 21:41:30,664 - INFO - Starting script...
+2024-11-11 21:41:30,675 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:41:30,679 - INFO - Loaded datasets for aqua.
+2024-11-11 21:41:30,680 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-11-11 21:41:30,680 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 21:41:34,553 - INFO - Starting model training...
+2024-11-11 21:42:03,431 - INFO - Starting script...
+2024-11-11 21:42:03,444 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:42:03,448 - INFO - Loaded datasets for aqua.
+2024-11-11 21:42:03,449 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-11-11 21:42:03,449 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 21:42:07,118 - INFO - Starting model training...
+2024-11-11 21:43:01,175 - INFO - Model saved to './aqua_student_model'.
+2024-11-11 21:43:01,176 - INFO - Evaluation on student model started.
+2024-11-11 21:43:03,203 - INFO - Evaluation completed.
+2024-11-11 21:43:03,223 - INFO - Training complete. Report saved to ../output_report/20241111_2142-training_report.txt
+2024-11-11 21:44:45,262 - INFO - Starting script...
+2024-11-11 21:48:27,966 - INFO - Starting script...
+2024-11-11 21:48:27,977 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:48:27,981 - INFO - Loaded datasets for aqua.
+2024-11-11 21:48:27,982 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-11-11 21:48:27,982 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 21:49:25,373 - INFO - Starting script...
+2024-11-11 21:49:25,382 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:50:18,478 - INFO - Starting script...
+2024-11-11 21:50:18,486 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:50:46,552 - INFO - Starting script...
+2024-11-11 21:50:46,561 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:51:12,486 - INFO - Starting script...
+2024-11-11 21:51:12,496 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:54:28,023 - INFO - Starting script...
+2024-11-11 21:54:28,033 - INFO - Loaded hyperparameters from config file.
+2024-11-11 21:56:41,444 - INFO - Starting script...
+2024-11-11 21:56:41,453 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:07:11,983 - INFO - Starting script...
+2024-11-11 22:07:11,996 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:07:27,600 - INFO - Starting script...
+2024-11-11 22:07:27,610 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:07:37,694 - INFO - Starting script...
+2024-11-11 22:07:37,703 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:08:29,534 - INFO - Starting script...
+2024-11-11 22:08:29,542 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:13:20,111 - INFO - Starting script...
+2024-11-11 22:13:51,112 - INFO - Starting script...
+2024-11-11 22:14:06,608 - INFO - Starting script...
+2024-11-11 22:14:06,618 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:16:08,362 - INFO - Starting script...
+2024-11-11 22:16:08,373 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:22:19,944 - INFO - Starting script...
+2024-11-11 22:22:19,955 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:23:00,686 - INFO - Starting script...
+2024-11-11 22:23:00,696 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:28:30,204 - INFO - Starting script...
+2024-11-11 22:28:30,214 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:28:32,263 - INFO - Loaded datasets for phrasebank.
+2024-11-11 22:33:09,475 - INFO - Starting script...
+2024-11-11 22:33:09,486 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:33:09,752 - INFO - Loaded datasets for phrasebank.
+2024-11-11 22:33:27,115 - INFO - Starting script...
+2024-11-11 22:33:27,125 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:33:29,666 - INFO - Loaded datasets for phrasebank.
+2024-11-11 22:33:29,667 - INFO - Using 5 training examples after applying data_portion=0.0005.
+2024-11-11 22:33:29,667 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 22:33:33,966 - INFO - Starting model training...
+2024-11-11 22:33:53,588 - INFO - Model saved to './phrasebank_student_model'.
+2024-11-11 22:33:53,591 - INFO - Evaluation on student model started.
+2024-11-11 22:34:13,124 - INFO - Evaluation completed.
+2024-11-11 22:34:13,136 - INFO - Training complete. Report saved to ../output_report/20241111_2233-training_report.txt
+2024-11-11 22:42:15,748 - INFO - Starting script...
+2024-11-11 22:42:15,759 - INFO - Loaded hyperparameters from config file.
+2024-11-11 22:42:15,774 - INFO - Loaded datasets for phrasebank.
+2024-11-11 22:42:15,775 - INFO - Using 5 training examples after applying data_portion=0.0005.
+2024-11-11 22:42:15,776 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 23:03:31,431 - INFO - Starting script...
+2024-11-11 23:03:31,442 - INFO - Loaded hyperparameters from config file.
+2024-11-11 23:03:31,464 - INFO - Loaded datasets for aqua.
+2024-11-11 23:03:31,466 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-11-11 23:03:31,466 - INFO - Using 10 validation examples after applying data_portion=0.0005.
+2024-11-11 23:03:35,417 - INFO - Starting model training...
+2024-11-11 23:04:27,588 - INFO - Model saved to './aqua_student_model'.
+2024-11-11 23:04:27,588 - INFO - Evaluation on student model started.
+2024-11-11 23:04:29,469 - INFO - Evaluation completed.
+2024-11-11 23:04:29,489 - INFO - Training complete. Report saved to ../output_report/20241111_2303-training_report.txt
+2024-11-11 23:09:09,958 - INFO - Starting script...
+2024-11-11 23:09:09,968 - INFO - Loaded hyperparameters from config file.
+2024-11-11 23:09:09,971 - INFO - Loaded training dataset with 97467 examples.
+2024-11-11 23:09:09,971 - INFO - Loaded validation dataset with 254 examples.
+2024-11-11 23:09:09,990 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-11-11 23:09:09,990 - INFO - Using 200 validation examples after applying data_portion=0.0005.
+2024-11-11 23:09:57,846 - INFO - Starting script...
+2024-11-11 23:09:57,856 - INFO - Loaded hyperparameters from config file.
+2024-11-11 23:10:09,421 - INFO - Loaded training dataset with 97467 examples.
+2024-11-11 23:10:09,421 - INFO - Loaded validation dataset with 254 examples.
+2024-11-11 23:10:09,433 - INFO - Using 48 training examples after applying data_portion=0.0005.
+2024-11-11 23:10:09,433 - INFO - Using 200 validation examples after applying data_portion=0.0005.
+2024-11-11 23:10:12,163 - INFO - Generating teacher outputs for validation data...
+2024-11-11 23:10:12,164 - INFO - Processed 0 validation examples.
+2024-11-11 23:10:23,966 - INFO - Processed 100 validation examples.
+2024-11-11 23:10:37,214 - INFO - Starting model training...
+2024-11-11 23:11:31,105 - INFO - Model saved to './student_model'.
+2024-11-11 23:11:31,110 - INFO - Evaluation on student model started.
+2024-11-11 23:11:59,725 - INFO - Evaluation completed.
+2024-11-11 23:11:59,769 - INFO - Training complete. Report saved to ../output_report/20241111_2309-training_report.txt
