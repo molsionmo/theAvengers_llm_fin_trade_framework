@@ -143,7 +143,6 @@ def main():
         'temperature': 2.0,
         'per_device_train_batch_size': 32,  # Larger batch size for better GPU utilization
         'gradient_accumulation_steps': 1,   # No accumulation needed with larger batch
-        'fp16': True,  # Enable mixed precision for faster training
         'dataloader_num_workers': 4,  # Parallel data loading
     }
     hyperparams.update(best_hyperparams)
@@ -343,7 +342,7 @@ def main():
         per_device_train_batch_size=hyperparams['per_device_train_batch_size'],
         per_device_eval_batch_size=hyperparams['per_device_eval_batch_size'],
         learning_rate=hyperparams['learning_rate'],
-        evaluation_strategy=hyperparams['evaluation_strategy'],
+        eval_strategy=hyperparams['evaluation_strategy'],
         eval_steps=hyperparams['eval_steps'],
         save_strategy=hyperparams['save_strategy'],
         save_steps=hyperparams['save_steps'],

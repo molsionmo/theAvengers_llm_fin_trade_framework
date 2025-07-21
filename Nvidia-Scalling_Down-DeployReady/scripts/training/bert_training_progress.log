@@ -1109,3 +1109,141 @@
 2025-07-21 03:20:13,331 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp355tn9by/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmp355tn9by/a.out
 2025-07-21 03:20:13,428 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpbak1thsr/test.c -o /tmp/tmpbak1thsr/test.o
 2025-07-21 03:20:13,457 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpbak1thsr/test.o -laio -o /tmp/tmpbak1thsr/a.out
+2025-07-21 05:40:35,193 - INFO - Starting script...
+2025-07-21 05:40:35,197 - INFO - Loaded hyperparameters from config file.
+2025-07-21 05:40:52,393 - INFO - Loaded datasets for phrasebank.
+2025-07-21 05:40:52,393 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 05:40:52,393 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 05:41:22,941 - INFO - Loaded 3 teacher models.
+2025-07-21 05:41:22,968 - INFO - Starting model training...
+2025-07-21 05:41:23,806 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmphwqy4_tk/test.c -o /tmp/tmphwqy4_tk/test.o
+2025-07-21 05:41:23,826 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmphwqy4_tk/test.o -laio -o /tmp/tmphwqy4_tk/a.out
+2025-07-21 05:51:55,674 - INFO - Starting script...
+2025-07-21 05:51:55,677 - INFO - Loaded hyperparameters from config file.
+2025-07-21 05:51:55,775 - INFO - Loaded datasets for phrasebank.
+2025-07-21 05:51:55,775 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 05:51:55,775 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 05:51:58,940 - INFO - Loaded 3 teacher models.
+2025-07-21 05:51:58,954 - INFO - Starting model training...
+2025-07-21 05:51:59,429 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpa97s9h_9/test.c -o /tmp/tmpa97s9h_9/test.o
+2025-07-21 05:51:59,460 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpa97s9h_9/test.o -laio -o /tmp/tmpa97s9h_9/a.out
+2025-07-21 05:54:12,379 - INFO - Starting script...
+2025-07-21 05:54:12,383 - INFO - Loaded hyperparameters from config file.
+2025-07-21 05:54:12,480 - INFO - Loaded datasets for phrasebank.
+2025-07-21 05:54:12,485 - INFO - Using 31 training examples after applying data_portion=0.01.
+2025-07-21 05:54:12,485 - INFO - Using 10 validation examples after applying data_portion=0.01.
+2025-07-21 05:54:31,891 - INFO - Starting script...
+2025-07-21 05:54:31,894 - INFO - Loaded hyperparameters from config file.
+2025-07-21 05:54:31,992 - INFO - Loaded datasets for phrasebank.
+2025-07-21 05:54:31,997 - INFO - Using 31 training examples after applying data_portion=0.01.
+2025-07-21 05:54:31,997 - INFO - Using 10 validation examples after applying data_portion=0.01.
+2025-07-21 05:54:44,614 - INFO - Starting script...
+2025-07-21 05:54:44,617 - INFO - Loaded hyperparameters from config file.
+2025-07-21 05:54:44,712 - INFO - Loaded datasets for phrasebank.
+2025-07-21 05:54:44,716 - INFO - Using 31 training examples after applying data_portion=0.01.
+2025-07-21 05:54:44,716 - INFO - Using 10 validation examples after applying data_portion=0.01.
+2025-07-21 06:02:32,491 - INFO - Starting script...
+2025-07-21 06:02:32,521 - INFO - Loaded hyperparameters from config file.
+2025-07-21 06:02:32,630 - INFO - Loaded datasets for phrasebank.
+2025-07-21 06:02:32,631 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 06:02:32,631 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 06:02:39,944 - INFO - Loaded 3 teacher models.
+2025-07-21 06:03:28,252 - INFO - Starting script...
+2025-07-21 06:03:28,282 - INFO - Loaded hyperparameters from config file.
+2025-07-21 06:03:28,377 - INFO - Loaded datasets for phrasebank.
+2025-07-21 06:03:28,377 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 06:03:28,377 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 06:03:35,645 - INFO - Loaded 3 teacher models.
+2025-07-21 06:06:40,041 - INFO - Starting script...
+2025-07-21 06:06:40,078 - INFO - Loaded hyperparameters from config file.
+2025-07-21 06:06:40,200 - INFO - Loaded datasets for phrasebank.
+2025-07-21 06:06:40,200 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 06:06:40,200 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 06:06:44,502 - INFO - Loaded 3 teacher models.
+2025-07-21 06:06:44,545 - INFO - Starting model training...
+2025-07-21 06:06:45,832 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp_tv3atb7/test.c -o /tmp/tmp_tv3atb7/test.o
+2025-07-21 06:06:45,860 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp_tv3atb7/test.o -laio -o /tmp/tmp_tv3atb7/a.out
+2025-07-21 06:06:46,429 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp4q6geg2l/test.c -o /tmp/tmp4q6geg2l/test.o
+2025-07-21 06:06:46,462 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp4q6geg2l/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmp4q6geg2l/a.out
+2025-07-21 06:06:46,523 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpaq0bqfhr/test.c -o /tmp/tmpaq0bqfhr/test.o
+2025-07-21 06:06:46,544 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpaq0bqfhr/test.o -laio -o /tmp/tmpaq0bqfhr/a.out
+2025-07-21 06:16:25,669 - INFO - Model saved to './phrasebank_student_model'.
+2025-07-21 06:16:25,669 - INFO - Evaluation on student and teacher models started.
+2025-07-21 06:17:28,864 - INFO - Starting script...
+2025-07-21 06:17:28,899 - INFO - Loaded hyperparameters from config file.
+2025-07-21 06:17:29,006 - INFO - Loaded datasets for phrasebank.
+2025-07-21 06:17:29,006 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 06:17:29,006 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 06:17:33,183 - INFO - Loaded 3 teacher models.
+2025-07-21 06:22:38,559 - INFO - Starting script...
+2025-07-21 06:22:38,588 - INFO - Loaded hyperparameters from config file.
+2025-07-21 06:22:38,685 - INFO - Loaded datasets for phrasebank.
+2025-07-21 06:22:38,685 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 06:22:38,685 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 06:22:42,704 - INFO - Loaded 3 teacher models.
+2025-07-21 06:22:42,750 - INFO - Starting model training...
+2025-07-21 06:22:43,748 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmptt7kdr_7/test.c -o /tmp/tmptt7kdr_7/test.o
+2025-07-21 06:22:43,773 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmptt7kdr_7/test.o -laio -o /tmp/tmptt7kdr_7/a.out
+2025-07-21 06:22:44,229 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp00c__lex/test.c -o /tmp/tmp00c__lex/test.o
+2025-07-21 06:22:44,252 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp00c__lex/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmp00c__lex/a.out
+2025-07-21 06:22:44,312 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpxvldpsiu/test.c -o /tmp/tmpxvldpsiu/test.o
+2025-07-21 06:22:44,335 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpxvldpsiu/test.o -laio -o /tmp/tmpxvldpsiu/a.out
+2025-07-21 06:24:22,960 - INFO - Starting script...
+2025-07-21 06:24:22,989 - INFO - Loaded hyperparameters from config file.
+2025-07-21 06:24:23,085 - INFO - Loaded datasets for phrasebank.
+2025-07-21 06:24:23,086 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 06:24:23,086 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 06:24:27,683 - INFO - Loaded 3 teacher models.
+2025-07-21 06:24:27,727 - INFO - Starting model training...
+2025-07-21 06:24:28,766 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmps4v_8nxx/test.c -o /tmp/tmps4v_8nxx/test.o
+2025-07-21 06:24:28,796 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmps4v_8nxx/test.o -laio -o /tmp/tmps4v_8nxx/a.out
+2025-07-21 06:24:29,295 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpv4s_ujh6/test.c -o /tmp/tmpv4s_ujh6/test.o
+2025-07-21 06:24:29,322 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpv4s_ujh6/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmpv4s_ujh6/a.out
+2025-07-21 06:24:29,383 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp7580n3qi/test.c -o /tmp/tmp7580n3qi/test.o
+2025-07-21 06:24:29,404 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp7580n3qi/test.o -laio -o /tmp/tmp7580n3qi/a.out
+2025-07-21 06:27:44,537 - INFO - Starting script...
+2025-07-21 06:27:44,566 - INFO - Loaded hyperparameters from config file.
+2025-07-21 06:27:44,669 - INFO - Loaded datasets for phrasebank.
+2025-07-21 06:27:44,669 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 06:27:44,669 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 06:27:48,688 - INFO - Loaded 3 teacher models.
+2025-07-21 06:27:48,736 - INFO - Starting model training...
+2025-07-21 06:27:49,609 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp866oydgi/test.c -o /tmp/tmp866oydgi/test.o
+2025-07-21 06:27:49,639 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp866oydgi/test.o -laio -o /tmp/tmp866oydgi/a.out
+2025-07-21 06:27:50,083 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpa0bgsp62/test.c -o /tmp/tmpa0bgsp62/test.o
+2025-07-21 06:27:50,109 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpa0bgsp62/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmpa0bgsp62/a.out
+2025-07-21 06:27:50,173 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpofqw75hr/test.c -o /tmp/tmpofqw75hr/test.o
+2025-07-21 06:27:50,202 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpofqw75hr/test.o -laio -o /tmp/tmpofqw75hr/a.out
+2025-07-21 06:30:30,388 - INFO - Model saved to './phrasebank_student_model'.
+2025-07-21 06:30:30,388 - INFO - Evaluation on student and teacher models started.
+2025-07-21 06:31:04,045 - INFO - Evaluation completed.
+2025-07-21 06:34:15,698 - INFO - Starting script...
+2025-07-21 06:34:15,728 - INFO - Loaded hyperparameters from config file.
+2025-07-21 06:34:15,824 - INFO - Loaded datasets for phrasebank.
+2025-07-21 06:34:15,824 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 06:34:15,824 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 06:34:19,933 - INFO - Loaded 3 teacher models.
+2025-07-21 06:34:19,981 - INFO - Starting model training...
+2025-07-21 06:34:20,876 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmps3_l8ua5/test.c -o /tmp/tmps3_l8ua5/test.o
+2025-07-21 06:34:20,905 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmps3_l8ua5/test.o -laio -o /tmp/tmps3_l8ua5/a.out
+2025-07-21 06:34:21,364 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp7e0s2ybd/test.c -o /tmp/tmp7e0s2ybd/test.o
+2025-07-21 06:34:21,392 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp7e0s2ybd/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmp7e0s2ybd/a.out
+2025-07-21 06:34:21,455 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpe90wzf53/test.c -o /tmp/tmpe90wzf53/test.o
+2025-07-21 06:34:21,480 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpe90wzf53/test.o -laio -o /tmp/tmpe90wzf53/a.out
+2025-07-21 06:36:54,250 - INFO - Model saved to './phrasebank_student_model'.
+2025-07-21 06:36:54,251 - INFO - Evaluation on student and teacher models started.
+2025-07-21 06:37:23,806 - INFO - Evaluation completed.
+2025-07-21 06:37:23,826 - INFO - Training complete. Report saved to ../output_report/20250721_0634-training_report.txt
+2025-07-21 09:35:09,384 - INFO - Starting script...
+2025-07-21 09:35:09,413 - INFO - Loaded hyperparameters from config file.
+2025-07-21 09:35:09,513 - INFO - Loaded datasets for phrasebank.
+2025-07-21 09:35:09,513 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 09:35:09,513 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 09:35:14,035 - INFO - Loaded 3 teacher models.
+2025-07-21 09:35:14,082 - INFO - Starting model training...
+2025-07-21 09:35:15,098 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp48p7ee1e/test.c -o /tmp/tmp48p7ee1e/test.o
+2025-07-21 09:35:15,129 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp48p7ee1e/test.o -laio -o /tmp/tmp48p7ee1e/a.out
+2025-07-21 09:35:15,588 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp8edlwr08/test.c -o /tmp/tmp8edlwr08/test.o
+2025-07-21 09:35:15,612 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp8edlwr08/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmp8edlwr08/a.out
+2025-07-21 09:35:15,669 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmprojcyk7g/test.c -o /tmp/tmprojcyk7g/test.o
+2025-07-21 09:35:15,690 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmprojcyk7g/test.o -laio -o /tmp/tmprojcyk7g/a.out

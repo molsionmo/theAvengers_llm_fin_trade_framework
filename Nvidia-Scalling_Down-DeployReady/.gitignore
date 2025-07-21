@@ -7,3 +7,5 @@
 *.pth
 *.safetensors
 events.*
+checkpoints
+phrasebank_student_model/
