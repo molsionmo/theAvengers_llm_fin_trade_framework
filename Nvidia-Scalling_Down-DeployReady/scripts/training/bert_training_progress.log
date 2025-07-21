@@ -951,3 +951,161 @@
 2025-07-20 20:10:41,897 - INFO - Model saved to './phrasebank_student_model'.
 2025-07-20 20:10:41,959 - INFO - Evaluation on student and teacher models started.
 2025-07-20 20:13:18,704 - INFO - Evaluation completed.
+2025-07-21 01:58:10,532 - INFO - Starting script...
+2025-07-21 01:58:10,536 - INFO - Loaded hyperparameters from config file.
+2025-07-21 01:58:38,665 - INFO - Loaded datasets for phrasebank.
+2025-07-21 01:58:38,665 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 01:58:38,665 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 02:02:00,676 - INFO - Loaded 3 teacher models.
+2025-07-21 02:02:00,689 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 02:02:00,707 - INFO - Starting model training...
+2025-07-21 02:21:49,710 - INFO - Starting script...
+2025-07-21 02:21:49,715 - INFO - Loaded hyperparameters from config file.
+2025-07-21 02:21:49,824 - INFO - Loaded datasets for phrasebank.
+2025-07-21 02:21:49,824 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 02:21:49,824 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 02:21:55,517 - INFO - Loaded 3 teacher models.
+2025-07-21 02:21:55,525 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 02:21:55,536 - INFO - Starting model training...
+2025-07-21 02:21:56,130 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp0f_i55pc/test.c -o /tmp/tmp0f_i55pc/test.o
+2025-07-21 02:21:56,159 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp0f_i55pc/test.o -laio -o /tmp/tmp0f_i55pc/a.out
+2025-07-21 02:22:50,721 - INFO - Starting script...
+2025-07-21 02:22:50,725 - INFO - Loaded hyperparameters from config file.
+2025-07-21 02:22:50,836 - INFO - Loaded datasets for phrasebank.
+2025-07-21 02:22:50,837 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 02:22:50,837 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 02:22:56,532 - INFO - Loaded 3 teacher models.
+2025-07-21 02:22:56,540 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 02:22:56,555 - INFO - Starting model training...
+2025-07-21 02:22:57,149 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmps0glmj5j/test.c -o /tmp/tmps0glmj5j/test.o
+2025-07-21 02:22:57,173 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmps0glmj5j/test.o -laio -o /tmp/tmps0glmj5j/a.out
+2025-07-21 02:26:11,398 - INFO - Starting script...
+2025-07-21 02:26:11,402 - INFO - Loaded hyperparameters from config file.
+2025-07-21 02:26:11,508 - INFO - Loaded datasets for phrasebank.
+2025-07-21 02:26:11,508 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 02:26:11,508 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 02:26:17,119 - INFO - Loaded 3 teacher models.
+2025-07-21 02:26:17,127 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 02:26:17,137 - INFO - Starting model training...
+2025-07-21 02:26:17,675 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmph5azy7l1/test.c -o /tmp/tmph5azy7l1/test.o
+2025-07-21 02:26:17,702 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmph5azy7l1/test.o -laio -o /tmp/tmph5azy7l1/a.out
+2025-07-21 02:41:07,601 - INFO - Starting script...
+2025-07-21 02:41:07,838 - INFO - Loaded hyperparameters from config file.
+2025-07-21 02:41:07,946 - INFO - Loaded datasets for phrasebank.
+2025-07-21 02:41:07,947 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 02:41:07,947 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 02:41:14,772 - INFO - Loaded 3 teacher models.
+2025-07-21 02:41:14,839 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 02:41:14,852 - INFO - Starting model training...
+2025-07-21 02:41:16,560 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpvy0a6i0a/test.c -o /tmp/tmpvy0a6i0a/test.o
+2025-07-21 02:41:16,590 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpvy0a6i0a/test.o -laio -o /tmp/tmpvy0a6i0a/a.out
+2025-07-21 02:41:17,202 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmppfzfu4lq/test.c -o /tmp/tmppfzfu4lq/test.o
+2025-07-21 02:41:17,231 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmppfzfu4lq/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmppfzfu4lq/a.out
+2025-07-21 02:41:17,328 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpebffd4a_/test.c -o /tmp/tmpebffd4a_/test.o
+2025-07-21 02:41:17,355 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpebffd4a_/test.o -laio -o /tmp/tmpebffd4a_/a.out
+2025-07-21 02:45:47,992 - INFO - Starting script...
+2025-07-21 02:45:48,222 - INFO - Loaded hyperparameters from config file.
+2025-07-21 02:45:48,319 - INFO - Loaded datasets for phrasebank.
+2025-07-21 02:45:48,320 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 02:45:48,320 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 02:45:54,677 - INFO - Loaded 3 teacher models.
+2025-07-21 02:45:54,748 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 02:45:54,763 - INFO - Starting model training...
+2025-07-21 02:45:56,073 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpct4be_dj/test.c -o /tmp/tmpct4be_dj/test.o
+2025-07-21 02:45:56,100 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpct4be_dj/test.o -laio -o /tmp/tmpct4be_dj/a.out
+2025-07-21 02:45:56,723 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp7jldo5ej/test.c -o /tmp/tmp7jldo5ej/test.o
+2025-07-21 02:45:56,754 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp7jldo5ej/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmp7jldo5ej/a.out
+2025-07-21 02:45:56,851 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpddmsb7du/test.c -o /tmp/tmpddmsb7du/test.o
+2025-07-21 02:45:56,879 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpddmsb7du/test.o -laio -o /tmp/tmpddmsb7du/a.out
+2025-07-21 02:49:16,743 - INFO - Starting script...
+2025-07-21 02:49:16,974 - INFO - Loaded hyperparameters from config file.
+2025-07-21 02:49:17,071 - INFO - Loaded datasets for phrasebank.
+2025-07-21 02:49:17,077 - INFO - Using 31 training examples after applying data_portion=0.01.
+2025-07-21 02:49:17,077 - INFO - Using 10 validation examples after applying data_portion=0.01.
+2025-07-21 02:49:23,702 - INFO - Loaded 3 teacher models.
+2025-07-21 02:49:23,771 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 02:50:01,482 - INFO - Starting script...
+2025-07-21 02:50:01,713 - INFO - Loaded hyperparameters from config file.
+2025-07-21 02:50:01,811 - INFO - Loaded datasets for phrasebank.
+2025-07-21 02:50:01,817 - INFO - Using 31 training examples after applying data_portion=0.01.
+2025-07-21 02:50:01,817 - INFO - Using 10 validation examples after applying data_portion=0.01.
+2025-07-21 02:50:08,016 - INFO - Loaded 3 teacher models.
+2025-07-21 02:50:08,081 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 02:50:08,095 - INFO - Starting model training...
+2025-07-21 02:50:09,388 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpz7vf7fv0/test.c -o /tmp/tmpz7vf7fv0/test.o
+2025-07-21 02:50:09,418 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpz7vf7fv0/test.o -laio -o /tmp/tmpz7vf7fv0/a.out
+2025-07-21 02:50:10,011 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmppzqee2xm/test.c -o /tmp/tmppzqee2xm/test.o
+2025-07-21 02:50:10,042 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmppzqee2xm/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmppzqee2xm/a.out
+2025-07-21 02:50:10,138 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpvtc16c04/test.c -o /tmp/tmpvtc16c04/test.o
+2025-07-21 02:50:10,165 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpvtc16c04/test.o -laio -o /tmp/tmpvtc16c04/a.out
+2025-07-21 02:51:31,717 - INFO - Starting script...
+2025-07-21 02:51:31,952 - INFO - Loaded hyperparameters from config file.
+2025-07-21 02:51:32,049 - INFO - Loaded datasets for phrasebank.
+2025-07-21 02:51:32,049 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 02:51:32,049 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 02:51:38,477 - INFO - Loaded 3 teacher models.
+2025-07-21 02:51:38,538 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 02:51:38,552 - INFO - Starting model training...
+2025-07-21 02:51:39,863 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpty1t8er5/test.c -o /tmp/tmpty1t8er5/test.o
+2025-07-21 02:51:39,891 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpty1t8er5/test.o -laio -o /tmp/tmpty1t8er5/a.out
+2025-07-21 02:51:40,495 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp729oxrig/test.c -o /tmp/tmp729oxrig/test.o
+2025-07-21 02:51:40,524 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp729oxrig/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmp729oxrig/a.out
+2025-07-21 02:51:40,620 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpl5rt5unk/test.c -o /tmp/tmpl5rt5unk/test.o
+2025-07-21 02:51:40,650 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpl5rt5unk/test.o -laio -o /tmp/tmpl5rt5unk/a.out
+2025-07-21 02:52:50,050 - INFO - Starting script...
+2025-07-21 02:54:14,526 - INFO - Starting script...
+2025-07-21 02:54:14,753 - INFO - Loaded hyperparameters from config file.
+2025-07-21 02:54:14,845 - INFO - Loaded datasets for phrasebank.
+2025-07-21 02:54:14,846 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 02:54:14,846 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 02:54:21,837 - INFO - Loaded 3 teacher models.
+2025-07-21 02:54:21,908 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 02:54:21,924 - INFO - Starting model training...
+2025-07-21 02:54:23,261 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp3rpkwodh/test.c -o /tmp/tmp3rpkwodh/test.o
+2025-07-21 02:54:23,283 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp3rpkwodh/test.o -laio -o /tmp/tmp3rpkwodh/a.out
+2025-07-21 02:54:23,830 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpbzsd8oxi/test.c -o /tmp/tmpbzsd8oxi/test.o
+2025-07-21 02:54:23,859 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpbzsd8oxi/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmpbzsd8oxi/a.out
+2025-07-21 02:54:23,956 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpi0g5cbfy/test.c -o /tmp/tmpi0g5cbfy/test.o
+2025-07-21 02:54:23,983 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpi0g5cbfy/test.o -laio -o /tmp/tmpi0g5cbfy/a.out
+2025-07-21 03:00:52,171 - INFO - Starting script...
+2025-07-21 03:00:52,323 - INFO - Loaded hyperparameters from config file.
+2025-07-21 03:00:52,435 - INFO - Loaded datasets for phrasebank.
+2025-07-21 03:00:52,441 - INFO - Using 310 training examples after applying data_portion=0.1.
+2025-07-21 03:00:52,441 - INFO - Using 77 validation examples after applying data_portion=0.1.
+2025-07-21 03:00:58,866 - INFO - Loaded 3 teacher models.
+2025-07-21 03:00:58,936 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 03:00:58,951 - INFO - Starting model training...
+2025-07-21 03:01:00,341 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpa4ppvhnv/test.c -o /tmp/tmpa4ppvhnv/test.o
+2025-07-21 03:01:00,371 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpa4ppvhnv/test.o -laio -o /tmp/tmpa4ppvhnv/a.out
+2025-07-21 03:01:00,969 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp6ij2y41t/test.c -o /tmp/tmp6ij2y41t/test.o
+2025-07-21 03:01:00,999 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp6ij2y41t/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmp6ij2y41t/a.out
+2025-07-21 03:01:01,093 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpkylqtpni/test.c -o /tmp/tmpkylqtpni/test.o
+2025-07-21 03:01:01,121 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpkylqtpni/test.o -laio -o /tmp/tmpkylqtpni/a.out
+2025-07-21 03:02:37,375 - INFO - Starting script...
+2025-07-21 03:02:37,523 - INFO - Loaded hyperparameters from config file.
+2025-07-21 03:02:37,618 - INFO - Loaded datasets for phrasebank.
+2025-07-21 03:02:37,618 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 03:02:37,618 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 03:02:44,027 - INFO - Loaded 3 teacher models.
+2025-07-21 03:02:44,099 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 03:02:44,114 - INFO - Starting model training...
+2025-07-21 03:02:45,531 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpe8rzjpnt/test.c -o /tmp/tmpe8rzjpnt/test.o
+2025-07-21 03:02:45,562 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpe8rzjpnt/test.o -laio -o /tmp/tmpe8rzjpnt/a.out
+2025-07-21 03:02:46,275 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpb3w_tefk/test.c -o /tmp/tmpb3w_tefk/test.o
+2025-07-21 03:02:46,306 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpb3w_tefk/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmpb3w_tefk/a.out
+2025-07-21 03:02:46,398 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp28u7vnbd/test.c -o /tmp/tmp28u7vnbd/test.o
+2025-07-21 03:02:46,425 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp28u7vnbd/test.o -laio -o /tmp/tmp28u7vnbd/a.out
+2025-07-21 03:20:03,455 - INFO - Starting script...
+2025-07-21 03:20:03,682 - INFO - Loaded hyperparameters from config file.
+2025-07-21 03:20:03,778 - INFO - Loaded datasets for phrasebank.
+2025-07-21 03:20:03,778 - INFO - Using 3100 training examples after applying data_portion=1.0.
+2025-07-21 03:20:03,779 - INFO - Using 776 validation examples after applying data_portion=1.0.
+2025-07-21 03:20:11,281 - INFO - Loaded 3 teacher models.
+2025-07-21 03:20:11,353 - WARNING - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2025-07-21 03:20:11,366 - INFO - Starting model training...
+2025-07-21 03:20:12,644 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp8q5k039y/test.c -o /tmp/tmp8q5k039y/test.o
+2025-07-21 03:20:12,675 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp8q5k039y/test.o -laio -o /tmp/tmp8q5k039y/a.out
+2025-07-21 03:20:13,302 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmp355tn9by/test.c -o /tmp/tmp355tn9by/test.o
+2025-07-21 03:20:13,331 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmp355tn9by/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmp355tn9by/a.out
+2025-07-21 03:20:13,428 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /venv/dsci566/include -fPIC -O2 -isystem /venv/dsci566/include -fPIC -c /tmp/tmpbak1thsr/test.c -o /tmp/tmpbak1thsr/test.o
+2025-07-21 03:20:13,457 - INFO - gcc -pthread -B /venv/dsci566/compiler_compat /tmp/tmpbak1thsr/test.o -laio -o /tmp/tmpbak1thsr/a.out

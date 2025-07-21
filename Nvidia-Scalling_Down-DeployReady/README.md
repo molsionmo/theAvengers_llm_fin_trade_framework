@@ -185,6 +185,219 @@ These results emphasize the potential of knowledge distillation to train compact
     python flan_training.py --dataset aquarat --data_portion 1 --output_report ../output_report
     ```
 
+---
+
+## Troubleshooting
+
+### DeepSpeed Import Error
+If you encounter the following error:
+```
+ImportError: cannot import name '_get_socket_with_port' from 'torch.distributed.elastic.agent.server.api'
+```
+
+This is a compatibility issue between DeepSpeed and PyTorch versions. The project uses PyTorch 2.4.0+ which is incompatible with DeepSpeed versions below 0.15.0.
+
+**Solution:**
+The environment files have been updated to use DeepSpeed 0.15.4, which is compatible with PyTorch 2.4.0+. If you're using an existing environment:
+
+1. Update DeepSpeed:
+   ```bash
+   pip install deepspeed==0.15.4 --upgrade
+   ```
+
+2. Or recreate the conda environment:
+   ```bash
+   conda env remove -n dsci566
+   conda env create -f config/environment-linux.yml
+   conda activate dsci566
+   ```
+
+### Alternative Solutions
+- **Downgrade PyTorch** (not recommended): `pip install torch==2.0.1 torchaudio==2.0.2`
+- **Use DeepSpeed alternatives**: Consider using native PyTorch distributed training or other optimization libraries
+
+### OpenBLAS Warning
+If you see warnings like:
+```
+OpenBLAS Warning : Detect OpenMP Loop and this application may hang. Please rebuild the library with USE_OPENMP=1 option.
+```
+
+This warning occurs when OpenBLAS detects OpenMP loops but wasn't compiled with OpenMP support. While usually not critical, it can potentially cause performance issues or hangs.
+
+**Solutions (choose one):**
+
+1. **Set environment variable** (Quick fix):
+   ```bash
+   export OPENBLAS_NUM_THREADS=1
+   export OMP_NUM_THREADS=1
+   ```
+
+2. **Install Intel MKL version of NumPy/SciPy**:
+   ```bash
+   conda install numpy scipy -c intel
+   ```
+
+3. **Install OpenBLAS with OpenMP support**:
+   ```bash
+   conda install openblas -c conda-forge
+   ```
+
+4. **Add to your training script** (Programmatic fix):
+   ```python
+   import os
+   os.environ['OPENBLAS_NUM_THREADS'] = '1'
+   os.environ['OMP_NUM_THREADS'] = '1'
+   ```
+
+**Note:** Setting thread counts to 1 may reduce parallel performance but eliminates the warning and potential hanging issues.
+
+### GPU/CUDA Issues
+If you see "Using CPU" instead of GPU, this indicates CUDA is not properly configured or detected.
+
+**Quick Fix (Recommended):**
+```bash
+# Run the automated fix script
+./fix_cuda.sh
+```
+
+**Manual Fix:**
+**Check GPU availability:**
+```python
+import torch
+print(f"CUDA available: {torch.cuda.is_available()}")
+print(f"CUDA device count: {torch.cuda.device_count()}")
+if torch.cuda.is_available():
+    print(f"Current device: {torch.cuda.current_device()}")
+    print(f"Device name: {torch.cuda.get_device_name()}")
+```
+
+**Common solutions:**
+
+1. **Verify CUDA installation:**
+   ```bash
+   nvidia-smi  # Check if NVIDIA driver is installed
+   nvcc --version  # Check CUDA compiler version
+   ```
+
+2. **Install PyTorch with CUDA support:**
+   ```bash
+   # Uninstall CPU version first
+   pip uninstall torch torchvision torchaudio -y
+   
+   # Install CUDA version for CUDA 12.4+ (recommended)
+   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+   
+   # Or for CUDA 12.1
+   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+   
+   # Verify installation
+   python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}'); print(f'Device count: {torch.cuda.device_count()}')"
+   ```
+
+3. **Set CUDA device explicitly in your script:**
+   ```python
+   import torch
+   device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+   print(f"Using device: {device}")
+   model = model.to(device)
+   ```
+
+4. **Environment variables:**
+   ```bash
+   export CUDA_VISIBLE_DEVICES=0  # Use first GPU
+   export TORCH_CUDA_ARCH_LIST="8.0;8.6"  # Match your GPU architecture
+   ```
+
+**Note:** The environment files include `pytorch-cuda=12.4`, but you may need to match your system's CUDA version.
+
+### Model Initialization Warnings
+Warnings like:
+```
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint...
+You should probably TRAIN this model on a down-stream task...
+```
+
+These are **normal** and expected when using pre-trained models for new tasks. The warnings indicate that:
+- Classification layers are randomly initialized (expected for fine-tuning)
+- The model needs training on your specific dataset
+
+This is the intended behavior for transfer learning and knowledge distillation.
+
+### DataParallel AttributeError
+If you encounter an error like:
+```
+AttributeError: 'DataParallel' object has no attribute 'device'
+```
+
+This occurs when PyTorch automatically wraps your model with DataParallel for multi-GPU usage. The training script has been updated to handle this, but if you encounter issues:
+
+**Solutions:**
+1. **Disable DataParallel** (use single GPU):
+   ```bash
+   export CUDA_VISIBLE_DEVICES=0  # Use only first GPU
+   ```
+
+2. **Or set environment variable** to disable automatic DataParallel:
+   ```bash
+   export TRANSFORMERS_NO_ADVISORY_WARNINGS=1
+   ```
+
+3. **Update training script** (already fixed in current version):
+   ```python
+   # Instead of: inputs = {k: v.to(model.device) for k, v in inputs.items()}
+   # Use: 
+   device = next(model.parameters()).device
+   inputs = {k: v.to(device) for k, v in inputs.items()}
+   
+   # For loss handling with DataParallel:
+   def safe_item(tensor):
+       if tensor.numel() == 1:
+           return tensor.item()
+       else:
+           return tensor.mean().item()
+   ```
+
+### Multi-GPU Performance Issues
+If multi-GPU training is slower than single GPU:
+
+**Quick Solution - Use Single GPU:**
+```bash
+# Use the optimized single GPU script
+./train_single_gpu.sh
+```
+
+**Or manually set:**
+```bash
+export CUDA_VISIBLE_DEVICES=0  # Use only first GPU
+python bert_training.py --dataset phrasebank --data_portion 1 --output_report ../results
+```
+
+**Why Multi-GPU might be slower:**
+- Small models (like DistilBERT) don't benefit from multiple GPUs
+- Communication overhead between GPUs
+- Inefficient batch sizes
+- DataParallel adds synchronization costs
+
+**When to use Multi-GPU:**
+- Large models (>1B parameters)
+- Large batch sizes (>64 per device)
+- Training large datasets
+
+### DataParallel Tensor Conversion Error
+If you see:
+```
+RuntimeError: a Tensor with 2 elements cannot be converted to Scalar
+```
+
+This happens when DataParallel returns loss tensors from multiple GPUs. The training script now handles this automatically, but if needed:
+
+```python
+# Safe conversion for multi-GPU losses
+loss_value = loss.mean().item() if loss.numel() > 1 else loss.item()
+```
+
+---
+
 [python.js]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [python-url]: https://www.python.org/
 [huggingface.js]: https://img.shields.io/badge/Hugging%20Face-FF7A00?style=for-the-badge&logo=huggingface&logoColor=white

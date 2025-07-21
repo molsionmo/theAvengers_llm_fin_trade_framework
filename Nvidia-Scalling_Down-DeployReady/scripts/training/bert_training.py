@@ -38,6 +38,17 @@ def set_seed(seed=42):
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed)
 
+def safe_tensor_to_scalar(tensor):
+    """
+    Safely convert a tensor to scalar, handling DataParallel cases.
+    DataParallel can return tensors with multiple elements (one per GPU).
+    """
+    if tensor.numel() == 1:
+        return tensor.item()
+    else:
+        # Average across multiple GPUs
+        return tensor.mean().item()
+
 def get_device():
     if torch.cuda.is_available():
         device = torch.device('cuda')
@@ -125,11 +136,15 @@ def main():
     with open(config_path, 'r') as f:
         hyperparams = yaml.safe_load(f)
 
-    # Set best hyperparams directly
+    # Set best hyperparams directly (optimized for multi-GPU)
     best_hyperparams = {
         'learning_rate': 1e-5,
         'hidden_weight': 0.3,
         'temperature': 2.0,
+        'per_device_train_batch_size': 32,  # Larger batch size for better GPU utilization
+        'gradient_accumulation_steps': 1,   # No accumulation needed with larger batch
+        'fp16': True,  # Enable mixed precision for faster training
+        'dataloader_num_workers': 4,  # Parallel data loading
     }
     hyperparams.update(best_hyperparams)
 
@@ -247,7 +262,9 @@ def main():
             self.steps = []
 
         def compute_loss(self, model, inputs, return_outputs=False):
-            inputs = {k: v.to(model.device) for k, v in inputs.items()}
+            # Get device from the first parameter instead of model.device
+            device = next(model.parameters()).device
+            inputs = {k: v.to(device) for k, v in inputs.items()}
             labels = inputs.pop("labels")
 
             student_inputs = {
@@ -300,13 +317,14 @@ def main():
                 avg_mse_loss = total_mse_loss / num_teachers
                 total_loss = student_loss + self.hidden_weight * (avg_kd_loss + avg_mse_loss)
 
+                # Handle DataParallel case where losses might be tensors with multiple elements
                 self.log({
-                    "student_loss": student_loss.detach().item(),
-                    "kd_loss": avg_kd_loss.detach().item(),
-                    "mse_loss": avg_mse_loss.detach().item()
+                    "student_loss": safe_tensor_to_scalar(student_loss.detach()),
+                    "kd_loss": safe_tensor_to_scalar(avg_kd_loss.detach()),
+                    "mse_loss": safe_tensor_to_scalar(avg_mse_loss.detach())
                 })
-                self.kd_losses.append(avg_kd_loss.detach().item())
-                self.mse_losses.append(avg_mse_loss.detach().item())
+                self.kd_losses.append(safe_tensor_to_scalar(avg_kd_loss.detach()))
+                self.mse_losses.append(safe_tensor_to_scalar(avg_mse_loss.detach()))
                 self.steps.append(self.state.global_step)
             else:
                 total_loss = outputs.loss
