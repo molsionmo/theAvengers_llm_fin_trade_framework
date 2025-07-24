@@ -1,0 +1,33 @@
+代码使用
+这些代码都是基于Tradingagents仓库使用，套用时改一下索引。
+该代码仓库放在tradingagents文档内
+
+(data_get.py)市场数据获取：
+获得指定公司指定日期范围的各项数据，包括开盘价，收盘价，最高价，最低价，成交量，涨跌幅，均价，前收盘价，52 周最高价 / 最低价，成交额， 加权平均价格。
+在alpha_vantage中获取数据，需要下载
+（终端操作：pip install pandas-datareader alpha-vantage）
+使用：在终端输入python data_get.py --ticker XX --start-date XXXX-XX-XX --end-date XXXX-XX-XX --output XX_startdate_enddate.csv (--debug)
+最后数据会保存在一个叫data的文件夹里
+
+（news_get.py）市场新闻获取：
+获得指定公司指定日期范围的新闻，由tradingagents里的googlenews_utils.py脚本获取
+使用：在终端输入python news_get.py --ticker XX --start-date XXXX-XX-XX --end-date XXXX-XX-XX
+
+（analysis.py）累计收益率计算：
+基于data_get.py获取的数据，通过tradingagents仓库的分析代码生成金融决策，获得指定公司制定日期范围的累计收益率
+使用Ollama的llama3.1:8b模型计算(大的个人电脑不好下载，也容易装不下qwq）
+决策策略较为简单，仅为空仓\满仓二选一，决定BUY、HOLD、SELL
+对比策略为买入持有策略，即在回测起始日以当日价格买入标的资产，之后一直持有至回测结束日，期间不进行任何买卖操作。
+该脚本会有一个名为eval_results的文件，用于存放tradingagents仓库的决策报告（json文件）并且生成一个png图片，直观表现收益率
+使用：先下载库langchain_ollama，即在终端输入pip install langchain_ollama
+然后运行脚本，在终端输入python analysis.py --ticker XX --start-date XXXX-XX-XX --end-date XXXX-XX-XX
+
+部署本地Ollama模型（以llama3.1为例）
+访问 Ollama 官方网站（https://ollama.ai/），下载适用于 Windows 的安装包，然后按照安装向导的提示进行安装，安装后进行以下指令
+下载模型：ollama pull llama3.1
+查看已下载模型列表：ollama list
+运行模型：ollama run llama3.1
+若出现缺失模型，则只要补齐即可
+例：运行时系统显示缺失nomic-embed-text模型，则只需在终端上输入指令
+ollama pull nomic-embed-text即可
+（基本不需要直接运行模型，使用脚本只需要拉取模型就行）
