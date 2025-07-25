@@ -1,0 +1,361 @@
+{
+  "model_path": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter_path": null,
+  "total_samples": 50,
+  "correct": 35,
+  "accuracy": 0.7,
+  "temperature": 0.0,
+  "timestamp": "20250725_082336",
+  "detailed_results": [
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Alibaba's books close early in $13.4 billion Hong Kong listing: sources\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: LIVE NOW: Press conference with #FOMC Chair Powell: https://t.co/sh1FXgYlwr and https://t.co/FJa6TbkDMt\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "The!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: CNN: Trump Is Leader Of \"Destructive Cult\"; Using \"Mind Control\" On Americans https://t.co/jT5f1YL3bP\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $BB keeps going higher on volume.\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "I!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Spotify Double Downgrade Reflects Prospect of Slower Revenue Growth https://t.co/jMJ3N4A06T\n",
+      "true_answer": "negative",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Edited Transcript of NVU.UN.TO earnings conference call or presentation 8-Nov-19 7:00pm GMT\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "{!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: A tense showdown over college vaping and its health risks is roiling Duke University https://t.co/gU0dZCoiZa\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: The IMF may launch a new program that could back up the Fed's campaign to keep dollars flowing in the global economy https://t.co/wOOa8e7wX6\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "{!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: HSBC agrees to pay $192 million to resolve U.S. tax probe https://t.co/UP1jTOYd2x via @business https://t.co/FikIgPdI06\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: What the general election could mean for the pound https://t.co/HrUdau7oNm by @OscarWGrut https://t.co/bqXrwJIoVW\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: U.S. Junk Bond Rally Will Be More Muted in 2020 After 13.5% Year\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "{!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Vehicle sales dropped by almost 2 million from only two years ago. How will car companies respond? (via @bopinion) https://t.co/6ae1OL5QkI\n",
+      "true_answer": "negative",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Saudi Healthcare Firm Is Said to Seek Up to $700 Million in IPO\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $AMTD (+1.3% pre) Charles Schwab $SCHW to buy TD Ameritrade in $26 billion all-stock deal - Reuters\n\nhttps://t.co/KGPqP2jfkW\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "User!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Stericycle to divest DES unit for $462.5M\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: National Presto Industries : Form 10-Q #NationalPrestoIndustries #Stock #MarketScreener https://t.co/BWSEG4iQzw https://t.co/f6MP9CDJmp\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $MCD - McDonald's settles class action lawsuit https://t.co/9SoYTIcr1L\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "{!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Intercontinental Exchange Q4 results in-line, data revenue +4%\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Goldman On Gold: \"Time To Buy The Currency Of Last Resort\"  https://t.co/xOgpsBr7jd\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "User!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: How Much Does Costco Spend On Selling, General And Administrative Expenses?\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: EUR/USD Daily Forecast – Euro Rally Halted at Major Resistance\n",
+      "true_answer": "negative",
+      "generated_answer": "neutral",
+      "full_response": "{!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: 2020 could be the year everything changes for people with student debt https://t.co/RzYB083X7P\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: DOJ preps legal action against Live Nation - WSJ\n",
+      "true_answer": "negative",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: This ZIP code is home to more millennial millionaires than any other: https://t.co/vPDGwzhjhm\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "{!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Goldman's Currie Sees Worst Oil Demand Shock in a Decade\n",
+      "true_answer": "negative",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: OneWater Marine IPO prices at $12, at the bottom of the expected range\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "{!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Florida’s “adult arcades” are magnets for armed robberies. Jacksonville may have figured out a way to stop the mayh… https://t.co/rXIM5eDQpl\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: I gave up my smartphone for a week and lived with a phone that only places calls — and I hated it.… https://t.co/5nB4kYMDOW\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $SPY $AMTD $SCHW $TIF $LVMUY $MDCO $NVS $UBER $TNX $USDX $WTI $NIKKEI $HSCEI $SSEC $SENSEX $FTSE $DAX $CAC #China… https://t.co/AvdYzA6U7K\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "User!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Tupperware Brands among consumer gainers; Unilever leads the losers\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "{!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Edited Transcript of GTS earnings conference call or presentation 7-Nov-19 1:30pm GMT\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "{!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Saudi Arabia and others in OPEC are working to convince oil producers there will be little space left to store thei… https://t.co/bJytfI2ytW\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Mobile TeleSystems Public Joint Stock : MTS Unveils Refreshed Strategy at Investor Day  #Stock #MarketScreener… https://t.co/gqkWCVJInX\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Science, tech investor Kairos Ventures launches second fundraise of the year, could collect up to $250m\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: \"This game came out of nowhere... Effectively they just surprise launched on everyone, and the entire gaming world… https://t.co/DfFWHDvFzO\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Recommending life insurance doesn’t have to be complicated by conflicts of interest. Here’s how financial advisors… https://t.co/KvpaP27pDo\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $LMNX - Luminex EPS beats by $0.08, beats on revenue https://t.co/hrQ2MpDLWX\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "User!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: China's State Grid Nears Oman Electricity Stake Purchase\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Nomura Instinet loses confidence in Extended Stay America\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: BTIG expects Domino's to boost buybacks\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Ten Entertainment : Treasury Sanctions Individuals for Roles in Atrocities and Other Abuses #TenEntertainment… https://t.co/O82sqX2Jdk\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: A Healthy Consumer A Positive For The Economy. Get more updates here: https://t.co/KZX0xmhIm8 #stockmarket #investing #markets\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $BIIB 😀 https://t.co/j5gwpGJVu1\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "{!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Edited Transcript of DCM.TO earnings conference call or presentation 18-Nov-19 4:00pm GMT\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "{!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $OYST: Cowen starts at Outperform\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: U.S. Is Open to Dialogue With Iran, Special Envoy Hook Says\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: This is what it's like to run a 112-kilometer trail over South Korea's tallest mountain. https://t.co/HO2nYKFTGg https://t.co/TG4O2dski8\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reason!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Amazon to create 500 new jobs in Mississippi as it builds new fulfillment center\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Bank of England activates emergency liquidity measure https://t.co/FvgTR5d5eg https://t.co/FZWcMjZddZ\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "User!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $BCRH - Blue Capital Reinsurance declares $0.57 dividend https://t.co/UflnUD1h6l\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "###!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "correct": true
+    }
+  ]
+}

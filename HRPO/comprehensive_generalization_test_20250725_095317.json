@@ -1,0 +1,31 @@
+{
+  "individual_results": [
+    {
+      "dataset": "stanfordnlp/imdb",
+      "base_accuracy": 0.53,
+      "trained_accuracy": 0.67,
+      "improvement": 0.14,
+      "base_correct": 53,
+      "trained_correct": 67,
+      "total_samples": 100
+    },
+    {
+      "dataset": "tweet_eval",
+      "base_accuracy": 0.31,
+      "trained_accuracy": 0.37,
+      "improvement": 0.06,
+      "base_correct": 62,
+      "trained_correct": 74,
+      "total_samples": 200
+    }
+  ],
+  "overall_summary": {
+    "base_accuracy": 0.38333333333333336,
+    "trained_accuracy": 0.47,
+    "improvement": 0.08666666666666661,
+    "total_base_correct": 115,
+    "total_trained_correct": 141,
+    "total_samples": 300
+  },
+  "timestamp": "2025-07-25T09:53:17.482780"
+}

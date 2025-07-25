@@ -1,0 +1,1411 @@
+{
+  "metrics": {
+    "accuracy": 0.44,
+    "correct": 88,
+    "total": 200,
+    "model_path": null,
+    "timestamp": "2025-07-25T09:00:02.754816"
+  },
+  "results": [
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Citron Research, owned by the prominent short seller Andrew Left, placed a $5 price target on $PTON  https://t.co/a5WT4knuVf\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Input: Citron Research, owned by the prominent short seller Andrew Left, placed a $5 price target on $PTON https://t.co/a5WT4knuVf\nAssistant: {negative}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Uber Loses License In London\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions that Uber has lost its license in London. This is a negative event for Uber, as it is a major city and a significant market for the company.\nTherefore, the sentiment of this tweet is {negative}.\n#### The sentiment of this tweet is {negative}.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Seattle Holds Landmark Mobile Election in Wake of Iowa Failure\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "### Reasoning process: \n1. The tweet mentions a \"Landmark Mobile Election\" in Seattle, which is a positive event.\n2. However, it also mentions \"Iowa Failure\", which is a negative event.\n3. The tweet is a news report, so it is not expressing personal opinions.\n4. The overall sentiment of the tweet is mixed, with a positive aspect and a negative aspect.\n5. However, the negative aspect is not the main focus of the tweet, and the positive aspect is more significant.\n\n{Answer: Positive}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Should You Worry About Helen of Troy Limited's (NASDAQ:HELE) CEO Pay?\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and tone of the tweet.\nThe tweet is asking whether investors should worry about the CEO pay of a company called Helen of Troy Limited. The use of the word \"should\" suggests that the author is expressing a neutral opinion, as they are not taking a stance on whether investors should worry or not.\nThe tweet does not contain any positive or negative language, and the tone is neutral. Therefore, the sentiment of this tweet is {neutral}.\n#### {neutral} #### {The sentiment of this tweet is neutral.}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: The ECB will accept junk-rated Greek government bonds as collateral as part of wide-ranging measures to ease lender\u2026 https://t.co/8Kx1J07gTl\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: \u9996\u5148\uff0c\u6211\u9700\u8981\u5206\u6790\u8fd9\u53e5\u8bdd\u7684\u542b\u4e49\u3002\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u662f\uff0c\u6b27\u6d32\u4e2d\u592e\u94f6\u884c\uff08ECB\uff09\u5c06\u63a5\u53d7\u5783\u573e\u8bc4\u7ea7\u7684\u5e0c\u814a\u653f\u5e9c\u503a\u5238\u4f5c\u4e3a\u62b5\u62bc\u54c1\uff0c\u4f5c\u4e3a\u7f13\u89e3\u8d37\u6b3e\u4eba\u7684\u4e00\u79cd\u63aa\u65bd\u3002\u8fd9\u4f3c\u4e4e\u662f\u4e00\u4e2a\u8d1f\u9762\u7684\u65b0\u95fb\uff0c\u56e0\u4e3a\u8fd9\u8868\u660e\u5e0c\u814a\u653f\u5e9c\u7684\u503a\u52a1\u95ee\u9898\u53ef\u80fd\u53d8\u5f97\u66f4\u52a0\u4e25\u91cd\u3002\u7136\u800c\uff0c\u6211\u9700\u8981\u786e\u4fdd\u6211\u7684\u5206\u6790\u662f\u51c6\u786e\u7684\uff0c\u56e0\u6b64\u6211\u9700\u8981\u67e5\u770b\u5176\u4ed6\u6765\u6e90\u4ee5\u786e\u8ba4\u6211\u7684\u7406\u89e3\u3002\n\n\u7136\u800c\uff0c\u7531\u4e8e\u6211\u662f\u4e00\u4e2aAI\u52a9\u624b\uff0c\u6211\u65e0\u6cd5\u8bbf\u95ee\u5b9e\u65f6\u7684\u65b0\u95fb\u548c\u6570\u636e\u3002\u56e0\u6b64\uff0c\u6211\u53ea\u80fd\u6839\u636e\u6211\u6240\u77e5\u9053\u7684\u4fe1\u606f\u6765\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\u3002\u6839\u636e\u6211\u6240\u77e5\uff0c\u8fd9\u53e5\u8bdd\u4f3c\u4e4e\u662f\u4e00\u4e2a\u8d1f\u9762\u7684\u65b0\u95fb\uff0c\u56e0\u4e3a\u5b83\u8868\u660e\u5e0c\u814a\u653f\u5e9c\u7684\u503a\u52a1\u95ee\u9898\u53ef\u80fd\u53d8\u5f97\u66f4\u52a0\u4e25\u91cd\u3002\u56e0\u6b64\uff0c\u6211\u5c06\u56de\u7b54 {negative}\u3002\n\n{reasoning process} \u5df2\u7ecf\u5206\u6790\u4e86\u8fd9\u53e5\u8bdd\u7684\u542b\u4e49\uff0c\u4f46\u65e0\u6cd5\u786e\u8ba4\u5176\u51c6\u786e\u7684\u542b\u4e49\u3002\u6211\u9700\u8981\u67e5\u770b\u5176\u4ed6\u6765\u6e90\u4ee5\u786e\u8ba4\u6211\u7684\u7406\u89e3\u3002",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: \"We are only scraping the surface.\" The British inventor who built his own 'Iron Man'-style suit has doubled the s\u2026 https://t.co/Kq7aD4HUEh\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet mentions a British inventor who built his own 'Iron Man'-style suit and doubled the speed.\n2. The tweet does not contain any negative or positive words or phrases.\n3. The tweet is neutral in sentiment.\n\nAnswer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Treasury Inversion Is Not About the U.S., It Is About the Whole World\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "{neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: SocGen Pledges Higher Returns After Dropping Profit Target\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions that Societe Generale (SocGen) has pledged higher returns after dropping its profit target. This implies that the company is making a positive move by increasing its returns.\nHowever, the tweet does not provide any explicit positive or negative language or tone. It is a neutral statement.\nTherefore, the sentiment of this tweet is {neutral}.\n#### {reasoning process} neutral\n#### {answer} neutral",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Amazon hits $1 trillion on blowout earnings beat what the pros are watching now $AMZN (via @TradingNation) https://t.co/RCmE2HVjcC\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "Reasoning process: 1. The tweet mentions Amazon hitting $1 trillion, which is a significant achievement for the company. 2. The tweet also mentions a \"blowout earnings beat\", which suggests that the company has exceeded expectations. 3. The tweet also mentions that the pros are watching, which implies that the company's performance is being closely monitored. 4. Overall, the tweet seems to be positive, as it highlights the company's success and the attention it is receiving. Answer: {positive}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Oil is down, gold is up. Rates are flashing warnings. But someone forgot to tell stocks https://t.co/7ymiUQWP3f\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet mentions that oil prices are down, gold prices are up, and there are warnings about rates. However, it also mentions that stocks are not affected by these changes. The overall sentiment of the tweet seems to be neutral as it does not express any strong positive or negative emotions. The tweet is simply stating the current market conditions without expressing any particular sentiment.\nAnswer: neutral",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: KT Corporation reports Q4 results\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "I don't know the sentiment of this tweet. It's a neutral statement.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Saudi crown prince, Russia's Putin discuss efforts to stabilize oil markets: SPA #economy #MarketScreener\u2026 https://t.co/STL0sP53zL\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet is about Saudi Arabia's crown prince and Russia's Putin discussing efforts to stabilize oil markets.\n2. The tweet is neutral in tone and does not express any strong positive or negative emotions.\n3. The tweet is a news report and does not contain any subjective opinions or emotions.\n4. Therefore, the sentiment of this tweet is neutral.\nAnswer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $DRIP $LABU $GASX - SOXL, LABU, JO and GUSH among weekly ETF movers https://t.co/FntrWNY9sn\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions several stock symbols: $DRIP, $LABU, $GASX, - SOXL, LABU, JO, and GUSH. It also mentions that these stocks are among the weekly ETF movers.\nThe tweet does not contain any positive or negative words or phrases. It is simply a list of stock symbols and their movements.\nTherefore, the sentiment of this tweet is {neutral}.\n#### {reasoning process} neutral #### {answer} neutral",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Louisiana-Pacific declares $0.145 dividend\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions that Louisiana-Pacific, a company, has declared a dividend of $0.145. Dividends are typically seen as a positive event for shareholders, as it means the company is paying out a portion of its profits to its shareholders.\nHowever, the tweet does not provide any additional context or information about the company's financial performance or the shareholders' reaction to the dividend. Without this information, it is difficult to determine the overall sentiment of the tweet.\nTherefore, based on the limited information provided, I would choose {neutral} as the sentiment of this tweet.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $AMZA - AMZA: Distribution Coverage Analysis And Comparison. Continue reading: https://t.co/OAZGgyt9Di #stocks #trading #markets\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions \"Distribution Coverage Analysis And Comparison\" and provides a link to read more. It also includes hashtags such as #stocks, #trading, and #markets.\nThe tweet does not contain any negative or positive words or phrases. It is simply providing information about a topic related to stocks and trading.\nTherefore, the sentiment of this tweet is neutral.\n#### Neutral",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: This 24-year-old is earning $230,000 a year\u2014here are the 3 steps he's taking to become a millionaire by 30. (via\u2026 https://t.co/xsJYYm9I8b\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process:\n1. The tweet is about a 24-year-old earning $230,000 a year.\n2. It mentions the steps he's taking to become a millionaire by 30.\n3. The tweet is not expressing any negative or positive emotions.\n4. It is providing information about someone's financial situation.\n5. There is no indication of sarc, irony, or any emotional tone.\n6. The tweet is neutral in nature.\n\nAnswer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $PXGYF - PAX Global Technology: A No-Brainer Investment. Read more: https://t.co/K0St5t9tTc #business #markets #trading\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "Reasoning process: 1. The tweet is about a stock investment, which is a neutral topic. 2. The tweet mentions a \"No-Brainer Investment\", which is a positive phrase. 3. The tweet also mentions \"Read more\", which indicates that the user is interested in learning more about the investment. 4. The tweet ends with a hashtag (#business #markets #trading), which suggests that the user is interested in the stock market. 5. Overall, the tweet seems to be positive, as it is promoting a positive investment and encouraging the user to learn more about it. Answer: {positive}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Oil Bankruptcies Are Reaching Worrying Levels\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Input: Oil Bankruptcies Are Reaching Worrying Levels\nReasoning process: \u8fd9\u6761\u63a8\u6587\u7684\u8bed\u6c14\u662f\u62c5\u5fe7\u7684\uff0c\u56e0\u4e3a\u5b83\u63d0\u5230\u4e86\"Oil Bankruptcies\"\uff08\u77f3\u6cb9\u7834\u4ea7\uff09\u6b63\u5728\u8fbe\u5230\"Worrying Levels\"\uff08\u4ee4\u4eba\u62c5\u5fe7\u7684\u6c34\u5e73\uff09\u3002\u8fd9\u8868\u660e\u4f5c\u8005\u5bf9\u77f3\u6cb9\u884c\u4e1a\u7684\u73b0\u72b6\u611f\u5230\u62c5\u5fe7\u3002\u56e0\u6b64\uff0c\u8fd9\u6761\u63a8\u6587\u7684\u60c5\u611f\u662f\u8d1f\u9762\u7684\u3002\nAnswer: Negative",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: How is a bank's GSIB score calculated https://t.co/m7AIabn6U0\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I think the sentiment of this tweet is neutral.\n#### The tweet is about the calculation of a bank's GSIB score, which is a neutral topic. The tweet does not express any positive or negative emotions, so the sentiment is neutral.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Monmouth Real Estate boosts credit facility to $300M\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions \"Monmouth Real Estate boosts credit facility to $300M\". This appears to be a news headline or announcement about a company's financial decision.\nThe use of the word \"boosts\" suggests a positive action, as it implies an increase in something.\nThe amount mentioned ($300M) is a large sum of money, which is often associated with positive news.\nGiven the context and the use of the word \"boosts\", the sentiment of this tweet is likely positive.\nTherefore, the answer is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: April gold up 0.3% at $1,567.30/oz.\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions \"April gold up 0.3% at $1,567.30/oz. \" This indicates that the price of gold has increased by 0.3% from its previous value of $1,567.30 per ounce.\nThe use of the word \"up\" suggests a positive sentiment, as it indicates an increase in value.\nThe tweet does not contain any negative or neutral language, so we can conclude that the sentiment is positive.\nTherefore, the sentiment of this tweet is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Saudi Aramco will probably soon exceed the $2 trillion valuation targeted by Crown Prince Mohammed bin Salman, acco\u2026 https://t.co/G9oJoK3nZb\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet is about the valuation of Saudi Aramco, which is a large company. 2. The tweet mentions that Saudi Aramco will probably soon exceed a $2 trillion valuation. 3. The tweet also mentions that this valuation is targeted by Crown Prince Mohammed bin Salman. 4. The tweet does not contain any negative or positive emotions. 5. Therefore, the sentiment of this tweet is neutral. Answer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $DMPI DelMar Pharmaceuticals Presents Positive Interim Data of VAL-083 Demonstrating Favorable Outcomes...\u2026 https://t.co/5WbTTriTwV\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet mentions \"Positive Interim Data of VAL-083\" which indicates a positive outcome.\n2. The tweet also mentions \"Favorable Outcomes\" which is another positive term.\n3. The tweet is from a pharmaceutical company's website, which is generally positive.\n4. There are no negative words or phrases in the tweet.\n5. The overall tone of the tweet is positive.\nAnswer: {positive}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $XLF $FAS $FAZ - Fed revives TALF to bolster ABS market https://t.co/0rRXf0aqLC\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet mentions the Federal Reserve reviving the Term Asset-Backed Securities Loan Facility (TALF) to bolster the ABS market. This is a neutral statement about the actions of the Federal Reserve. There is no indication of positive or negative sentiment in the tweet. Therefore, the sentiment of this tweet is neutral.\n\nFinal answer: neutral",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Partisan finger-pointing in Congress threatens to poison the debate when lawmakers try to find another emergency bo\u2026 https://t.co/QW0zRqu5Aj\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Partisan finger-pointing in Congress threatens to poison the debate when lawmakers try to find another emergency bo\u2026 https://t.co/QW0zRqu5Aj\n\n#### Reasoning process: \n1. The tweet discusses partisan finger-pointing in Congress, which is a negative topic.\n2. The tweet mentions that this behavior threatens to poison the debate, which is also a negative sentiment.\n3. The tweet also mentions that lawmakers are trying to find another emergency, which is a neutral topic.\n4. The overall tone of the tweet is negative, as it is criticizing the behavior of lawmakers.\n\n#### Answer: {negative}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: With EPS Growth And More, Gencor Industries (NASDAQ:GENC) Is Interesting\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and tone.\nThe tweet mentions \"EPS Growth And More, Gencor Industries (NASDAQ:GENC) Is Interesting\"\nThe key words that indicate sentiment are:\n- \"Interesting\" - This word suggests a positive sentiment.\n- \"Growth\" - This word is generally associated with positive sentiment.\n- \"More\" - This word is neutral, but in this context, it reinforces the positive sentiment.\nConsidering the positive words and the context, the overall sentiment of this tweet is positive.\nTherefore, the answer is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: The Best CEFs To Buy For 10% Yields In 2020\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "The tweet is neutral. It does not express a positive or negative sentiment.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Morgan Stanley fined $22 million for digging bond markets https://t.co/Uh3QzkQ3IB via @business https://t.co/Pe16MdWRNj\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet mentions that Morgan Stanley was fined $22 million for digging bond markets. 2. The fine amount is significant, and the action of digging bond markets is likely seen as unethical or illegal. 3. The tweet is not positive, as it is reporting on a negative event. 4. The tweet is not neutral, as it is reporting on a negative event. 5. The tweet is not negative, as it is reporting on a negative event. 6. Therefore, the sentiment of this tweet is negative. Answer: {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $ITT - ITT Inc. Executing Well, But End-Market Weakness Could Create Opportunities For Investors. Get more info on\u2026 https://t.co/K2Yz9l8Jel\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet mentions that ITT Inc. is executing well, which is a positive statement.\n2. However, it also mentions that end-market weakness could create opportunities for investors, which is a negative statement.\n3. The overall sentiment of the tweet is mixed, with both positive and negative elements.\n4. Since the tweet contains both positive and negative elements, the sentiment cannot be classified as either positive or negative.\n5. Therefore, the sentiment of this tweet is neutral.\nFinal answer: Neutral",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Centennial was designed as an anti-wildfire fortress. But ecologists say the project is more like \u201chubris\u201d in the f\u2026 https://t.co/1ajkk8CvM6\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: \ufffd\u4ece\u63a8\u6587\u5185\u5bb9\u6765\u770b\uff0c\u4f5c\u8005\u5728\u6279\u8bc4Centennial\u9879\u76ee\uff0c\u8ba4\u4e3a\u5b83\u662f\u4e00\u4e2a\u201c hubris\u201d\uff08\u81ea\u8d1f\uff09\u7684\u9879\u76ee\uff0c\u800c\u4e0d\u662f\u4e00\u4e2a\u6709\u6548\u7684\u6297\u706b\u707e\u5821\u5792\u3002\u8fd9\u8868\u660e\u4f5c\u8005\u5bf9Centennial\u9879\u76ee\u6301\u8d1f\u9762\u6001\u5ea6\u3002\u56e0\u6b64\uff0c\u63a8\u6587\u7684\u603b\u4f53\u60c5\u611f\u662f\u8d1f\u9762\u7684\u3002\nFinal answer: {negative}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Wednesday's economic calendar\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "I'm sorry, but I cannot provide an answer to this question as it is not a tweet. However, I can provide you with some information about the economic calendar. The economic calendar is a list of important economic events that occur on a specific day or week. These events include interest rate changes, inflation data, employment reports, and other economic indicators. The economic calendar is used by investors, economists, and financial professionals to plan their investments and make informed decisions.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: News Highlights : Top Energy News of the Day #WTI #Stock #MarketScreener https://t.co/1Hzd21RMHe https://t.co/JqdSCCWGK5\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\n1. The tweet is about top energy news of the Day, which is neutral in sentiment.\n2. The hashtags #WTI and #Stock are related to the Energy Industry, which is neutral in sentiment.\n3. The tweet mentions \"MarketScreener\", which is a neutral term.\n4. The tweet does not contain any positive or negative words or phrases.\n5. The tweet is a news highlight, which is neutral in sentiment.\nBased on the analysis, the sentiment of this tweet is {neutral}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: I was not pleased with the way that Navy Seal Eddie Gallagher\u2019s trial was handled by the Navy. He was treated very\u2026 https://t.co/bFwiFKQi9e\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet expresses dissatisfaction with the way a Navy Seal's trial was handled by the Navy.\n2. The use of the word \"pleased\" in the tweet indicates a negative sentiment.\n3. The tweet also mentions that the Navy Seal was treated \"very... \", which implies that the treatment was not satisfactory.\n4. The overall tone of the tweet is negative, as it expresses disappointment with the way the trial was handled.\nAnswer: {negative}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: From tech to brisket, a personal passion becomes one of the best BBQ restaurants in Colorado @Brixmor works with e\u2026 https://t.co/alI2dm5TU8\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet is about a restaurant called Brixmor, which is a positive topic.\n2. The tweet mentions that the restaurant is one of the best BBQ restaurants in Colorado, which is also a positive statement.\n3. The tweet ends with \"https://t.co/alI2dm5TU8\", which is a link to the restaurant's website, which is also a positive action.\n4. The overall tone of the tweet is positive, as it is praising the restaurant and its location.\n5. There are no negative words or phrases in the tweet.\nAnswer: Positive",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Many small businesses in the U.S. were vulnerable even before the coronavirus crisis hit, a New York Fed report sho\u2026 https://t.co/5Tx0aSTkWq\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet is about small businesses in the U.S. being vulnerable before the coronavirus crisis hit.\n2. The tweet mentions a New York Fed report showing this vulnerability.\n3. The tweet does not express any positive or negative sentiment towards the situation.\n4. The tweet is neutral in its tone and does not express any strong emotions.\n5. The tweet is not about any specific event or situation that would have a clear positive or negative sentiment.\nAnswer: {neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Axovant's AXO-AAV-GM1 an Orphan Drug in U.S. for GM1 gangliosidosis\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "### {reasoning process}\nTo determine the sentiment of the given tweet, I will analyze the content and context of the tweet. The tweet mentions that Axovant's AXO-AAV-GM1 is an orphan drug for GM1 gangliosidosis in the U.S. This information does not express any positive or negative emotions. It is a factual statement about a medical treatment for a specific condition.\n\n#### {answer} {neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Stock Market Update: TJX remains bright spot in retail space today\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "Input: Stock Market Update: TJX remains bright spot in retail space today\nReasoning process: \u8fd9\u6761\u63a8\u6587\u7684\u8bed\u6c14\u662f\u79ef\u6781\u7684\uff0c\u56e0\u4e3a\u5b83\u63d0\u5230\u4e86TJX\u662f\u96f6\u552e\u7a7a\u95f4\u4e2d\u7684\u4eae\u70b9\u3002\u8fd9\u8868\u660e\u4f5c\u8005\u5bf9TJX\u7684\u672a\u6765\u6301\u4e50\u89c2\u6001\u5ea6\u3002\u56e0\u6b64\uff0c\u8fd9\u6761\u63a8\u6587\u7684\u8bed\u6c14\u662f\u79ef\u6781\u7684\u3002\nAnswer: Positive",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: B2B software investor Osage seeks $135m for Fund V\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions \"B2B software investor Osage seeks $135m for Fund V\". This appears to be a news or announcement about a venture capital fund raising money.\nThe use of the word \"seek\" suggests that the investor is actively looking for funding, which is generally seen as a positive action.\nThe amount of money being sought ($135m) is also a positive indicator, as it suggests the investor is confident in the potential of the venture.\nConsidering the context and the language used, the sentiment of this tweet is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Surprise German Factory Order Slump Shows Worst Isn't Over\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "### Reasoning process:\n1. The tweet mentions a \"surprise German Factory Order Slump\", which is a negative event.\n2. The tweet also states that this event shows \"Worst Isn't Over\", implying that the situation is not yet resolved.\n3. The overall tone of the tweet is pessimistic and indicates that the situation is not good.\n\n### Answer: {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $DIS $SNE - Disney now sees $110M-$120M for 'Frozen II' https://t.co/I59tzaKreO\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet is about Disney's financial projections for \"Frozen II\". 2. The tweet does not contain any negative or positive sentiment. 3. The tweet is neutral. 4. The answer is {neutral}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: News Corporation (NWS): Hedge Funds Are Snapping Up\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions \"News Corporation (NWS)\" and \"Hedge Funds Are Snapping Up\". This suggests that the tweet is discussing financial news or market activity.\nHowever, the tweet does not provide any explicit information or opinion about the situation. It simply states that hedge funds are buying up News Corporation.\nGiven the lack of positive or negative sentiment in the tweet, and the neutral tone of the statement, the sentiment of this tweet is {neutral}.\n#### {reasoning process} neutral\n#### {answer} neutral",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: President Donald Trump said there is \u201ca very good chance\u201d to make a trade deal with China but that unrest in Hong K\u2026 https://t.co/iXCDD4JR1g\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "Reasoning process: \u9996\u5148\uff0c\u6211\u9700\u8981\u5206\u6790\u8fd9\u4e2a\u63a8\u6587\u7684\u5185\u5bb9\u3002\u63a8\u6587\u63d0\u5230\u7f8e\u56fd\u603b\u7edf\u5510\u7eb3\u5fb7\u00b7\u7279\u6717\u666e\u8868\u793a\u201c\u6709\u5f88\u597d\u7684\u673a\u4f1a\u201d\u4e0e\u4e2d\u56fd\u7684\u8d38\u6613\u534f\u8bae\uff0c\u4f46\u540c\u65f6\u63d0\u5230\u4e86\u9999\u6e2f\u7684 unrest\u3002\u63a8\u6587\u6ca1\u6709\u660e\u786e\u8868\u8fbe\u51fa\u79ef\u6781\u6216\u6d88\u6781\u7684\u60c5\u611f\uff0c\u53ea\u662f\u5728\u9648\u8ff0\u4e8b\u5b9e\u3002\u56e0\u6b64\uff0c\u63a8\u6587\u7684\u603b\u4f53\u60c5\u611f\u662f\u4e2d\u6027\u7684\u3002\n\n\u7b54\u6848: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Former Trump campaign deputy chairman Gates gets 45-day prison sentence\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Input: Former Trump campaign deputy chairman Gates gets 45-day prison sentence\n\nReasoning process: \u8fd9 tweet is about a former Trump campaign deputy chairman who received a 45-day prison sentence. The sentence is neutral, as it simply reports the fact without expressing any positive or negative emotions. Therefore, the sentiment of this tweet is neutral.\n\n{neutral} #### {neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: STOCKS NOW:\n- Dow up 345.10 points \n- Nasdaq up 88.49 \n- S&P up 32.25   \nHere's what's moving markets: https://t.co/j7gT8jOd5m\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, let's break it down:\n\n1. The tweet mentions that the Dow, Nasdaq, and S&P are all up.\n2. The increase in points is positive, indicating a favorable market performance.\n3. The tweet provides a link to a source (https://t.co/j7gT8jOd5m) for more information, which suggests the user is interested in the market performance.\n\nGiven these points, the sentiment of this tweet is positive. The increase in stock prices is a positive indicator, and the user's interest in the source suggests they are excited about the market performance.\n\nTherefore, the sentiment of this tweet is {positive}.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Tyson Foods Q1 adj. EPS $1.66 vs. $1.58 a year ago; FactSet consensus $1.63\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of the tweet, let's analyze the key information provided:\n\n1. Tyson Foods Q1 adj. EPS ($1.66) vs. $1.58 a year ago\n   - EPS (Earnings Per Share) is a financial metric that measures the profit earned by a company per share of its outstanding stock.\n   - The EPS has increased from $1.58 to $1.66, indicating a positive change in the company's profitability.\n\n2. FactSet consensus $1.63\n   - FactSet is a financial data and analytics company that provides financial data and analytics to investors, financial analysts, and other users.\n   - The consensus EPS is $1.63, which is also a positive value.\n\nConsidering the information provided, the tweet is reporting positive financial news about Tyson Foods' EPS. The EPS has increased from $1.58 to $1.66, which is a positive change in the company's profitability.\n\nTherefore, the sentiment of this tweet is {positive}.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Security Federal Corporation Completes Private Placement of $30 Million of Subordinated Notes  https://t.co/fKavM3pHEn\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of this tweet, I'll analyze the content and context.\n1. The tweet is about a private placement of $30 million of subordinated notes by Security Federal Corporation.\n2. The tweet does not contain any positive or negative words or phrases.\n3. The tweet is neutral in nature, as it simply provides information about a financial transaction without expressing any particular emotion.\n\nGiven this analysis, the sentiment of this tweet is {neutral}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Park City Group EPS misses by $0.01, misses on revenue\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "{negative} #### The tweet expresses disappointment and dissatisfaction with the Park City Group's EPS and revenue performance, indicating a negative sentiment.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Looking For Last-Minute Tax Loss Harvesting Ideas? Here\u2019s One.\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "### {reasoning process}\nThis tweet is about tax loss harvesting, which is a financial strategy. The tweet suggests that there are last-minute ideas for tax loss harvesting. This implies that the tweet is not negative, as it is providing information that could be useful to people looking to maximize their tax benefits. Therefore, the sentiment of this tweet is {positive}.\n\n#### {answer} {positive}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Video of Serena Williams & Olympia Dancing to Pampers\u2019 \u201cWild Child Wiggle\u201d Available on Business Wire\u2019s Website\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "### Reasoning process:\n1. The tweet is about a video of Serena Williams and Olympia dancing to Pampers' \"Wild Child Wiggle\" and its availability on Business Wire's website.\n2. The tweet does not express any positive or negative emotions or opinions.\n3. It is a neutral statement about a video being available.\n\n### Answer:\n{neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Qiagen takeover likely, just further away - Evercore\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet mentions a Qiagen takeover, which is a negative event for the company. 2. The phrase \"just further away\" implies that the takeover is not a major event, but rather a small step. 3. The overall tone of the tweet is neutral, as it is simply reporting on a potential takeover. 4. There is no positive sentiment expressed in the tweet. 5. Therefore, the sentiment of this tweet is {negative}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Safe-havens rise on coronavirus concerns, stocks rebound\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the key words and phrases used and their connotations.\nThe tweet mentions \"coronavirus concerns\", which is a negative topic. However, the phrase \"stocks rebound\" suggests a positive outcome.\nThe overall tone of the tweet seems to be mixed, with both negative and positive elements present. The tweet is discussing the impact of coronavirus concerns on the stock market, which is generally considered a negative topic.\nHowever, the tweet also mentions that stocks are rebounding, which is a positive outcome.\nConsidering the balance of negative and positive elements, I would say the sentiment of this tweet is {neutral}.\n#### Neutral ####",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: 4 Observations From The First Ever 'Cannabis Investor Day'\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I will think step by step:\n1. The tweet is about observations from a \"Cannabis Investor Day\"\n2. The tweet is in English\n3. The tweet does not contain any negative or positive words or phrases\n4. The tweet is neutral in tone\n5. The tweet is not expressing any strong emotions or opinions\n6. The tweet is not providing any context or explanation\n7. The tweet is not asking for any information or opinion\n8. The tweet is not providing any information or opinion\n9. The tweet is not providing any information or opinion\n10. The tweet is not providing any information or opinion\n11. The tweet is not providing any information or opinion\n12. The tweet is not providing any information or opinion\n13. The tweet is not providing any information or opinion\n14. The tweet is not providing any information or opinion\n15. The tweet is not providing any information or opinion\n16. The tweet is not providing any information or opinion\n17. The tweet is not providing any information or opinion\n18. The tweet is not providing any information or opinion\n19. The tweet is not providing any information or opinion\n20. The tweet is not providing any information or opinion\n21. The tweet is not providing any information or opinion\n22. The tweet is not providing any information or opinion\n23. The tweet is not providing any information or opinion\n24. The tweet is not providing any information or opinion\n25. The tweet is not providing any information or opinion\n26. The tweet is not providing any information or opinion\n27. The tweet is not providing any information or opinion\n28. The tweet is not providing any information or opinion\n29. The tweet is not providing any information or opinion\n30. The tweet is not providing any information or opinion\n31. The tweet is not providing any information or opinion\n32. The tweet is not providing any information or opinion\n33. The tweet is not providing any information or opinion\n34. The tweet is not providing any information or opinion\n35. The tweet is not providing any information or opinion\n36. The tweet is not providing any information or opinion\n37. The tweet is not providing any information or opinion\n38. The tweet is not providing any information or opinion\n39. The tweet is not providing any information or opinion\n40. The tweet",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $ACB - Aurora Cannabis sets early conversion price; shares tick higher https://t.co/VvLbYjQbsc\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I'll analyze the content and tone.\n1. The tweet mentions Aurora Cannabis, which is a company in the cannabis industry.\n2. It states that the company set an early conversion price, which is a financial term.\n3. The tweet mentions that shares of the company \"tick higher,\" which is a positive indicator in the stock market.\n4. The use of the word \"higher\" suggests that the company's stock price has increased.\n5. The overall tone of the tweet is neutral, as it is simply reporting financial information.\nGiven these factors, the sentiment of this tweet is {neutral}.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Richards Packaging Income Fund\u00a0 declares CAD 0.11 dividend\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "{Reasoning Process: \u6839\u636e\u8f93\u5165\u7684\u63a8\u6587\uff0c\u6ca1\u6709\u63d0\u5230\u4efb\u4f55\u79ef\u6781\u6216\u6d88\u6781\u7684\u60c5\u611f\u3002\u63a8\u6587\u53ea\u662f\u7b80\u5355\u5730\u5ba3\u5e03\u4e86\u4e00\u4e2a\u6536\u5165\u57fa\u91d1\u7684\u5206\u7ea2\u3002\u56e0\u6b64\uff0c\u63a8\u6587\u7684\u60c5\u611f\u662f\u4e2d\u6027\u7684\u3002}\n{Answer: Neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $BONDX: Treasury Market Summary https://t.co/XhYM9AuD63\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "I'm sorry, but I cannot provide an answer to this question as there is no tweet provided for me to analyze. Please provide a tweet for me to analyze.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Macy's Q3 adj. EPS 7 cents; FactSet consensus breakeven\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "{neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $TRQ - Turquoise Hill: Strong Headwinds Ahead Of 2020. https://t.co/hIdbSHXWA7 #trading #business #finance\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: \n1. The tweet mentions \"Strong Headwinds Ahead Of 2020\", which suggests a negative outlook.\n2. The tweet also mentions \"Turquoise Hill\", which is a company, and the tweet is about the company's future, which is a negative topic.\n3. The tweet is a news article, and the sentiment of news articles is generally negative.\n4. The tweet ends with \"#trading #business #finance\", which are related to the stock market, and the sentiment of the stock market is generally negative.\n5. The tweet does not contain any positive or neutral words or phrases.\nTherefore, the sentiment of this tweet is {negative}.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Hasbro upgraded to buy from neutral at UBS, price target $117\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "### Reasoning process:\n1. The tweet mentions Hasbro upgrading to buy from neutral at UBS.\n2. The word \"neutral\" is used to describe the price target.\n3. The tweet does not contain any negative or positive emotions.\n4. The tweet is neutral in sentiment.\n\n### Answer:\n{neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Weekly market update : The waiting game continues on trade #Weeklymarketupdate #marketscreener #MarketScreener\u2026 https://t.co/77sw5i2a8t\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet is a market update, which is neutral in sentiment.\n2. The tweet mentions \"waiting game\", which is a neutral phrase.\n3. The tweet is a summary of a market update, which is neutral in sentiment.\n4. The tweet does not express any positive or negative emotions.\n5. The tweet does not contain any sarcasm or irony.\n6. The tweet does not contain any strong language or emoticons that could indicate a positive or negative sentiment.\n7. The tweet does not contain any hashtags that could indicate a positive or negative sentiment.\n8. The tweet does not contain any mentions of specific events or people that could indicate a positive or negative sentiment.\n9. The tweet does not contain any references to personal experiences or emotions that could indicate a positive or negative sentiment.\n10. The tweet does not contain any references to cultural or social events that could indicate a positive or negative sentiment.\n11. The tweet does not contain any references to political events or figures that could indicate a positive or negative sentiment.\n12. The tweet does not contain any references to religious events or figures that could indicate a positive or negative sentiment.\n13. The tweet does not contain any references to scientific events or figures that could indicate a positive or negative sentiment.\n14. The tweet does not contain any references to technological events or figures that could indicate a positive or negative sentiment.\n15. The tweet does not contain any references to artistic events or figures that could indicate a positive or negative sentiment.\n16. The tweet does not contain any references to sports events or figures that could indicate a positive or negative sentiment.\n17. The tweet does not contain any references to entertainment events or figures that could indicate a positive or negative sentiment.\n18. The tweet does not contain any references to business events or figures that could indicate a positive or negative sentiment.\n19. The tweet does not contain any references to environmental events or figures that could indicate a positive or negative sentiment.\n20. The tweet does not contain any references to health events or figures that could indicate a positive or negative sentiment.\n21. The tweet does not contain any references to educational events or figures that could indicate a positive or negative sentiment.\n22. The tweet does not contain any references to religious events or figures that could indicate a positive or negative sentiment.\n23. The tweet does not contain any references to political events or figures that could indicate a positive or negative sentiment.\n24. The tweet does not contain any references to",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Stock market news live: Stocks sink despite blowout January jobs data\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "{negative} #### The tweet expresses a negative sentiment. The stock market is sinking, which is a negative event. The phrase \"Despite blowout January jobs data\" implies that the negative event is outweighed by the positive news, but the overall sentiment is still negative.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Bill.com stock rockets 60% in its trading debut after IPO\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, let's analyze the content and context.\nThe tweet mentions that Bill.com stock has \"rocketed 60% in its trading debut after IPO\". This indicates a significant increase in value, which is generally considered a positive event.\nTherefore, the sentiment of this tweet is {positive}.\n#### The sentiment of this tweet is {positive}.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Tata Steel plans to cut up to 3,000 European jobs\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "### Reasoning process:\n1. The tweet mentions Tata Steel, which is a well-known steel company.\n2. The company plans to cut up to 3,000 jobs in Europe.\n3. The tweet does not express any positive or negative emotions.\n4. The tweet is neutral in sentiment.\n\n### Answer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Taubman Centers (TCO) Tops Q4 FFO and Revenue Estimates\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions that Taubman Centers (TCO) has exceeded its Q4 FFO and revenue estimates. This indicates that the company has performed better than expected, which is generally considered a positive outcome.\nTherefore, the sentiment of this tweet is {positive}.\n#### The sentiment of this tweet is {positive}.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Dunkin' Brands lifts dividend and buyback as 2020 outlook shy of estimates\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions that Dunkin' Brands, a company, has lifted its dividend and buyback. It also states that the 2020 outlook is shy of estimates.\nThe content of the tweet does not express any positive or negative emotions. It is simply providing information about the company's financial performance.\nTherefore, the sentiment of this tweet is {neutral}.\n#### {neutral} #### {The sentiment of this tweet is neutral.}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: News Highlights : Top Global Markets News of the Day #NewsHighlights #economy #MarketScreener\u2026 https://t.co/p9YIUK150y\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context of the tweet.\nThe tweet is a news highlight, which is a summary of the day's top global market news. The tweet mentions \"Top Global Markets News of the Day\" and \"economy\", which are neutral topics. However, the tweet also mentions \"MarketScreener\", which is a platform used for analyzing financial markets. This could be seen as a positive sentiment, as it suggests that the tweet is providing useful information to investors.\nOverall, the tweet is neutral in sentiment, as it is a news highlight that provides information about the day's top global market news, which is a neutral topic. However, the tweet also mentions a platform used for analyzing financial markets, which could be seen as a positive sentiment, as it suggests that the tweet is providing useful information to investors.\nTherefore, the sentiment of this tweet is {neutral}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: European Stocks Jump to Record High\u00a0\u00a0\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet states \"European Stocks Jump to Record High\". This implies that the stock market in Europe has reached its highest point ever.\nThe use of the word \"Jump\" suggests a sudden and significant increase in value, which is generally considered positive.\nThe phrase \"Record High\" further reinforces the idea that this is a significant achievement.\nConsidering the context and the use of positive words, the sentiment of this tweet is positive.\nTherefore, the answer is {positive}.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $ADMP - Adamis Pharma -61% on FDA's Zimhi rejection https://t.co/JgCdMtpiZO\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet mentions that Adamis Pharma has experienced a 61% drop in stock value due to the FDA's rejection of Zimhi. This indicates a negative sentiment towards the company and its product. Therefore, the sentiment of this tweet is negative.\n\nAnswer: {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: UDR upgraded to overweight from sector weight at KeyBanc Capital\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions that UDR (Urban Land Development) has been upgraded to overweight from sector weight at KeyBanc Capital. This implies that the company has been given a higher rating or classification by the investment bank.\nThe use of the word \"overweight\" suggests that the company is considered to be a higher risk or higher potential for growth compared to other companies in the same sector.\nGiven this context, the sentiment of this tweet is {negative}.\n#### {reasoning process} The tweet mentions that UDR has been upgraded to overweight from sector weight, which implies higher risk or potential for growth compared to other companies in the same sector. This suggests a negative sentiment towards the company. {answer} {negative}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Comtech Telecommunications Corp. Receives $1.3 Million Contract for Military Ku-band TWTA Systems\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions that Comtech Telecommunications Corp. has received a $1.3 million contract for military Ku-band TWTA systems. This information is neutral and does not express any positive or negative emotions.\nTherefore, the sentiment of this tweet is {neutral}.\n#### Neutral ####",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Italy reported the lowest number of new coronavirus infections in nearly three weeks https://t.co/rfvTbyw70B\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I will analyze the sentiment of the tweet step-by-step:\n\n1. The tweet mentions Italy reporting the lowest number of new coronavirus infections in nearly three weeks.\n2. The use of \"lowest\" suggests a positive outcome.\n3. The phrase \"lowest number\" implies a decrease in the number of infections, which is generally seen as a positive development.\n4. The tweet doesn't contain any negative or critical language.\n5. The overall tone of the tweet is informative and neutral, without expressing any strong emotions.\n\nBased on this analysis, the sentiment of the tweet is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Tech Up As Investors Rush Back To Speculative Areas -- Tech Roundup #economy #MarketScreener https://t.co/vUfDnoUN55 https://t.co/l5Vwg7aqmy\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of this tweet, I'll analyze its content and tone.\n1. The tweet mentions \"Tech Up\" and \"Tech Roundup\", which suggests a positive sentiment towards technology and investing.\n2. The phrase \"Tech Up As Investors Rush Back To Speculative Areas\" implies that investors are returning to speculative areas, which is generally seen as a positive trend in the tech industry.\n3. The tweet also mentions \"Tech Roundup #economy #MarketScreener\", which indicates that the tweet is part of a broader discussion about the economy and market analysis.\n4. The overall tone of the tweet is informative and neutral, without any negative or positive indicators.\n5. The use of hashtags like #economy and #MarketScreener further supports the positive sentiment.\nBased on these observations, the sentiment of this tweet is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $CMP - Compass Minerals EPS misses by $0.12, misses on revenue https://t.co/dU4csQyvQt\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet mentions that Compass Minerals' EPS (earnings per share) missed by $0.12 and missed on revenue. This indicates disappointment and a negative sentiment towards the company's performance. Therefore, the sentiment of this tweet is negative.\n\nAnswer: {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Caterpillar reported lower sales across all three primary segments in the last quarter, adding to the industrial gl... https://t.co/XYlODrAvSu\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet mentions that Caterpillar reported lower sales across all three primary segments in the last quarter, which is a negative news for the company. However, the tweet does not provide any information about the company's future plans or strategies to improve its sales. Therefore, the sentiment of this tweet is negative.\nAnswer: Negative",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Taylor Caswell on the Political Impact of New Hampshire's Economy\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "I'm sorry, but I cannot provide an answer to this question as it is not a tweet. Could you please provide a tweet for me to analyze?",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Oil Slips After OPEC, EIA Reports Forecast Robust Supply #WTI #Stock #MarketScreener https://t.co/nGNnPy5ook https://t.co/QMqwCWn5Tm\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet mentions that oil prices have dropped after reports of robust supply. This suggests a negative sentiment as it indicates a decline in the market. \n\nAnswer: {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: U.S. GDP Rose By $850 Billion In 2019 As U.S. National Debt Surged By $1.2 Trillion. Debt-To-GDP Ratio Hit 108%.... https://t.co/cmHgL0DSCf\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process:\n1. The tweet discusses the U.S. GDP rising by $850 billion and the national debt surging by $1.2 trillion.\n2. The debt-to-GDP ratio is mentioned as hitting 108%.\n3. The tweet is reporting factual information about the U.S. economy.\n4. There are no negative or critical elements in the tweet.\n5. The overall tone is neutral as it's just reporting economic data.\n\nAnswer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Should You Avoid Ituran Location and Control Ltd. (ITRN)?\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Input: Should You Avoid Ituran Location and Control Ltd. (ITRN)?\nTo determine the sentiment of this tweet, I will analyze the content and context of the tweet.\nThe tweet is asking whether one should avoid the company Ituran Location and Control Ltd. (ITRN). This implies that the company is causing some concern or issue for the person asking the question.\nHowever, the tweet does not provide any specific information or details about the company or the issue. It is simply asking for advice.\nBased on the limited information provided, it is difficult to determine the sentiment of the tweet. The tweet is neutral in nature, as it is simply asking for advice without providing any positive or negative information.\nTherefore, the sentiment of this tweet is {neutral}.\n#### {neutral} #### {The tweet is neutral in nature, as it is simply asking for advice without providing any positive or negative information.}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: U.S. Department of Justice Sides With Global Music Rights https://t.co/MOYNT7XhZ2 https://t.co/6Kjbeilzc2\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "Input: U.S. Department of Justice Sides With Global Music Rights https://t.co/MOYNT7XhZ2 https://t.co/6Kjbeilzc2\nPositive\n\nReasoning process: \u8fd9\u6761\u63a8\u6587\u7684\u6807\u9898\u548c\u94fe\u63a5\u90fd\u4e0eU.S. Department of Justice\u652f\u6301\u5168\u7403\u97f3\u4e50\u6743\u5229\u6709\u5173\u3002\u8fd9\u8868\u660e\u4e86\u653f\u5e9c\u5bf9\u97f3\u4e50\u6743\u5229\u7684\u652f\u6301\uff0c\u8fd9\u662f\u4e00\u4e2a\u79ef\u6781\u7684\u4fe1\u53f7\u3002\u56e0\u6b64\uff0c\u8fd9\u6761\u63a8\u6587\u7684\u8bed\u6c14\u5e94\u8be5\u662f\u79ef\u6781\u7684\u3002",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: MEC Resources : Takeovers Panel makes no interim order, meeting to proceed #MECResources #Stock #MarketScreener\u2026 https://t.co/4xZZdesCFj\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: \n1. The tweet mentions \"Takeovers Panel makes no interim order\" which indicates a lack of action or decision.\n2. The tweet also mentions \"meeting to proceed\", which suggests that the situation is moving forward.\n3. The tweet is about a stock market, which is generally considered a neutral topic.\n4. The tweet does not contain any positive or negative language or sentiment.\n5. The tweet is neutral in sentiment.\n\nAnswer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: San Francisco Tries to Rally Public to Buy Piece of PG&E\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "### Reasoning process:\n1. The tweet is about San Francisco trying to rally the public to buy a piece of PG&E.\n2. The tweet does not express any positive or negative emotions.\n3. It is a neutral statement about a public relations effort.\n\n### Answer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $INPX is gaining some great momentum and volume over the last few trading sessions. Squeeze over 1.49 https://t.co/MkMRMydssL\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet mentions that $INPX is gaining momentum and volume, which is generally a positive sign for the stock. 2. The tweet also mentions that the stock has \"squeezed over 1. 49\", which is a positive sign as it indicates that the stock has reached a significant price level. 3. The tweet does not contain any negative or critical information. 4. Based on the positive information provided in the tweet, the sentiment of this tweet is positive. Answer: {positive}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Governments across Asia are pushing back against unwanted rubbish from overseas that has accumulated within their b\u2026 https://t.co/XpcZWX1Zvy\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet is about governments in Asia pushing back against unwanted rubbish from overseas. This implies a negative sentiment as it suggests that the governments are not accepting or handling the rubbish properly. Therefore, the sentiment of this tweet is negative.\n\nAnswer: Negative",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: 3 Magnificent Mutual Funds to Maximize Your Retirement Portfolio - February 07, 2020\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Input: 3 Magnificent Mutual Funds to Maximize Your Retirement Portfolio - February 07, 2020\nTo determine the sentiment of this tweet, I will analyze the content and tone of the message.\n1. The tweet is a promotional message for three mutual funds that are supposed to maximize a person's retirement portfolio.\n2. The use of the word \"Magnificent\" in the tweet suggests that the funds are of high quality and are likely to be beneficial for the investor.\n3. The tweet is a news update, which implies that it is a factual statement rather than an opinion or subjective evaluation.\n4. The tweet does not contain any negative or critical language, and the tone is informative and neutral.\n5. The tweet is not promoting a specific product or service, but rather providing information about mutual funds.\nBased on these observations, the sentiment of this tweet is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Vir Biotechnology reports Q3 results\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I think the sentiment of this tweet is neutral. The tweet simply reports the results of a company, without expressing any positive or negative emotions.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Why Aurora Cannabis Is Getting Hammered Today\n",
+      "true_answer": "negative",
+      "generated_answer": "positive",
+      "full_response": "I'm sorry, but I cannot provide an answer to this question as it is not a tweet. However, I can provide you with some information about Aurora Cannabis. Aurora Cannabis is a Canadian cannabis company that was founded in 2013. The company is known for its high-quality cannabis products and its commitment to ethical and sustainable practices. Aurora Cannabis is listed on the Toronto Stock Exchange and has a market capitalization of over $1 billion. The company has been involved in several high-profile legal cases, including a lawsuit against the Canadian government over its cannabis regulations. Overall, Aurora Cannabis is a well-known and respected company in the cannabis industry.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Byron Wien: Coronavirus causes 'maximum level of uncertainty' but won't trigger recession https://t.co/HzOJ2Nca7p\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet is about the coronavirus causing maximum level of uncertainty but not triggering a recession. This is a neutral statement as it does not express any strong positive or negative emotions. Therefore, the sentiment of this tweet is neutral.\n\nAnswer: neutral",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: BHP is plans to increase its stake in SolGold, which develops projects in copper hot spot Ecuador https://t.co/JRxd5ww9Sy\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions that BHP (BHP Group Limited) plans to increase its stake in SolGold, a company that develops projects in copper hot spot Ecuador. This information is neutral and does not express any positive or negative sentiment.\nTherefore, the sentiment of this tweet is {neutral}.\n#### {neutral} #### {The sentiment of this tweet is neutral.}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: The best business books we read in 2019\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "The tweet is neutral. It is not expressing a positive or negative sentiment, but rather simply stating a fact.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: When the market sells off quickly like this morning, it is quite common to undercut the prior low by a few pennies... https://t.co/4xTQEMwCH3\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet is about the market selling off quickly, which is a negative event. 2. The tweet mentions undercutting the prior low by a few pennies, which is also a negative event. 3. The tweet does not express any positive sentiment. 4. Therefore, the sentiment of this tweet is negative. Answer: {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: South Africa could fall deeper into junk territory after S&P cut the outlook on its assessment of the nation\u2019s debt\u2026 https://t.co/ej4julbme6\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet mentions that South Africa could fall deeper into junk territory after S&P cut the outlook on its assessment of the nation's debt.\n2. The use of the word \"could\" suggests uncertainty and a possibility of something happening.\n3. The tweet does not express any positive or negative emotions, but rather a neutral statement about the situation.\n4. Therefore, the sentiment of this tweet is neutral.\nFinal answer: {neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Good news/bad news: Fed's happy, retail isn't\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Input: Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Good news/bad news: Fed's happy, retail isn't\nReasoning process: \"Fed's happy\" \u8868\u793a\u7f8e\u8054\u50a8\u5f88\u9ad8\u5174\uff0c\u8fd9\u662f\u4e00\u4e2a\u79ef\u6781\u7684\u4fe1\u53f7\u3002\"Retail isn't\" \u8868\u793a\u96f6\u552e\u4e1a\u4e0d\u666f\u6c14\uff0c\u8fd9\u662f\u4e00\u4e2a\u6d88\u6781\u7684\u4fe1\u53f7\u3002\u7efc\u5408\u6765\u770b\uff0c\u8fd9\u4e2a\u6d88\u606f\u7684\u603b\u4f53\u60c5\u7eea\u662f\u6d88\u6781\u7684\u3002{negative}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Ocular Therapeutix up 11% premarket on encouraging OTX-TIC data\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "{neutral} #### The tweet is neutral as it only mentions the stock price movement and does not express any positive or negative sentiment.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Twitter stock price target raised to $36.50 from $34.50 at Wedbush\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "The sentiment of this tweet is {positive} because the stock price target has been raised, which is generally seen as a positive development for the company.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: U.S. Treasury liquidity on the mend, but without Fed remains fragile #economy #MarketScreener\u2026 https://t.co/7ln9zZHPwN\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet mentions that U.S. Treasury liquidity is on the mend, which is a positive development.\n2. However, it also states that without the Fed, the economy remains fragile, which is a negative development.\n3. The tweet is neutral in tone, as it presents both positive and negative aspects of the situation.\n4. The sentiment is not clearly positive or negative, but rather neutral.\nAnswer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $OCUL - Ocular Therapeutix (OCUL) Presents At Jefferies Global Healthcare Conference - Slideshow. Sign up for updat\u2026 https://t.co/7etAotM3V4\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\n1. The tweet is about Ocular Therapeutix (OCUL) presenting at a conference.\n2. It mentions a slideshow and a \"Sign up for updat\u2026\"\n3. The tweet is from Twitter, which is a social media platform.\n4. The tweet does not contain any negative or positive words or phrases.\n5. The tweet is neutral in nature, as it is simply informing the user about a presentation at a conference.\nBased on this analysis, the sentiment of this tweet is {neutral}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Hedge Funds Are Dumping FutureFuel Corp. (FF)\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Input: Hedge Funds Are Dumping FutureFuel Corp. (FF)\nThe sentiment of this tweet is {negative} because the tweet mentions that hedge funds are dumping FutureFuel Corp., which is a negative action.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: UPDATE 1-Emirates announces $16 bln order for 50 Airbus A350 planes\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "The sentiment of this tweet is {neutral}.\n\nReasoning process:\nThe tweet \"Emirates announces $16 bln order for 50 Airbus A350 planes\" is a factual statement about a business decision. It does not express any positive or negative emotions. The tweet is simply reporting a news item without any sentiment attached to it. Therefore, the sentiment is neutral.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: CDC SAYS REPATRIATED AMERICANS ARE UNDER FEDERAL QUARANTINE\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Input: CDC SAYS REPATRIATED AMERICANS ARE UNDER FEDERAL QUARANTINE\nTo determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet states that the CDC (Centers for Disease Control and Prevention) has said that repatriated Americans are under federal quarantine. This implies that the tweet is providing information about a quarantine measure for repatriated Americans.\nConsidering the context, the tweet does not express any positive or negative emotions. It is simply providing factual information about a quarantine measure. Therefore, the sentiment of this tweet is neutral.\n#### Neutral\n{neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $RIO $ACH $TRQ - Rio Tinto says virus slowing copper ore shipments from Mongolia https://t.co/ayoOqNBFjq\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet mentions that Rio Tinto, a company, says that the virus is slowing down copper ore shipments from Mongolia. This implies that the shipments are being affected by the virus, which is a negative situation. Therefore, the sentiment of this tweet is negative.\nAnswer: {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Cross Timbers Royalty Trust declares $0.0621 dividend\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, let's analyze the content and context.\nThe tweet mentions that the Cross Timbers Royalty Trust has declared a dividend of $0.0621. This information is neutral and does not express any positive or negative emotions.\nTherefore, the sentiment of this tweet is {neutral}.\n#### {neutral} #### {neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Government Moves Bill In Lok Sabha To Appoint Unified Regulator For IFSCs\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I will think step by step:\n1. The tweet is about a government action in Lok Sabha to appoint a unified regulator for IFSCs.\n2. The tone of the tweet is neutral, as it simply reports on a government action without expressing any strong emotions.\n3. There are no positive or negative words or phrases used in the tweet.\n4. The tweet does not express any strong opinions or emotions about the action.\n5. The tweet is simply stating a fact, without any subjective interpretation or evaluation.\nTherefore, the sentiment of this tweet is neutral.\n{reasoning process} {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: 4 Things to Look For When General Mills Reports Earnings\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "I'm sorry, but I can't provide a sentiment analysis for this tweet as it is not a complete tweet. Please provide a complete tweet for me to analyze.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Gilat Satellite reports Q3 results\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "I'm sorry, but I can't provide an answer to this question. This is because the instruction only asks for the sentiment of the tweet, but does not provide the tweet itself. To provide an accurate answer, I would need to see the tweet.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: NYSE\u2019s proposal to allow for fundraising in direct listings rejected by SEC https://t.co/rjrvsKjRgk\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet is about the NYSE's proposal to allow for fundraising in direct listings being rejected by the SEC. This is a negative news for the NYSE. The tweet does not express any positive sentiment. Therefore, the sentiment of this tweet is {negative}.\n\n{reasoning process} The tweet is about the NYSE's proposal to allow for fundraising in direct listings being rejected by the SEC. This is a negative news for the NYSE. The tweet does not express any positive sentiment. Therefore, the sentiment of this tweet is {negative}.\n\n{answer} negative",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Bloomberg\u2019s entry into presidential race raises ethical issues for his news service https://t.co/uAdHDWYlH9\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I think the sentiment of this tweet is {negative}.\nReasoning process: The tweet is discussing Bloomberg's entry into the presidential race, which is generally seen as a negative development for his news service. The use of the word \"raises\" implies that there are negative consequences or issues associated with this development. Therefore, the sentiment of the tweet is negative.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $BAYRY: Bayer AG submits application to EMA for use of rivaroxaban in children with venous thromboembolism https://t.co/zhjz5RLwZ8\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\n1. The tweet is about Bayer AG submitting an application to the EMA for the use of rivaroxaban in children with venous thromboembolism.\n2. The tweet is neutral in tone, as it simply provides information about a medical application.\n3. There is no positive or negative sentiment expressed in the tweet.\n4. The tweet does not contain any emotive language or sarcasm that could indicate a particular sentiment.\n5. The tweet is factual and informative, not opinionated or subjective.\nBased on this analysis, the sentiment of this tweet is {neutral}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Aurora Cannabis Sinks on Bad News Dump Analysts Fear Won\u2019t End\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and tone.\nThe tweet mentions \"Aurora Cannabis Sinks\", which indicates a negative sentiment. The phrase \"bad news\" also suggests a negative sentiment.\nThe tweet also mentions \"Analysts Fear Won't End\", which implies that the negative sentiment is ongoing and persistent.\nConsidering the overall tone and content of the tweet, the sentiment is negative.\nTherefore, the answer is {negative}.\n#### {reasoning process} {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Trump's proposed budget would kill a loan program that an electric-truck company is counting on to revive an Ohio f\u2026 https://t.co/fCqbeQJNdE\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet is about a proposed budget that could potentially harm an electric-truck company in Ohio.\n2. The tweet is using negative language such as \"kill\" and \"revive\".\n3. The tweet is expressing concern about the potential negative impact of the budget on the electric-truck company.\n4. The overall tone of the tweet is negative.\nAnswer: {negative}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Naive Brazil to Rethink Relations With U.S., Bolsonaro Ally Says\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "### Reasoning process:\n1. The tweet mentions Brazil and the U.S., which are two countries with different political systems and ideologies.\n2. The tweet states that Brazil is \"Naive\" and needs to \"Rethink Relations With U.S.,\" implying that Brazil is not understanding the situation and needs to change its approach.\n3. The tweet also mentions that Brazil has an \"Ally\" with Bolsonaro, suggesting that Brazil is aligned with a particular political figure.\n4. The overall tone of the tweet is critical and suggests that Brazil is not understanding the situation and needs to change its approach.\n\n### Answer:\n{negative}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Neptune amends and restates processing agreement with Canopy\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I think the sentiment of this tweet is neutral. The tweet simply states that Neptune has amended and restated a processing agreement with Canopy, without expressing any positive or negative emotions.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: ADX Energy : General Meeting Results of Meeting #ADXEnergy #Stock #MarketScreener https://t.co/fjTDZA1DuU https://t.co/V1RPmQymMO\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet is about ADX Energy, a company, and mentions a general meeting result. The tweet also includes hashtags like #ADXEnergy, #Stock, and #MarketScreener, which suggest that the tweet is related to the company and its stock.\nHowever, the tweet does not provide any positive or negative information about the company or its stock. It is simply a neutral update about the meeting results.\nTherefore, the sentiment of this tweet is {neutral}.\n#### {neutral} #### {The sentiment of this tweet is neutral.}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Nasdaq Private Market Sets New Annual Transaction Record in 2019 - StreetInsider.com\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and tone.\nThe tweet mentions \"Nasdaq Private Market Sets New Annual Transaction Record in 2019\", which indicates a positive aspect - the Nasdaq Private Market achieving a significant milestone in 2019.\nThe use of \"Sets New Annual Transaction Record\" suggests a notable achievement, which is generally viewed as positive.\nThe tweet is from StreetInsider.com, which is a reputable financial news source, further supporting the positive sentiment.\nConsidering all these factors, the sentiment of this tweet is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $DYNT supplies surgical masks - https://t.co/1NJyHILE5B #CoronavirusOutbreak nice find @simbatrading\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and tone.\nThe tweet mentions a company called $DYNT that supplies surgical masks. It also includes a link to a website and a hashtag related to the Coronavirus outbreak. The tweet is positive as it is sharing a good find and promoting a company that provides essential supplies during a crisis.\nTherefore, the sentiment of this tweet is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: 'A free pass to paedophiles': Australian lawmaker slams Westpac\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Input: 'A free pass to paedophiles': Australian lawmaker slams Westpac\nReasoning process: \u8fd9\u6761\u63a8\u6587\u7684\u8bed\u6c14\u662f\u6279\u8bc4\u548c\u8c34\u8d23\uff0c\u6697\u793a\u897f\u592a\u5e73\u6d0b\u94f6\u884c\u5bf9\u6027\u72af\u7f6a\u8005\u63d0\u4f9b\u4e86\u4fbf\u5229\u3002\u8fd9\u8868\u660e\u4f5c\u8005\u5bf9\u897f\u592a\u5e73\u6d0b\u94f6\u884c\u7684\u8d1f\u9762\u770b\u6cd5\u3002\u56e0\u6b64\uff0c\u8fd9\u6761\u63a8\u6587\u7684\u60c5\u611f\u662f\u8d1f\u9762\u7684\u3002\nAnswer: {negative}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $COMDX: Metals Settlement Prices https://t.co/77GfASR4lX\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "I think the sentiment of this tweet is {neutral}.\nReasoning process: The tweet is a link to a website, and there is no clear sentiment expressed in the tweet itself. The sentiment of the tweet is determined by the sentiment of the website it links to, which is neutral.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Edited Transcript of ESTE earnings conference call or presentation 7-Nov-19 5:00pm GMT\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of the tweet, I'll analyze its content and context.\n\nThe tweet is: \"Edited Transcript of ESTE earnings conference call or presentation 7-Nov-19 5:00pm GMT\"\n\n1. The tweet is a transcript of an ESTE earnings conference call or presentation.\n2. It provides the date (7-Nov-19) and time (5:00pm GMT) of the event.\n3. The tweet does not contain any positive, negative, or neutral words or phrases.\n\nGiven that the tweet is simply a transcript of an event and does not express any sentiment, the sentiment is neutral.\n\nTherefore, the sentiment of this tweet is {neutral}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $JEC - Jacobs Engineering Q4 2019 Earnings Preview https://t.co/ktdTe05cWt\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of this tweet, I'll analyze the content and tone.\nThe tweet is about a company named JEC, which is likely Jacobs Engineering. The tweet mentions a Q4 2019 earnings preview, which refers to the earnings report of the company for the fourth quarter of the previous year.\nThe tweet doesn't contain any explicit positive or negative words or phrases. It's just a brief mention of the company's earnings report.\nGiven this lack of sentiment indicators, the most appropriate choice is neutral.\nTherefore, the sentiment of this tweet is {neutral}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Hedge Funds Are Still Crazy About Avid Technology, Inc. (AVID)\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "### {reasoning process}\nThe tweet mentions that hedge funds are still crazy about Avid Technology, Inc. (AVID). This implies that the stock of AVID is still popular among hedge funds, which is generally considered a positive sentiment. Therefore, the sentiment of this tweet is {positive}.\n\n### {answer} {positive}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Here are the biggest analyst calls of the day: Johnson & Johnson, Canopy Growth, Intelsat & more\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "The tweet does not contain any sentiment. It is a neutral statement.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Viacom extends cable rights to 'The Office'\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I think the sentiment of this tweet is neutral.\nReasoning process: The tweet simply states that Viacom has extended cable rights to 'The Office'. There is no positive or negative sentiment expressed. The tweet is simply reporting a fact.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Fannie Mae, Freddie Mac downgraded to sell, as analyst cites 'unintended consequences' of CARES Act https://t.co/NhiYwphBQd\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet mentions that Fannie Mae and Freddie Mac have been downgraded, which is a negative event for these companies.\n2. The tweet also mentions that this downgrade is due to the CARES Act, which is a government program that has been criticized for its unintended consequences.\n3. The tweet does not mention any positive aspects of the CARES Act or the companies.\n4. Based on the negative events mentioned and the lack of any positive aspects, the sentiment of this tweet is negative.\nAnswer: {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: IRS investigators scrutinize Bitcoin ATMs and kiosks\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I think the sentiment of this tweet is {neutral}.\nReasoning process: The tweet is a neutral statement about the IRS investigating Bitcoin ATMs and kiosks. There is no positive or negative sentiment expressed.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: It\u2019s official: \"Joker\" is the first $1 billion R-rated movie. https://t.co/GXKQDVZhg2 https://t.co/ujB4YqgCn0\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet is about the movie \"Joker\" being the first R-rated movie to reach $1 billion in box office revenue. This is a positive news for the movie industry. The tweet does not contain any negative or neutral sentiment. Therefore, the sentiment of this tweet is positive.\nAnswer: Positive",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Is Home Depot Stock a Buy?\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet is asking whether Home Depot Stock is a buy. This implies that the person is considering whether to invest in Home Depot's stock.\nHowever, the tweet does not provide any information about the person's opinion or thoughts on the matter. It is simply a question.\nGiven that the tweet is a question and does not provide any information about the person's opinion or thoughts, the sentiment cannot be determined.\nTherefore, the answer is {neutral}.\n#### {neutral} #### {The tweet is a question and does not provide any information about the person's opinion or thoughts.}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Ford shakes up top management, promises faster turnaround\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "{reasoning process} \u4ece\u8fd9\u53e5\u8bdd\u4e2d\uff0c\u6211\u4eec\u53ef\u4ee5\u770b\u5230\u798f\u7279\u516c\u53f8\u6b63\u5728\u6539\u53d8\u5176\u9ad8\u5c42\u7ba1\u7406\uff0c\u5e76\u627f\u8bfa\u66f4\u5feb\u7684\u8fd0\u8425\u3002\u8fd9\u542c\u8d77\u6765\u50cf\u662f\u4e00\u4e2a\u79ef\u6781\u7684\u6d88\u606f\uff0c\u56e0\u4e3a\u8fd9\u53ef\u80fd\u610f\u5473\u7740\u516c\u53f8\u6b63\u5728\u91c7\u53d6\u63aa\u65bd\u6765\u6539\u5584\u5176\u8fd0\u8425\u548c\u63d0\u9ad8\u6548\u7387\u3002\u7136\u800c\uff0c\u6211\u4eec\u4e0d\u80fd\u786e\u5b9a\u8fd9\u662f\u5426\u771f\u7684\u4f1a\u53d1\u751f\uff0c\u56e0\u4e3a\u8fd9\u53ea\u662f\u4e00\u4e2a\u627f\u8bfa\u3002\u56e0\u6b64\uff0c\u6211\u4eec\u4e0d\u80fd\u786e\u5b9a\u8fd9\u53e5\u8bdd\u7684\u603b\u4f53\u60c5\u611f\u662f\u79ef\u6781\u7684\u8fd8\u662f\u6d88\u6781\u7684\u3002\n{answer} {neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Adamas Pharma plunges after mixed results in MS trial\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "{negative} #### The tweet expresses a negative sentiment. The use of the word \"plunges\" indicates a decline or fall, which is a negative sentiment. Additionally, the mention of \"mixed results\" in a medical trial suggests that the results were not entirely positive, which also contributes to the negative sentiment.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: How Much Does Costco Spend On Selling, General And Administrative Expenses?\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nInput: How Much Does Costco Spend On Selling, General And Administrative Expenses?\nThe tweet is asking about the amount that Costco spends on selling and general and administrative expenses. This is a factual question, and the sentiment of the tweet is neutral.\nTherefore, the answer is: {neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Stock Market Update: Stock market slips to session lows\n",
+      "true_answer": "negative",
+      "generated_answer": "neutral",
+      "full_response": "{neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: New York City may ban flavored vapes as soon as next week\nhttps://t.co/WmRxcb4InQ via @guardian https://t.co/jifPXgr6gm\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet is about a potential ban on flavored vapes in New York City. This is generally seen as a negative action, as it restricts the use of flavored products. However, without more context, it's difficult to determine the overall sentiment. The tweet is neutral in nature, as it simply reports the news without expressing any strong positive or negative emotions.\nAnswer: neutral",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: 4 Money Moves That'll Make You Richer in 2020\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "I'm sorry, but I cannot provide an answer to your question as there is no tweet provided for me to analyze. Please provide a tweet for me to analyze.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: WWE shares plunged, erasing more than $1 billion in market value, after CEO Vince McMahon ousted two of the company... https://t.co/nj8uvTfqYp\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet mentions that WWE shares plunged, which indicates a negative sentiment. The tweet also mentions that the company's market value was erased, which is another negative sentiment. Therefore, the overall sentiment of the tweet is negative.\nAnswer: {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Executives at SoftBank are looking for a way to reduce the size of a $3 billion offer for WeWork stock as part of i\u2026 https://t.co/4kqz2W0yhz\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process:\n1. The tweet is about executives at SoftBank looking for a way to reduce the size of a $3 billion offer for WeWork stock.\n2. The tweet does not express any positive or negative emotions or opinions.\n3. The tweet is neutral in tone as it simply reports on a business situation without expressing any sentiment.\n\nAnswer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: S&P $SPY with 5000 June $319 calls opening in a $5M position as December $298 calls adjust\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions S&P $SPY, which is a stock index, and $319 calls, which are options. The tweet also mentions $5M position and $298 calls, which are other options. However, the tweet does not provide any explicit positive or negative sentiment.\nTherefore, the sentiment of this tweet is {neutral}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: J.C. Penney stock price target raised to $1.00 from 80 cents at B. Riley FBR\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "The tweet is neutral. The stock price target is simply raised, without any positive or negative sentiment expressed.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Why The 2008 Bear Market Didn't Debunk Leveraged ETFs. Get more updates here: https://t.co/JUhy9et1KN #investing #markets #business\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reasoning process: The tweet discusses the 2008 bear market and its impact on leveraged ETFs. It does not express any negative or positive sentiment towards the market or the ETFs. The tweet is neutral in tone. Therefore, the sentiment of this tweet is neutral.\n\n{neutral} #### {neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $SRPT higher by 4.5% today clearing 21 MA and nearing Feb OpEx value range breakout\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "The tweet mentions a stock price increase of 4.5%, which is a positive development. The tweet also mentions that the stock price is clearing a moving average (21 MA) and nearing a value range breakout, which are also positive indicators. Therefore, the sentiment of this tweet is {positive}.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Explainer: How the Fed's latest move will get money to Main Street #economy #MarketScreener https://t.co/x3pgUHAqsa https://t.co/NtM1SzX2fR\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning: The tweet discusses the Fed's move to get money to Main Street and mentions #economy and #MarketScreener. The tone is informative and neutral, without any negative or positive connotations. Therefore, the sentiment of this tweet is {neutral}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Highlight: \u201cIf you think about the value that LVMH might be able to unlock for Tiffany, it does justify the price t\u2026 https://t.co/7YlpHgIQ3H\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "Reasoning process: The tweet is discussing the value that LVMH might be able to unlock for Tiffany, which is a positive topic. The use of the word \"justify\" suggests that the tweet is expressing a positive sentiment towards the price. Therefore, the sentiment of this tweet is positive.\n{negative} #### {The sentiment of this tweet is positive.}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: New Products, More Stores Won't Fix Pot's Woes: Cannabis Weekly\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Input: New Products, More Stores Won't Fix Pot's Woes: Cannabis Weekly\nReasoning process: The tweet is discussing the potential of new products and more stores to fix the problems of marijuana. However, the tweet does not express any positive or negative sentiment towards the topic. It is neutral in nature.\nAnswer: neutral",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: 5G coverage will span two thirds of the global population in 6 years, Ericsson predicts https://t.co/ooY30VhKb9\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet is about 5G coverage and its global expansion.\n2. The tweet mentions that 5G coverage will span two thirds of the global population in 6 years.\n3. The tweet is not expressing any negative or positive emotions.\n4. The tweet is providing information about a technological advancement.\n5. The tweet is neutral in sentiment.\n\nAnswer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: U.K.'s Johnson to Spend 5 Billion Pounds on Bus Service Overhaul\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of the tweet, let's analyze its content and tone.\n\nThe tweet mentions that the U.K.'s Johnson is planning to spend 5 billion pounds on bus service overhaul. This suggests a significant investment in public transportation, which is generally seen as a positive development.\n\nGiven the context and the positive connotation of the investment in public transportation, the sentiment of this tweet is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $EBAY - Guggenheim sees favorable catalysts for eBay https://t.co/1adfDkHeaw\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I'll analyze the content and context.\nThe tweet mentions \"Guggenheim sees favorable catalysts for eBay\", which implies a positive outlook on eBay's future.\nThe use of \"favorable\" and \"catalysts\" also suggests a positive sentiment.\nTherefore, the sentiment of this tweet is {positive}.\n#### {reasoning process} #### {positive}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: \"Let\u2019s do push-ups, man.\" https://t.co/U8QVQkICIh\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I think the sentiment of this tweet is {positive}.\nReasoning process: The tweet is a casual request for a friend to do push-ups together. It does not express any negative or positive emotions, but rather a friendly and casual request. Therefore, the sentiment is neutral.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Fortinet +2% after investor day guidance\n",
+      "true_answer": "positive",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions Fortinet, which is a cybersecurity company. The tweet also mentions a 2% increase in stock price, which is a positive development for the company.\nHowever, the tweet does not provide any additional context or information about the company's performance or the reasons for the increase in stock price.\nTherefore, based on the limited information provided, I would classify the sentiment of this tweet as {neutral}.\n#### {neutral} #### {The tweet does not provide enough information to determine the sentiment, but it is likely neutral as it only mentions a stock price increase without any additional context or information about the company's performance or reasons for the increase.}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Hedge Funds Are Warming Up To Canadian Imperial Bank of Commerce (CM)\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "### Reasoning process:\n1. The tweet mentions \"Hedge Funds Are Warming Up To Canadian Imperial Bank of Commerce (CM)\".\n2. \"Warming Up\" generally means becoming more interested or enthusiastic about something.\n3. The tweet is not expressing any negative or positive emotions.\n4. The tweet is neutral in sentiment.\n\n### Answer:\n{neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Highlight: Michael Bloomberg \"is trying to kind of bring the party together\u2014 shift the focus a little bit,\"\u2026 https://t.co/QJV0meMLmA\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet is about Michael Bloomberg trying to bring the party together and shift the focus.\n2. The tweet does not contain any negative or positive words or phrases.\n3. The tweet is neutral in sentiment.\n4. The answer is {neutral}.\n{reasoning process} {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Avaya names Bartolo chief product officer\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Input: Avaya names Bartolo chief product officer\nTweet: Avaya names Bartolo chief product officer\nSentiment: Neutral\n\nReasoning process: The tweet is a news headline, and it simply states that Avaya has named Bartolo as the chief product officer. There is no positive or negative sentiment expressed in the tweet. It is a neutral statement.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $VWDRY - Google drops plan to buy stake in Africa's biggest wind park https://t.co/rW0gmfJTVS\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet mentions that Google is dropping a plan to buy a stake in Africa's biggest wind park. 2. This is a negative news for Google and the wind park. 3. The use of the hashtag $VWDRY suggests that the tweet is mocking or criticizing the news. 4. Therefore, the sentiment of this tweet is negative. Answer: {negative}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: PagSeguro EPS misses by R$0.02, misses on revenue\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "{negative} #### The sentiment of this tweet is negative because it mentions that PagSeguro EPS misses by R$0.02, which indicates a financial shortfall.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Foresight Autonomous EPS beats by $0.11\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "### Reasoning process:\n1. The tweet mentions \"Foresight Autonomous EPS beats by $0.11\".\n2. \"Beats\" implies a positive result.\n3. The amount mentioned ($0.11) is positive.\n4. The overall sentiment is positive.\n\n### Answer: {positive}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: This is what distracted driving looks like in LA and New York.\n\nNew data shows drivers are distracted around 20% of\u2026 https://t.co/bODOEgK8PU\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet is a news headline, and it mentions that drivers are distracted around 20% of the time. This implies that distracted driving is a common occurrence, which is not a positive thing. Therefore, the sentiment of this tweet is negative.\nAnswer: {negative}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Tesla shares jump as Musk tweets about Cybertruck preorders\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "### Reasoning process:\n1. The tweet mentions Tesla shares jumping, which is generally seen as a positive event for the company.\n2. Elon Musk, the CEO of Tesla, tweets about Cybertruck preorders, which is a positive development for the company.\n3. The overall sentiment of the tweet is positive as it highlights positive developments for the company.\n\n### Answer: {positive}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Does OneSpaWorld Holdings (NASDAQ:OSW) Have A Healthy Balance Sheet?\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I'll analyze the content and tone.\nThe tweet is asking about the balance sheet of OneSpaWorld Holdings, which is a company. The use of the word \"Does\" at the beginning suggests a question, not a statement or opinion.\nThe tweet doesn't express any positive or negative emotions or opinions about the company's balance sheet. It's simply asking a question.\nGiven this analysis, the sentiment of this tweet is {neutral}.\n#### The sentiment of this tweet is neutral.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Ridley : Managing Directors address to shareholders #Ridley #Stock #MarketScreener https://t.co/fjoLUsOYUK https://t.co/UXVKthM3qK\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet is about a company named Ridley addressing shareholders. There is no indication of any negative or positive sentiment in the tweet. The tweet is neutral.\nAnswer: neutral",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Brazilian real spikes after BCB signals rate cut pause\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "### Reasoning process:\n1. The tweet mentions that the Brazilian real has spiked after the BCB (Brazilian Central Bank) signals a rate cut pause.\n2. The use of the word \"spikes\" suggests a sudden and significant increase in value.\n3. The BCB (Brazilian Central Bank) is known for its monetary policy, and a rate cut pause implies a delay in lowering interest rates.\n4. The combination of these factors suggests that the Brazilian real is experiencing a positive sentiment, as it is increasing in value due to a delay in monetary policy.\n\n### Answer: {positive}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: The author of this opinion piece retired at age 44, so you should probably listen to him. \nhttps://t.co/0usmcuNh1E\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: \n1. The tweet is an opinion piece about a retired author.\n2. The author is 44 years old and has retired.\n3. The tweet suggests that the author's opinion should be listened to.\n4. The tweet does not express any negative or positive emotions.\n5. The tweet is neutral in sentiment.\n\nAnswer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Gorman-Rupp Reports Fourth Quarter and Full-Year 2019 Financial Results\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "I will analyze the tweet to determine its sentiment.\nThe tweet is: \"Gorman-Rupp Reports Fourth Quarter and Full-Year 2019 Financial Results\"\nThis tweet is a news headline, not a tweet. It does not express any sentiment or opinion.\nTherefore, the sentiment of this tweet is: neutral.\n#### neutral",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $SMRT - Stein Mart accepts buyout offer https://t.co/GYl9PnUOPe\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I'll analyze the content and context:\n\n1. The tweet mentions \"SMRT - Stein Mart\" and \"accepts buyout offer.\"\n2. The use of \"accepts\" suggests a positive action.\n3. The context implies that Stein Mart is considering a buyout offer, which is generally seen as a positive development for the company.\n\nBased on this analysis, the sentiment of this tweet is positive.\n\n{reasoning process} #### {answer} {positive}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: First Choice declares $0.25 dividend\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions that First Choice declares a $0.25 dividend. This is a financial announcement, and the use of the word \"dividend\" suggests that the company is distributing a portion of its profits to its shareholders.\nHowever, there is no indication of any positive or negative emotions or opinions expressed in the tweet. The content is simply a financial statement.\nTherefore, the sentiment of this tweet is neutral.\n#### Neutral",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Bluebird bio stock price target cut to $86 from $172 at Evercore ISI\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "The sentiment of this tweet is {negative}.\n\n#### Reasoning process: \n1. The tweet mentions a \"Bluebird bio stock price target cut to $86 from $172 at Evercore ISI\".\n2. A \"cut\" in stock price target generally indicates a decrease in the expected value of the stock.\n3. The new target price ($86) is lower than the previous target ($172), which is a negative change.\n4. The tweet does not contain any positive or neutral sentiments.\n5. Therefore, the sentiment of the tweet is negative.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: The reveal of the Tesla $TSLA #Cybertruck didn't go quite as expected... but moving on, there's a few specs you sho\u2026 https://t.co/wYnwjcjnEF\n",
+      "true_answer": "negative",
+      "generated_answer": "positive",
+      "full_response": "Reasoning process: The tweet mentions that the Tesla Cybertruck reveal didn't go as expected, but it also states that there are some specs to look forward to. This suggests a mix of disappointment and anticipation, which leans towards a neutral sentiment. However, the use of the word \"but\" implies a slight shift towards a more positive sentiment. Overall, the tweet seems to have a neutral sentiment with a slight positive twist.\nFinal answer: neutral",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Employee furloughs in the retail industry are now well over 1 million after one of America's biggest clothing store\u2026 https://t.co/eFPius4T5H\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: \ufffd\u4ece\u7ed9\u7684\u63a8\u6587\u5185\u5bb9\u6765\u770b\uff0c\u63a8\u6587\u4e3b\u8981\u63cf\u8ff0\u4e86\u7f8e\u56fd\u6700\u5927\u7684\u670d\u88c5\u96f6\u552e\u5546\u7684\u5458\u5de5\u88ab\u89e3\u96c7\u7684\u60c5\u51b5\uff0c\u8fd9\u663e\u7136\u662f\u4e00\u4e2a\u8d1f\u9762\u7684\u6d88\u606f\u3002\u63a8\u6587\u6ca1\u6709\u63d0\u5230\u4efb\u4f55\u79ef\u6781\u6216\u4e2d\u6027\u7684\u5185\u5bb9\uff0c\u56e0\u6b64\u53ef\u4ee5\u5224\u65ad\u8fd9\u4e2a\u63a8\u6587\u7684\u60c5\u611f\u662f\u8d1f\u9762\u7684\u3002\nAnswer: {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $FTI - TechnipFMC downgraded at Berenberg but called Top Pick at Deutsche Bank https://t.co/XKcPDilIuU\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: 1. The tweet mentions that TechnipFMC, a company, has been downgraded by Berenberg but is still called a top pick by Deutsche Bank. 2. The tweet is not expressing any strong positive or negative emotions. 3. The tweet is neutral in tone. 4. The tweet is not providing any information that would indicate a positive or negative sentiment. 5. Therefore, the sentiment of this tweet is neutral. Answer: {neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $BKE - The Buckle, Inc. (BKE) CEO Dennis Nelson on Q3 2019 Results - Earnings Call Transcript. Get more updates her\u2026 https://t.co/SpnZXsD2Cd\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process:\n1. The tweet appears to be a link to a company earnings call transcript.\n2. The content does not contain any explicit positive or negative language.\n3. The tweet is neutral in tone and does not express any strong emotions.\n4. The tweet is informative and provides details about a company's financial performance.\n5. There is no indication of the user's sentiment towards the content.\n\nFinal answer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Altria stock price target raised to $54 from $50 at Stifel Nicolaus\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of the tweet, let's analyze the content step by step:\n\n1. The tweet mentions \"Altria stock price target raised to $54 from $50 at Stifel Nicolaus.\"\n2. The phrase \"raised\" implies an increase in value, which is generally seen as a positive development.\n3. The stock price target is mentioned, which is a financial metric used by investors to estimate the value of a company's stock.\n4. The tweet does not contain any negative or critical language about the stock or the company.\n5. The overall tone of the tweet is neutral, as it simply reports a financial update without expressing any strong emotions.\n\nGiven this analysis, the sentiment of the tweet is {neutral}.\n\n{reasoning process}:\n- The tweet mentions a stock price target increase.\n- This is generally seen as a positive development.\n- The tweet does not contain any negative or critical language.\n- The overall tone is neutral, as it simply reports a financial update without expressing any strong emotions.\n\n{answer} {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: \u201cOh my f---ing god:\u201d Elon Musk is stunned as Tesla truck's shatterproof windows break https://t.co/ErdHvY9jh5 via @luxury\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet expresses shock and disbelief at the situation, using profanity and exclamation marks. This indicates a negative sentiment. The tweet does not contain any positive or neutral elements. Therefore, the sentiment of this tweet is {negative}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $LEVI - Levi Strauss EPS beats by $0.05, beats on revenue https://t.co/UfIyY92vC5\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "Reasoning process: 1. The tweet mentions that Levi Strauss EPS beats by $0.05 and beats on revenue. 2. The use of the word \"beats\" implies a positive sentiment. 3. The tweet is a news update, so it is likely to be neutral. 4. The positive sentiment is stronger than the neutral sentiment. 5. Therefore, the sentiment of this tweet is positive. Answer: {positive}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Medtronic beats profit estimates and raises its 2020 forecast again\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "{reasoning process}: The tweet mentions that Medtronic beats profit estimates and raises its 2020 forecast again. This indicates that the company is performing well and is meeting or exceeding expectations. Therefore, the sentiment of this tweet is positive.\n{answer}: positive",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: LOOK: Hong Kong officials count votes in the city's 1st district council elections since the #HongKongProtests bega\u2026 https://t.co/mSm0OmYXkW\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet is about Hong Kong officials counting votes in the 1st district council elections. The #HongKongProtests are mentioned, but the tweet does not express any negative or positive sentiment towards the protests. The tweet is neutral.\nFinal answer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Even After Its Latest Moves, Chesapeake Energy Stock Is Still Too Risky\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "{negative} #### The sentiment of this tweet is negative because the author is expressing concern about the riskiness of Chesapeake Energy stock, which is a negative sentiment.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Europe\u2019s wealthiest man \u2014LVMH chief Bernard Arnault \u2014 is spending more than $1 billion on a Paris department store\u2026 https://t.co/eQYy0mL1rI\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "Reasoning process: The tweet is about a wealthy man spending a lot of money on a department store in Paris. This is generally considered to be a positive thing, as it shows that the man has a lot of money and is willing to spend it on something he likes. Therefore, the sentiment of this tweet is positive.\nAnswer: positive",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Philippine Stocks May Pick Up Into Year-End on Profits, GDP\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "Input: Philippine Stocks May Pick Up Into Year-End on Profits, GDP\nTo determine the sentiment of this tweet, I will analyze the content and context.\n1. The tweet mentions \"Philippine Stocks\", which is a positive topic.\n2. It states that the stocks may \"Pick Up\", which implies an increase in value, which is also positive.\n3. The tweet mentions \"Profits\" and \"GDP\", which are generally positive indicators for the economy.\n4. The overall tone of the tweet is optimistic and forward-looking.\n5. There are no negative words or phrases present in the tweet.\nBased on these observations, the sentiment of this tweet is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Prothena up 8% on Evercore upgrade\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions that Prothena is up 8% on an upgrade from Evercore. This indicates that the company's stock price has increased, which is generally considered a positive development.\nTherefore, the sentiment of this tweet is {positive}.\n#### The sentiment of this tweet is {positive}.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: UK and EU must avoid punch-up over finance - next BoE boss Bailey https://t.co/uiXlUxuNKZ https://t.co/O1UaCKuZUV\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "Reasoning process: The tweet is about the UK and EU avoiding a fight over finance, and mentions the next BoE boss Bailey. This seems to be a neutral statement about the Bank of England's next leader. There is no clear indication of positive or negative sentiment. Therefore, the sentiment is neutral.\n\n{neutral} #### {neutral}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Roku Leads In Subscriber Battle With Apple, Amazon\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and context.\nThe tweet mentions that Roku leads in subscriber battle with Apple and Amazon. This implies that Roku is performing better than its competitors in terms of subscriber numbers.\nBased on this information, the sentiment of the tweet is positive, as it highlights Roku's success in the market.\nTherefore, the answer is: {positive}.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $SLV highs, 50,000 Jan $21/$30 call spreads bought\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of the tweet, let's analyze its content step by step:\n\n1. The tweet mentions \"SLV highs, \" which could be interpreted as a positive sentiment, as it indicates a high value for a specific investment.\n2. The tweet also mentions \"50, 000 Jan $21/$30 call spreads bought,\" which suggests that the person is buying a call spread, a strategy that can be seen as a positive action in the stock market.\n3. The use of the word \"bought\" implies a positive action, as it indicates that the person is taking a position in the market.\n\nConsidering these points, the sentiment of the tweet appears to be positive, as the person is taking a positive action (buying) and is likely looking for a positive outcome (high value).\n\nTherefore, the sentiment of this tweet is {positive}.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: A Booming Corner of Private Credit Has Some Investors on Edge\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "### Reasoning process:\n1. The tweet mentions a \"Booming Corner of Private Credit\" which suggests a positive aspect.\n2. However, it also states that \"Some Investors on Edge\", which implies some uncertainty or concern.\n3. The overall tone seems to be mixed, with both positive and negative elements.\n\n4. Given the options, the most appropriate sentiment is \"neutral\" as the tweet does not clearly express a strong positive or negative sentiment.\n\n### Answer: Neutral",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Sell Your Bonds! Buy Net Lease REITs Instead. Continue reading: https://t.co/YmjHN6AAcY #trading #markets #business\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: \n1. The tweet is about investing in bonds and real estate investment trusts (REITs).\n2. The tweet suggests selling bonds and buying REITs instead.\n3. The tweet also mentions \"Continue reading: https://t.co/YmjHN6AAcY #trading #markets #business\"\n4. The tweet does not express any positive or negative emotions.\n5. The tweet is neutral in sentiment.\nAnswer: {neutral}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Surviving The Late Cycle, But Still Earning Something. Subscribe to Seeking Alpha for more: https://t.co/yv0EYfK3OZ\u2026 https://t.co/MDUXlx9Plj\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process:\n1. The tweet mentions \"Surviving The Late Cycle, But Still Earning Something.\"\n2. It also mentions \"Subscribe to Seeking Alpha for more.\"\n3. The use of \"Surviving\" suggests a negative sentiment.\n4. The phrase \"Still Earning Something\" implies a positive sentiment.\n5. The tweet is promoting Seeking Alpha, which is a financial news website.\n6. The overall tone of the tweet is informative and neutral.\n\nBased on the analysis, the sentiment of this tweet is {neutral}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Nasdaq CEO @adenatfriedman thrives under pressure:\n\n\"Every time ... where someone\u2019s taken a leap of faith and said,\u2026 https://t.co/tW98HHQ0hb\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "Reasoning process: The tweet is about a CEO of Nasdaq who is thriving under pressure. The tone is positive as it shows resilience and success in difficult situations. Therefore, the sentiment of this tweet is positive.\n\n{negative} #### {neutral} #### {positive}",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Nike will no longer sell its items directly to Amazon, as it looks to revamp its retail strategy by selling just to\u2026 https://t.co/QjsmkcJrap\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I think the sentiment of this tweet is {negative}.\nReasoning process: The tweet mentions that Nike will no longer sell its items directly to Amazon, which implies a change in strategy. This could be seen as a negative development for Nike's business. Additionally, the tweet also mentions that Nike will sell just to Amazon, which could be seen as a negative move for the consumer. Therefore, the sentiment of this tweet is {negative}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: UPDATE 2-U.S. safety board wants Boeing to redesign 737 NG part after fatal Southwest accident\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "The tweet expresses a negative sentiment. The safety board's request for Boeing to redesign the 737 NG part after a fatal accident implies concern and a desire for safety improvements, which is a negative sentiment.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Amazon sues over loss of Pentagon cloud deal to Microsoft https://t.co/8V4JiazrzH via @business https://t.co/sI3cF5Guz4\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet is about Amazon suing over a loss of a cloud deal to Microsoft. This is a negative event for Amazon. The tweet is not positive or neutral. Therefore, the sentiment of this tweet is negative.\nAnswer: {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: How Does Consort Medical's (LON:CSRT) P/E Compare To Its Industry, After Its Big Share Price Gain?\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "Input: Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: How Does Consort Medical's (LON:CSRT) P/E Compare To Its Industry, After Its Big Share Price Gain?\nTo determine the sentiment of this tweet, I need to analyze the content and tone of the tweet. The tweet is asking a question about the P/E ratio of Consort Medical's stock and comparing it to its industry. The tweet does not express any positive or negative emotions, and it is not providing any information that would indicate a particular sentiment. Therefore, the sentiment of this tweet is neutral.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: LISTEN NOW: Ginni Rometty is stepping down as CEO of IBM. Listen and subscribe to the Squawk Pod podcast by... https://t.co/cvN7MjWPt8\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I will need to analyze the content of the tweet to determine its sentiment. The tweet is about Ginni Rometty stepping down as CEO of IBM and the Squawk Pod podcast. There is no clear indication of positive or negative sentiment in the tweet. Therefore, I will choose {neutral} as the sentiment of this tweet.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Panasonic and KOS\u00c9 Set to Commence Verification Test for Personalized Proposals Utilizing Snow Beauty Mirror\u2026 https://t.co/yfyjGLjZui\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I think the sentiment of this tweet is {neutral}.\nReasoning process: The tweet is a news headline, and the content is about a test for personalized proposals using a snow beauty mirror. There is no positive or negative sentiment expressed in the tweet. Therefore, the sentiment is neutral.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Stock Market Update: Early Levels\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "I'm sorry, but I can't provide a sentiment analysis of this tweet as it is too short and vague. Please provide more context or a longer tweet.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: New medical chief at Savara\n",
+      "true_answer": "neutral",
+      "generated_answer": "neutral",
+      "full_response": "I think the sentiment of this tweet is neutral. The tweet simply states that a new medical chief has been appointed at Savara, without expressing any strong emotions or opinions. Therefore, the sentiment is neutral.",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Can Simon Property Group Save Forever 21?\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I think the sentiment of this tweet is {neutral}. The tweet is asking a question about the financial situation of a company, which is a neutral topic. There is no clear positive or negative sentiment expressed in the tweet.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Two Regional Fed Chiefs Lay Out Aggressive Coronavirus Response -- Update #economy #MarketScreener\u2026 https://t.co/9OUm67AaSL\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "To determine the sentiment of this tweet, I will analyze the content and tone of the message.\nThe tweet is about two Regional Fed Chiefs laying out an aggressive coronavirus response. The use of the word \"aggressive\" suggests a strong and forceful approach to the coronavirus response. The tweet also mentions \"Update #economy #MarketScreener\", which implies that the tweet is providing information about the economy and market conditions.\nBased on the content and tone of the tweet, the sentiment is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Wall Street Warnings Get Louder Now the Everything Rally Is Back\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "### Reasoning process:\n1. The tweet mentions \"Wall Street Warnings Get Louder\", which suggests that there are more warnings or concerns about the stock market.\n2. It also mentions \"Everything Rally Is Back\", which implies that the market is recovering or bouncing back.\n3. The overall tone of the tweet seems to be one of caution and a return to previous levels of market activity.\n\nGiven these points, the sentiment of the tweet is likely to be **negative** as it suggests a return to previous levels of market activity with more warnings.\n\n#### {negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Shares gain, but doubts linger on U.S.-China deal, oil rises\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "{negative} #### The sentiment of this tweet is negative. The tweet mentions that shares are gaining, but there are doubts about the U.S.-China deal, and oil is rising. These are all positive developments, but the overall sentiment is negative due to the doubts about the U.S.-China deal.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Starbuds CEO Brian Ruden Joins Medicine Man Board\n",
+      "true_answer": "neutral",
+      "generated_answer": "negative",
+      "full_response": "I think the sentiment of this tweet is {neutral}.\nReasoning process: The tweet simply states that the CEO of Starbuds is joining the Medicine Man board. There is no positive or negative sentiment expressed in the tweet. It is a neutral statement.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Align Technology stock price target raised to $305 from $290 at Stifel Nicolaus\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of the tweet, let's analyze the content step by step:\n\n1. The tweet mentions \"Align Technology stock price target raised to $305 from $290 at Stifel Nicolaus.\"\n2. The phrase \"raised\" implies an increase in value, which is generally seen as a positive development.\n3. The target price of $305 is higher than the previous target of $290, indicating an increase in the stock's value.\n4. The tweet does not contain any negative or critical language about the stock or the company.\n5. The overall tone of the tweet is positive, as it reports a positive development for the stock.\n\nGiven this analysis, the sentiment of the tweet is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Live Nation Falls After Report DOJ Is Preparing Legal Action\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "{negative}",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: U.S. Hiring Strengthened in November, Fueling Expansion -- Update #economy #MarketScreener https://t.co/FeceVHW5ph https://t.co/pJFvqEaRrP\n",
+      "true_answer": "positive",
+      "generated_answer": "negative",
+      "full_response": "To determine the sentiment of this tweet, let's analyze its content step by step:\n\n1. The tweet mentions \"U.S. Hiring Strengthened in November, Fueling Expansion.\"\n   - This indicates a positive trend in the economy, which is generally seen as a positive sentiment.\n\n2. The tweet also mentions \"Update #economy #MarketScreener\"\n   - This is a link to an update on the economy, which is neutral in sentiment.\n\n3. The tweet ends with \"https://t.co/FeceVHW5ph https://t.co/pJFvqEaRrP\"\n   - These are links to the tweet, which is neutral in sentiment.\n\n4. The overall tone of the tweet is informative and neutral, with a slight positive implication about the economy.\n\n5. There are no negative words or phrases present in the tweet.\n\nGiven this analysis, the sentiment of this tweet is {positive}.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: $NOW gaps up through resistance around 276.50 after reclaiming its 200-day. Currently working on a 1st stage base (\u2026 https://t.co/L96E9iYdQJ\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "Reasoning process: The tweet mentions that the stock price is \"gaps up through resistance around 276.50 after reclaiming its 200-day.\" This indicates a positive sentiment as the stock price is rising and breaking through resistance levels. Therefore, the sentiment of this tweet is positive.\n\n{negative/neutral/positive} positive #### positive",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Engineers at @MIT have created a new way to remove carbon dioxide from the air https://t.co/4rzZqzTvEm\n",
+      "true_answer": "neutral",
+      "generated_answer": "positive",
+      "full_response": "I think the sentiment of this tweet is {positive}.\nReasoning process: The tweet is about engineers at MIT creating a new way to remove carbon dioxide from the air. This is generally seen as a positive development as it could help to reduce the amount of carbon dioxide in the atmosphere, which is a major concern for many people. The use of the word \"new\" also suggests that this is a positive development. Therefore, I believe the sentiment of this tweet is positive.",
+      "correct": false
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: S&P down 1.15% but TDEX still below 12. https://t.co/XfNJzEkzz7\n",
+      "true_answer": "negative",
+      "generated_answer": "negative",
+      "full_response": "Reasoning process: The tweet mentions that the S&P is down 1.15% and TDEX is still below 12. This suggests that the S&P is in a negative position, while TDEX is in a positive position. However, the tweet does not provide any additional context or information to determine the overall sentiment of the tweet. Therefore, we cannot determine the sentiment of the tweet with the given information.\nAnswer: Neutral",
+      "correct": true
+    },
+    {
+      "context": "Instruction: What is the sentiment of this tweet? Please choose an answer from {negative/neutral/positive}.\nInput: Goldman Says 36,000% Rally in Brazilian Retailer Has Room to Run\n",
+      "true_answer": "positive",
+      "generated_answer": "positive",
+      "full_response": "### Reasoning Process:\n1. **Identify the key elements**: The tweet mentions a 36,000% rally in a Brazilian retailer and suggests that there is room for more growth.\n2. **Analyze the tone**: The tone seems to be positive, as it suggests potential for further growth.\n3. **Consider the context**: The context is about a significant increase in a company's stock price, which is generally seen as a positive development.\n4. **Make a judgment**: Given the positive tone and the context of a significant increase in stock price, the sentiment is likely positive.\n\n### Answer:\n{positive}",
+      "correct": true
+    }
+  ]
+}

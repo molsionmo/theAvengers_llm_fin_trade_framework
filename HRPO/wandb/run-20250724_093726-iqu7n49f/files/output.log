@@ -1,0 +1,243 @@
+  0%|                                                     | 0/1868 [00:00<?, ?it/s]
+Conversion to floating number fails: 40/
+Conversion to floating number fails: 2/
+==================================================
+Batch accuracy: NNNNNNNN
+1/8 responses (answer: 476):
+To calculate how much Mr. Benson paid for the concert tickets, we need to break down the problem into two parts: the cost of the initial 10 tickets and the cost of the additional tickets after the discount.
+
+1. **Initial Cost of 10 Tickets:**
+   Each ticket costs $40, so for 10 tickets, the cost would be:
+   \[
+   10 \times 40 = 400 \text{ dollars}
+   \]
+
+2. **Cost of Additional Tickets:**
+   Mr. Benson bought 12 tickets, which means he bought 2 additional tickets beyond the initial 10.
+   The discount for each additional ticket is 5%. Therefore, the discounted price per additional ticket is:
+   \[
+   40 \times (1 - 0.05) = 40 \times 0.95 = 38 \text{ dollars}
+   \]
+   Since he bought 2 additional tickets, the total cost for these tickets is:
+   \[
+   2 \times 38 = 76 \text{ dollars}
+   \]
+
+3. **Total Cost:**
+   Now, we add the cost of the initial 10 tickets and the cost of the additional 2 tickets:
+   \[
+   400 + 76 = 476 \text{ dollars}
+   \]
+
+Therefore, Mr. Benson paid a total of $476 for the concert tickets.
+==================================================
+==================================================
+Batch accuracy: NNNNNNNN
+1/8 responses (answer: 1500):
+To find out how much more the monthly payment on the house compared to the trailer is, we need to calculate the monthly payment for both the house and the trailer. We can do this by dividing the total cost of each by the number of payments over 20 years.
+
+For the house, the total cost is $480,000 and the number of payments is 20 years times 12 months per year, which is 240 months. So, the monthly payment for the house is $480,000 / 240 = $2,000.
+
+For the trailer, the total cost is $120,000 and the number of payments is the same, which is 240 months. So, the monthly payment for the trailer is $120,000 / 240 = $500.
+
+Now, to find out how much more the monthly payment on the house is compared to the trailer, we subtract the monthly payment for the trailer from the monthly payment for the house:
+
+$2,000 - $500 = $1,500.
+
+Therefore, the monthly payment on the house is $1,500 more than the monthly payment on the trailer.
+
+#### {reasoning process} ####
+
+1. Calculate the monthly payment for the house: $480,000 / 240 = $2,000.
+2. Calculate the monthly payment for the trailer: $120,000 / 240 = $500.
+3. Find the difference between the monthly payments: $2,000 - $500 = $1,500.
+
+{answer} The monthly payment on the house is $1,500 more than the monthly payment on the trailer.
+==================================================
+Unsloth: Will smartly offload gradients to save VRAM!
+Conversion to floating number fails: 40/
+Conversion to floating number fails: 40/
+Conversion to floating number fails: 120/
+Conversion to floating number fails: 28/
+Conversion to floating number fails: 28/
+Conversion to floating number fails: 140/
+Conversion to floating number fails: 120/
+Conversion to floating number fails: 240/
+Conversion to floating number fails: 140/
+Conversion to floating number fails: 280/
+Conversion to floating number fails: 280/
+Conversion to floating number fails: 240/
+Conversion to floating number fails: 040/
+Conversion to floating number fails: 40/
+Conversion to floating number fails: 40/
+Conversion to floating number fails: 120/
+Conversion to floating number fails: 120/
+Conversion to floating number fails: 480/
+Conversion to floating number fails: 28/
+Conversion to floating number fails: 28/
+Conversion to floating number fails: 140/
+Conversion to floating number fails: 140/
+Conversion to floating number fails: 560/
+Conversion to floating number fails: 480/
+Conversion to floating number fails: 760/
+Conversion to floating number fails: 560/
+Conversion to floating number fails: 720/
+Conversion to floating number fails: 720/
+Conversion to floating number fails: 760/
+Conversion to floating number fails: 960/
+Conversion to floating number fails: 40/
+Conversion to floating number fails: 120/
+Conversion to floating number fails: 28/
+Conversion to floating number fails: 140/
+Conversion to floating number fails: 140/
+Conversion to floating number fails: 120/
+Conversion to floating number fails: 20/
+Conversion to floating number fails: 20/
+Conversion to floating number fails: 040/
+Conversion to floating number fails: 40/
+Conversion to floating number fails: 40/
+Conversion to floating number fails: 120/
+Conversion to floating number fails: 28/
+Conversion to floating number fails: 28/
+Conversion to floating number fails: 140/
+Conversion to floating number fails: 140/
+Conversion to floating number fails: 120/
+Conversion to floating number fails: 20/
+Conversion to floating number fails: 20/
+Conversion to floating number fails: 1040/
+Conversion to floating number fails: 40/
+Conversion to floating number fails: 40/
+Conversion to floating number fails: 120/
+Conversion to floating number fails: 28/
+Conversion to floating number fails: 28/
+Conversion to floating number fails: 140/
+Conversion to floating number fails: 120/
+Conversion to floating number fails: 240/
+Conversion to floating number fails: 140/
+Conversion to floating number fails: 280/
+Conversion to floating number fails: 280/
+Conversion to floating number fails: 240/
+Conversion to floating number fails: 040/
+Conversion to floating number fails: 40/
+Conversion to floating number fails: 28/
+==================================================
+Batch accuracy: NNNNNNNN
+1/8 responses (answer: 1040):
+To calculate how much more Janet spends on piano lessons than clarinet lessons in a year, we first need to calculate the weekly cost for each.
+
+For the clarinet lessons:
+Janet pays $40/hour for 3 hours per week.
+Weekly cost of clarinet lessons = $40/hour * 3 hours/week = $120/week
+
+For the piano lessons:
+Janet pays $28/hour for 5 hours per week.
+Weekly cost of piano lessons = $28/hour * 5 hours/week = $140/week
+
+Now, let's calculate the annual cost for each.
+
+For the clarinet lessons:
+Annual cost of clarinet lessons = Weekly cost * 52 weeks/year = $120/week * 52 weeks/year = $6,240/year
+
+For the piano lessons:
+Annual cost of piano lessons = Weekly cost * 52 weeks/year = $140/week * 52 weeks/year = $7,280/year
+
+Finally, let's calculate the difference in annual costs between the piano lessons and the clarinet lessons.
+
+Difference = Annual cost of piano lessons - Annual cost of clarinet lessons
+Difference = $7,280/year - $6,240/year = $1,040/year
+
+Janet spends $1,040 more on piano lessons than on clarinet lessons in a year.
+==================================================
+  File "/workspace/HRPO/hrpo_gsm8k.py", line 138, in <module>
+    main(args)
+  File "/workspace/HRPO/hrpo_gsm8k.py", line 103, in main
+    trainer.train()
+  File "/workspace/HRPO/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 310, in _fast_inner_training_loop
+  File "<string>", line 25, in _unsloth_training_step
+  File "/workspace/HRPO/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 991, in _prepare_inputs
+    prompt_completion_ids, thinking_embeds, thinking_mask, embeds_ratio = unwrapped_model.generate(
+                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/HRPO/unsloth/models/rl.py", line 69, in generate_with_clone
+    out = original_generate(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/hrpo/lib/python3.11/site-packages/peft/peft_model.py", line 1874, in generate
+    outputs = self.base_model.generate(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/HRPO/unsloth/models/llama.py", line 1600, in unsloth_fast_generate
+    output = self._old_generate(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/hrpo/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/HRPO/transformers/generation/utils.py", line 2329, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/workspace/HRPO/transformers/generation/utils.py", line 3311, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/hrpo/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/hrpo/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/HRPO/unsloth/models/llama.py", line 1050, in _CausalLM_fast_forward
+    outputs = fast_forward_inference(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/HRPO/unsloth/models/llama.py", line 979, in LlamaModel_fast_forward_inference
+    X = fast_rms_layernorm_inference(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/HRPO/unsloth/models/llama.py", line 324, in fast_rms_layernorm_inference
+    else: X.copy_(XX)
+          ^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/workspace/HRPO/hrpo_gsm8k.py", line 138, in <module>
+    main(args)
+  File "/workspace/HRPO/hrpo_gsm8k.py", line 103, in main
+    trainer.train()
+  File "/workspace/HRPO/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 310, in _fast_inner_training_loop
+  File "<string>", line 25, in _unsloth_training_step
+  File "/workspace/HRPO/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 991, in _prepare_inputs
+    prompt_completion_ids, thinking_embeds, thinking_mask, embeds_ratio = unwrapped_model.generate(
+                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/HRPO/unsloth/models/rl.py", line 69, in generate_with_clone
+    out = original_generate(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/hrpo/lib/python3.11/site-packages/peft/peft_model.py", line 1874, in generate
+    outputs = self.base_model.generate(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/HRPO/unsloth/models/llama.py", line 1600, in unsloth_fast_generate
+    output = self._old_generate(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/hrpo/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/HRPO/transformers/generation/utils.py", line 2329, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/workspace/HRPO/transformers/generation/utils.py", line 3311, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/hrpo/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/hrpo/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/HRPO/unsloth/models/llama.py", line 1050, in _CausalLM_fast_forward
+    outputs = fast_forward_inference(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/HRPO/unsloth/models/llama.py", line 979, in LlamaModel_fast_forward_inference
+    X = fast_rms_layernorm_inference(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/HRPO/unsloth/models/llama.py", line 324, in fast_rms_layernorm_inference
+    else: X.copy_(XX)
+          ^^^^^^^^^^^
+KeyboardInterrupt
