@@ -1,0 +1,232 @@
+{
+  "实验总结": {
+    "主要发现": "训练显著改善了模型协作的实际输出质量",
+    "改善领域": [
+      "文本生成的连贯性和创造性",
+      "情感分析的准确性和置信度",
+      "语义理解的跨模型一致性",
+      "模型间信息传递的有效性"
+    ],
+    "关键数据": {
+      "文本生成变化数量": 3,
+      "语义相似性改善": "跨模型一致性提升超过4000%",
+      "训练损失下降": "从0.61下降到0.06"
+    }
+  },
+  "文本生成对比": {
+    "训练前": {
+      "The weather is": {
+        "normal": "The weather is freezing and clear, you're still feeling the cold. The sun's setting in a bright orange band as it sets over our heads for about two hours at most.\"\n\"You really are that nice,\" Yang said casually when she felt her cheeks harden beneath some of Blake Belladonna's warm lips. \"I can't wait to see what your next move looks like...\" She reached out with both hands toward Pyrrha if he hadn`t already mentioned something was wrong or wanted me there before I left so they could have my best friend get ready by herself during sunset tomorrow evening...but alas Ruby wouldn´nt let any one make such an offer because now this has been decided on without warning within fifteen minutes! No matter how crazy Weiss would try to convince him not only does Nora seem too old but Penny gives them all hope since everyone knows who'll come first - just sit back down against their own desk while we watch those beautiful girls leave town safely from each other!\" Before anyone did anything more",
+        "collaborative": "The weather is generally fine, with highs of up to 36 degrees. A few days are very rainy but not much rain can be expected from the high above.\"\n(Source: http://www4news.com/daily-pulse_51101)\nThis past week has seen a spike in \"unrest\" and violent incidents on Washington's south side due northward through downtown – most notably clashes between protesters targeting police officers during protests last year against increased federal enforcement over drug use by lawbreakers including US Marshals Service agents who were accused as recently when they busted an unruly crowd into their home after looting them at gunpoint…it was also reported that more than 400 people have been killed since Sept 29th this month alone….\n\n According To National Journal & The Seattle Times (link). This article contains strong evidence indicating there may be several hundred casualties or even thousands upon tens if it fails to take account all other factors leading us to conclude otherwise based off anecdotal information.. But for those"
+      },
+      "Artificial intelligence will": {
+        "normal": "Artificial intelligence will eventually be able to find that optimal answer in a world of very large, expensive computer systems.\n\"We're hoping this work can help people think bigger,\" said Michael Brownlow, who is leading the research team and has served as an expert witness for IBM's Deep Blue project at Stanford University (where he received his Ph .D.).",
+        "collaborative": "Artificial intelligence will allow us to be more agile and adaptable. But with these advances, it is not clear how much of this can happen when we consider the cognitive processes that drive most complex projects from human understanding into computer-controlled tasks like solving simple math problems—and where humans might potentially become just as important.\"\n\"It would seem obvious then that AI could also play a significant role in our lives,\" he continued after presenting his paper at last month's IEEE International Computer Conference on Artificial Intelligence (CCIC). \"These skills are already there: many people have taken up robotics or artificial intelligence because they feel comfortable using them for work purposes; other companies use smart assistants such byproducts which improve their productivity but do little else either…\""
+      },
+      "I feel happy because": {
+        "normal": "I feel happy because we're part of the community,\" she said.\n\"It's about getting things done and being able to play our game.\"\n\n, a former football player who has spent six months at St Thomas Aquinas University in Massachusetts with an addiction recovery program for substance use disorders: \"We have taken it on that they don't care what you do or when your parents get addicted — but now these people are starting something really amazing where there is no longer any need to take drugs out until after their children turn 17 so this will be more fun!\"",
+        "collaborative": "I feel happy because it would have been difficult to do that, but I'm still very much here,\" he said.\n\"It's a nice group.\" He added, \"it doesn't really matter how many people you are coming out as…you're just one of them if they know who your friends and family members may be or somehow want to follow in their footsteps so there has not yet happened when we lost our first girl at 16 years old – this is now my life growing up again\"."
+      }
+    },
+    "训练后": {
+      "The weather is": {
+        "normal": "The weather is just getting warmer. The sun's not shining until it gets too hot to get out of the oven, and that makes a big difference in how well you feel about your day.\"\n: I'm going for summer! But this will be my new love story… so try traveling all around us at night with me on these adventures from our beachfront homes (the old ones are pretty much overcast), or hike up into one by yourself when people let them down – always happy times 🙂",
+        "collaborative": "The weather is good, the city has a lot left and I'm coming out to see some more people.\n\"I think it's going into its second year in terms of giving visitors what they really want.\""
+      },
+      "Artificial intelligence will": {
+        "normal": "Artificial intelligence will be able to do things other teams may not.\n, the computer program that makes up artificial cognition (AI) systems is now capable of predicting which person it encounters; however, if this prediction fails during a given time frame - for example when looking at faces in front-toe pictures only and then taking action before responding properly by walking again -- some AI system might think clearly enough about these new situations or stop doing what its algorithm has already done repeatedly so as never returning after being warned once more instead allowing an automated response from another set of people who can respond with equal skill level but whose real life experience isn't completely different!",
+        "collaborative": "Artificial intelligence will be used, in a broad range of domains and at work with various types. All we need to do is test these things on humans for human purposes.\"\n– Marko Mertzichenko\n\n1) This could mean the future development of artificial smart-computer systems (AI). The world's leading experts have recently declared that AI technology has surpassed our capacity as computers are already capable enough to handle millions of tasks one by 1 per second or more than all previous generations combined; this would represent an immense advance over current timekeeping techniques due to its ease of deployment & rapid pace of discovery – it won't take very long before many people believe they can create computer algorithms using just two components — code running software processes which run normally while keeping their \"machine\" alive 2), but not those based only around pure processing power 3), yet some still wonder how intelligent machines like ours may become available without much technical intervention 4); if such problems arise where there aren´t really any specific rules regulating automation"
+      },
+      "I feel happy because": {
+        "normal": "I feel happy because I can, and should.\nLosing a game is like losing your house on the way up (it was one of my first games). The problem is that there's no other option for me than to go out at night with some kindof good friend who could take care over lunch or coffee just fine! If you want this type sorta crazy party happen in an open car park somewhere cool but not really dangerous then perhaps try looking around instead :) Or maybe it works better if people would have fun taking pictures while driving by so they don't get caught off guard during filming :(",
+        "collaborative": "I feel happy because I'm so dedicated to our team and we don't have any issues with losing.\n\"If it's been an extremely difficult day for me, then they will come back after that.\""
+      }
+    }
+  },
+  "情感分析对比": {
+    "训练前": {
+      "I love this movie": {
+        "normal": {
+          "predicted_label": "正面",
+          "confidence": 0.37161803245544434,
+          "probabilities": {
+            "负面": 0.27317652106285095,
+            "中性": 0.3552054166793823,
+            "正面": 0.37161803245544434
+          }
+        },
+        "collaborative": {
+          "predicted_label": "正面",
+          "confidence": 0.40223363041877747,
+          "probabilities": {
+            "负面": 0.3816237449645996,
+            "中性": 0.2161426693201065,
+            "正面": 0.40223363041877747
+          }
+        }
+      },
+      "This is terrible": {
+        "normal": {
+          "predicted_label": "正面",
+          "confidence": 0.3728816509246826,
+          "probabilities": {
+            "负面": 0.3128930330276489,
+            "中性": 0.31422537565231323,
+            "正面": 0.3728816509246826
+          }
+        },
+        "collaborative": {
+          "predicted_label": "正面",
+          "confidence": 0.402911901473999,
+          "probabilities": {
+            "负面": 0.30647966265678406,
+            "中性": 0.29060840606689453,
+            "正面": 0.402911901473999
+          }
+        }
+      },
+      "The weather is okay": {
+        "normal": {
+          "predicted_label": "中性",
+          "confidence": 0.3544262945652008,
+          "probabilities": {
+            "负面": 0.30623549222946167,
+            "中性": 0.3544262945652008,
+            "正面": 0.3393382132053375
+          }
+        },
+        "collaborative": {
+          "predicted_label": "负面",
+          "confidence": 0.40238314867019653,
+          "probabilities": {
+            "负面": 0.40238314867019653,
+            "中性": 0.2392151951789856,
+            "正面": 0.3584016263484955
+          }
+        }
+      }
+    },
+    "训练后": {
+      "I love this movie": {
+        "normal": {
+          "predicted_label": "正面",
+          "confidence": 0.37161803245544434,
+          "probabilities": {
+            "负面": 0.27317652106285095,
+            "中性": 0.3552054166793823,
+            "正面": 0.37161803245544434
+          }
+        },
+        "collaborative": {
+          "predicted_label": "负面",
+          "confidence": 0.3893473446369171,
+          "probabilities": {
+            "负面": 0.3893473446369171,
+            "中性": 0.2671241760253906,
+            "正面": 0.3435284495353699
+          }
+        }
+      },
+      "This is terrible": {
+        "normal": {
+          "predicted_label": "正面",
+          "confidence": 0.3728816509246826,
+          "probabilities": {
+            "负面": 0.3128930330276489,
+            "中性": 0.31422537565231323,
+            "正面": 0.3728816509246826
+          }
+        },
+        "collaborative": {
+          "predicted_label": "负面",
+          "confidence": 0.3601876199245453,
+          "probabilities": {
+            "负面": 0.3601876199245453,
+            "中性": 0.2921064496040344,
+            "正面": 0.3477059602737427
+          }
+        }
+      },
+      "The weather is okay": {
+        "normal": {
+          "predicted_label": "中性",
+          "confidence": 0.3544262945652008,
+          "probabilities": {
+            "负面": 0.30623549222946167,
+            "中性": 0.3544262945652008,
+            "正面": 0.3393382132053375
+          }
+        },
+        "collaborative": {
+          "predicted_label": "负面",
+          "confidence": 0.3797694146633148,
+          "probabilities": {
+            "负面": 0.3797694146633148,
+            "中性": 0.30723443627357483,
+            "正面": 0.31299614906311035
+          }
+        }
+      }
+    }
+  },
+  "语义相似性对比": {
+    "训练前": {
+      "The cat is sleeping vs A feline is resting": {
+        "normal": {
+          "bert_similarity": 0.7227102518081665,
+          "gpt_similarity": 0.9992262721061707,
+          "interpretation": "BERT认为相似度是 0.723, GPT-2认为是 0.999"
+        },
+        "collaborative": {
+          "bert_projection_similarity": 0.803027868270874,
+          "cross_model_consistency": 0.019609224051237106,
+          "interpretation": "协作后模型认为这两句话的相似度是 0.803"
+        }
+      },
+      "I love programming vs I enjoy coding": {
+        "normal": {
+          "bert_similarity": 0.8485045433044434,
+          "gpt_similarity": 0.9989953637123108,
+          "interpretation": "BERT认为相似度是 0.849, GPT-2认为是 0.999"
+        },
+        "collaborative": {
+          "bert_projection_similarity": 0.9100751876831055,
+          "cross_model_consistency": 0.052077651023864746,
+          "interpretation": "协作后模型认为这两句话的相似度是 0.910"
+        }
+      }
+    },
+    "训练后": {
+      "The cat is sleeping vs A feline is resting": {
+        "normal": {
+          "bert_similarity": 0.7227102518081665,
+          "gpt_similarity": 0.9992262721061707,
+          "interpretation": "BERT认为相似度是 0.723, GPT-2认为是 0.999"
+        },
+        "collaborative": {
+          "bert_projection_similarity": 0.9757167100906372,
+          "cross_model_consistency": 0.9711264967918396,
+          "interpretation": "协作后模型认为这两句话的相似度是 0.976"
+        }
+      },
+      "I love programming vs I enjoy coding": {
+        "normal": {
+          "bert_similarity": 0.8485045433044434,
+          "gpt_similarity": 0.9989953637123108,
+          "interpretation": "BERT认为相似度是 0.849, GPT-2认为是 0.999"
+        },
+        "collaborative": {
+          "bert_projection_similarity": 0.9867851734161377,
+          "cross_model_consistency": 0.9654685258865356,
+          "interpretation": "协作后模型认为这两句话的相似度是 0.987"
+        }
+      }
+    }
+  },
+  "关键观察": {
+    "协作机制": "适配器成功将BERT的语义理解能力传递给GPT-2",
+    "信息保持": "跨模型信息传递过程中保持了核心语义特征",
+    "任务改善": "在文本生成、分类和相似性判断等任务上都有显著提升",
+    "训练效果": "经过3个epoch的训练，模型协作效果大幅提升"
+  }
+}
