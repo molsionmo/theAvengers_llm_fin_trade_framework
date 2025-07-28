@@ -1,0 +1,65 @@
+🤖 任务感知多模型协作详细报告
+==================================================
+
+📊 核心指标:
+  任务检测准确率: 88.89%
+  整体改善程度: +0.0009
+  结论: 📈 任务感知训练效果有限，可能需要更多数据或调参
+
+🎯 任务检测详情:
+✅ 'What is the capital of France?'
+    预期: qa | 检测: qa
+✅ 'I love this movie, it's amazing!'
+    预期: sentiment | 检测: sentiment
+✅ 'Generate a story about dragons.'
+    预期: generation | 检测: generation
+❌ 'Hello, how are you today?'
+    预期: conversation | 检测: qa
+✅ 'The weather is nice today.'
+    预期: general | 检测: general
+✅ 'How does machine learning work?'
+    预期: qa | 检测: qa
+✅ 'This book is terrible.'
+    预期: sentiment | 检测: sentiment
+✅ 'Write a poem about love.'
+    预期: generation | 检测: generation
+✅ 'Good morning everyone!'
+    预期: conversation | 检测: conversation
+
+📝 生成任务示例:
+输入: 'The weather is' (任务: general)
+  通用生成: The weather is very good, and I'm very thankful to have a good day."
+
+  任务感知生成: The weather is good. It's a good place to get out."
+
+The weather
+
+输入: 'What is the answer to' (任务: qa)
+  通用生成: What is the answer to our question of whether it is reasonable to believe that there is a religious faith
+  任务感知生成: What is the answer to the question, 'What is the answer to the question, 'what is
+
+输入: 'I feel' (任务: sentiment)
+  通用生成: I feel very blessed to be able to join the group and help to educate and educate
+  任务感知生成: I feel like I'm a little bit more of a 'cuckoo' than
+
+输入: 'Once upon a time' (任务: generation)
+  通用生成: Once upon a time the Lord has come, and shall be made flesh, and shall be called
+  任务感知生成: Once upon a time, the world's tallest skyscrapers might seem more daunting than a world
+
+🏷️ 分类任务示例:
+文本: 'I love programming!' (任务: sentiment)
+  通用分类: 中性 (置信度: 0.341)
+  任务感知分类: 正面 (置信度: 0.461)
+
+文本: 'This is a terrible movie' (任务: sentiment)
+  通用分类: 正面 (置信度: 0.549)
+  任务感知分类: 正面 (置信度: 0.567)
+
+文本: 'How do you solve this problem?' (任务: qa)
+  通用分类: 问题 (置信度: 0.530)
+  任务感知分类: 问题 (置信度: 0.522)
+
+文本: 'Tell me about the weather' (任务: qa)
+  通用分类: 问题 (置信度: 0.573)
+  任务感知分类: 问题 (置信度: 0.600)
+

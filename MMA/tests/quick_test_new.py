@@ -3,11 +3,17 @@
 简化版协作测试脚本：显示训练前后的实际输出差异
 """
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import torch
 import torch.nn.functional as F
 import numpy as np
 from transformers import AutoModel, AutoTokenizer, GPT2LMHeadModel, AutoModelForSequenceClassification
-from Multi import MultiModelCollaborator, AlignmentTrainer, AlignmentEvaluator
+from src.core.collaborator import MultiModelCollaborator
+from src.training.alignment_trainer import AlignmentTrainer
+from src.utils.evaluator import AlignmentEvaluator
 
 def get_text_generation_output(collaborator, text, use_collaboration=False):
     """获取文本生成的实际输出"""

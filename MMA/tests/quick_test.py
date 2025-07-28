@@ -3,14 +3,19 @@
 任务感知协作测试脚本：测试不同任务类型下的协作效果
 """
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import torch
 import torch.nn.functional as F
 import numpy as np
 from transformers import AutoModel, AutoTokenizer, GPT2LMHeadModel, AutoModelForSequenceClassification
-from Multi import (
-    MultiModelCollaborator, AlignmentTrainer, AlignmentEvaluator,
-    TaskType, TaskDetector, TaskAwareTrainer
-)
+from src.core.collaborator import MultiModelCollaborator
+from src.training.alignment_trainer import AlignmentTrainer
+from src.utils.evaluator import AlignmentEvaluator
+from src.tasks.detector import TaskType, TaskDetector
+from src.training.task_aware_trainer import TaskAwareTrainer
 
 def test_task_detection(test_texts):
     """测试任务检测功能"""

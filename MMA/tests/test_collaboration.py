@@ -4,13 +4,19 @@
 评估在真实任务中，适配器训练是否能改善跨模型协作的性能
 """
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import torch
 import torch.nn.functional as F
 import numpy as np
 from transformers import AutoTokenizer, AutoModel, pipeline
 import json
 import time
-from Multi import MultiModelCollaborator, AlignmentTrainer, AlignmentEvaluator
+from src.core.collaborator import MultiModelCollaborator
+from src.training.alignment_trainer import AlignmentTrainer
+from src.utils.evaluator import AlignmentEvaluator
 
 class CollaborationTester:
     """协作效果测试器"""
@@ -210,6 +216,53 @@ class CollaborationTester:
         
         return results
     
+    def train_adapter_with_datasets(self, dataset_names=['imdb'], epochs=3):
+        """使用数据集训练适配器"""
+        print(f"\n=== 使用数据集训练适配器 ({dataset_names}, {epochs} epochs) ===")
+        
+        from src.training.alignment_trainer import AlignmentTrainer
+        
+        try:
+            # 检查是否有预处理的数据
+            data_dir = "./processed_data"
+            if not os.path.exists(data_dir):
+                print("⚠️ 未找到预处理数据，使用传统训练方法")
+                return self.train_adapter(epochs)
+            
+            # 配置数据集
+            dataset_config = {
+                'data_dir': data_dir,
+                'tokenizer_name': 'bert-base-uncased'
+            }
+            
+            trainer = AlignmentTrainer(
+                self.collaborator, 
+                learning_rate=1e-4,
+                dataset_config=dataset_config
+            )
+            
+            # 使用数据集训练
+            results = trainer.train_with_dataset_selection(
+                dataset_names=dataset_names,
+                epochs=epochs,
+                batch_size=8,
+                max_samples_per_dataset=100,  # 限制样本数量用于测试
+                task_sampling_strategy='balanced',
+                validation_split=0.2
+            )
+            
+            print(f"✅ 数据集训练完成")
+            print(f"   最终训练损失: {results['final_train_loss']:.4f}")
+            print(f"   最佳验证损失: {results['best_val_loss']:.4f}")
+            print(f"   训练样本数: {results['dataset_info']['train_samples']}")
+            
+            return results
+            
+        except Exception as e:
+            print(f"❌ 数据集训练失败: {e}")
+            print("   回退到传统训练方法")
+            return self.train_adapter(epochs)
+    
     def train_adapter(self, epochs=5):
         """训练适配器"""
         print(f"\n=== 开始训练适配器 ({epochs} epochs) ===")
@@ -277,6 +330,7 @@ class CollaborationTester:
         baseline_transfer = self.test_information_transfer_quality()
         
         # 第二阶段：训练适配器（如果需要）
+        training_results = None
         if train_adapter:
             training_results = self.train_adapter(epochs=5)
         
@@ -297,7 +351,7 @@ class CollaborationTester:
             baseline_results, trained_results, 
             baseline_semantic, trained_semantic,
             baseline_transfer, trained_transfer,
-            training_results if train_adapter else None
+            training_results
         )
     
     def _generate_comparison_report(self, baseline_results, trained_results, 
@@ -313,18 +367,25 @@ class CollaborationTester:
         print("\n1️⃣  Hidden State对齐效果对比:")
         print("-" * 40)
         
+        cosine_improvement = 0  # 初始化变量
         for scenario in baseline_results.keys():
             baseline_cosine = np.mean(baseline_results[scenario]['cosine_similarities'])
             trained_cosine = np.mean(trained_results[scenario]['cosine_similarities'])
             baseline_mmd = np.mean(baseline_results[scenario]['mmd_losses'])
             trained_mmd = np.mean(trained_results[scenario]['mmd_losses'])
             
-            cosine_improvement = ((trained_cosine - baseline_cosine) / abs(baseline_cosine)) * 100
+            scenario_cosine_improvement = ((trained_cosine - baseline_cosine) / abs(baseline_cosine)) * 100
             mmd_improvement = ((baseline_mmd - trained_mmd) / baseline_mmd) * 100
             
+            # 累计余弦相似度改善
+            cosine_improvement += scenario_cosine_improvement
+            
             print(f"\n📝 {scenario.replace('_', ' ').title()}:")
-            print(f"   余弦相似度: {baseline_cosine:.4f} → {trained_cosine:.4f} (改善: {cosine_improvement:+.1f}%)")
+            print(f"   余弦相似度: {baseline_cosine:.4f} → {trained_cosine:.4f} (改善: {scenario_cosine_improvement:+.1f}%)")
             print(f"   MMD损失:    {baseline_mmd:.4f} → {trained_mmd:.4f} (改善: {mmd_improvement:+.1f}%)")
+        
+        # 平均余弦相似度改善
+        cosine_improvement = cosine_improvement / len(baseline_results) if baseline_results else 0
         
         # 2. 语义相似性保持对比
         print("\n2️⃣  语义相似性保持对比:")

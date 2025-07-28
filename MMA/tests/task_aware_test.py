@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 """
-任务感知协作测试脚本：测试不同任务类型下的协作效果
+任务感知协作测试脚本：专门测试不同任务类型下的协作效果
 """
+
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import torch
 import torch.nn.functional as F
 import numpy as np
-from transformers import AutoModel, AutoTokenizer, GPT2LMHeadModel, AutoModelForSequenceClassification
-from Multi import (
-    MultiModelCollaborator, AlignmentTrainer, AlignmentEvaluator,
-    TaskType, TaskDetector, TaskAwareTrainer
-)
+from transformers import AutoModel, AutoTokenizer, GPT2LMHeadModel
+from src.core.collaborator import MultiModelCollaborator
+from src.tasks.detector import TaskType, TaskDetector
+from src.training.task_aware_trainer import TaskAwareTrainer
 
 def test_task_detection(test_texts):
     """测试任务检测功能"""
@@ -57,13 +60,17 @@ def test_task_aware_collaboration(collaborator, text, task_type):
     general_hidden = general_output['adapted_hidden']
     task_aware_hidden = task_aware_output['adapted_hidden']
     
-    # 计算与原始hidden states的相似性
+    # 为了比较，我们需要将原始BERT hidden states投影到共享空间
+    projected_states = collaborator.central_processor.semantic_projector([hidden1])
+    projected_bert = projected_states[0]
+    
+    # 计算与投影后BERT的相似性
     bert_to_general_sim = F.cosine_similarity(
-        hidden1.mean(dim=1), general_hidden.mean(dim=1)
+        projected_bert.mean(dim=1), general_hidden.mean(dim=1)
     ).item()
     
     bert_to_task_sim = F.cosine_similarity(
-        hidden1.mean(dim=1), task_aware_hidden.mean(dim=1)
+        projected_bert.mean(dim=1), task_aware_hidden.mean(dim=1)
     ).item()
     
     # 计算适配后的信息密度变化
@@ -71,8 +78,8 @@ def test_task_aware_collaboration(collaborator, text, task_type):
     task_aware_info_density = torch.std(task_aware_hidden).item()
     
     print(f"  📊 相似性分析:")
-    print(f"    BERT → 通用适配: {bert_to_general_sim:.4f}")
-    print(f"    BERT → 任务适配: {bert_to_task_sim:.4f}")
+    print(f"    投影BERT → 通用适配: {bert_to_general_sim:.4f}")
+    print(f"    投影BERT → 任务适配: {bert_to_task_sim:.4f}")
     print(f"  📈 信息密度:")
     print(f"    通用适配: {general_info_density:.4f}")
     print(f"    任务适配: {task_aware_info_density:.4f}")
